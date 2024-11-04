@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="ta"
+                 name="TSE Analytics"
+                 start-page="Introduction.md">
+
+    <toc-element topic="Introduction.md"/>
+    <toc-element topic="User-Interface-and-Layout.md"/>
+    <toc-element topic="Import-Datasets.md"/>
+    <toc-element topic="Workspaces.md"/>
+    <toc-element topic="Export-of-Data.md"/>
+    <toc-element topic="Dataset-widget.md"/>
+    <toc-element topic="Animal-List.md"/>
+    <toc-element topic="Factors-widget.md"/>
+    <toc-element topic="Variables-widget.md"/>
+    <toc-element topic="Binning-widget.md"/>
+    <toc-element topic="Table-widget.md"/>
+    <toc-element topic="Plot-widget.md"/>
+    <toc-element topic="Exploration-widget.md"/>
+    <toc-element topic="Bivariate-widget.md"/>
+    <toc-element topic="AN-C-OVA-widget.md"/>
+    <toc-element topic="Dimensionality-widget.md"/>
+    <toc-element topic="Timeseries-widget.md"/>
+    <toc-element topic="Report-widget.md"/>
+    <toc-element topic="tse-analytics-help-new.md"/>
+</instance-profile>
