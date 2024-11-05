@@ -7,7 +7,7 @@ Line and scatter plots (if no binning or binning using time phases is applied) o
 
 Variable selection, split modes and plot settings can be adjusted using the control panel on the right-hand side of the plot.
 
-![image_10.png](image_10.png)
+![](plot-data-view.png)
 
 The **Variable** to be plotted is selected from the dropdown menu in the upper right corner within the Plot widget. 
 
@@ -28,6 +28,6 @@ For **line and scatter plots** (only if no time binning is applied or time binni
 
 **Right-clicking** on the plot opens a submenu for plot modifications. Here, further adjustments regarding the plot appearance (e.g. axis, grid, transparency, etc.) can be made.
 
-![image_11.png](image_11.png)
+![](plot-data-view-options.png)
 
 The plot displayed can be exported by selecting **Export** and adjusting export options in the Export window. Alternatively, the current plot can be added to the report by clicking **Add to Report** in the control panel and will be saved together with the currently active workspace.

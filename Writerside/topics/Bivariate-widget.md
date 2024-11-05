@@ -8,14 +8,14 @@ To analyze the relationship between two variables, **Correlation** and **Regress
 To show plots and analysis results and to apply changes in the settings, click **Update** in the control panel. 
 Both plots and analysis results displayed are added to the report upon clicking **Add to Report**.
 
-![image_27.png](image_27.png)
+![](bivariate-widget.png)
 
 >**Warning:** Only animals selected in the Animal list are considered for the calculation of correlation and regression analysis in the Bivariate widget. Changes regarding the selection of animals are only applied after clicking **Update**.
 {style = 'warning'}
 
 The plot appearance can be edited by using the tools available in the **plot menu** at the bottom of the control panel. 
 
-![image_28.png](image_28.png)
+![](plot-menu.png)
 
 From left to right:
 - **Home button** (‘House’): Reset the orientation of the plot in its frame.	Undo/Redo (‘Arrows’ left/right): Undo and redo actions regarding the orientation of the graph in its frame (moving and zooming)
@@ -30,7 +30,7 @@ From left to right:
 
 Except from adding results to the report, TSE Analytics does not offer a dedicated export function for bivariate analysis (correlation and regression) tables. However, results can be saved outside of TSE Analytics via “copy and paste”. All analysis results can be selected by clicking on the data table and pressing **Strg + A (Ctrl + A)** on the keyboard or by right-clicking on the analysis window and selecting **Select All**. Selected content can then be copied to the clipboard using **Strg + C (Ctrl + C)** or by right-clicking on the analysis window again and selecting **Copy**. Content copied to the clipboard can then be pasted **(Strg + V / Ctrl + V)** and saved outside of TSE Analytics.
 
-![image_29.png](image_29.png)
+![](copy-paste.png)
 
 
 # Correlation Analysis
@@ -57,9 +57,9 @@ To adjust the appearance of a plot, use the **‘Customize’** tool (‘Graph�
 - In the case of multiple animals, runs or groups (for split modes By Animal, By Run or By Factor, respectively), the appearance of each data subset can be adjusted individually in the **Curves tab** of the ‘Customize’ tool by selecting the respective subset form the upper
 dropdown menu.
 
-![image_30.png](image_30.png)
-![image_31.png](image_31.png)
-![image_32.png](image_32.png)
+![](customize-correlation-plot.png)
+![](customize-correlation-plot-2.png)
+![](customize-correlation-plot-3.png)
 
 **Correlation analysis results table:**
 
@@ -105,8 +105,8 @@ The regression plot combines a scatter plot of mean data values per time bin wit
 
 The title, as well as range, label and scale of axis and generation of an automatic legend can be defined in the **Axes** tab of the ‘Customize’ tool (‘Graph’ symbol) in the plot menu. The appearance of regression lines can be adjusted in the **Curves** tab of the ‘Customize’ tool, whereby each label represents one data subset.
 
-![image_33.png](image_33.png)
-![image_34.png](image_34.png)
+![](customize-regression-plot.png)
+![](customize-regression-plot-2.png)
 
 **Regression analysis results table:**
 

@@ -31,11 +31,11 @@ Data of each time bin is grouped according to the **Split Mode** selected in the
 
 For each selected variable, statistical descriptives including the count of values (count), mean, standard deviation (std), minimum and maximum are displayed in a separate window under **Descriptive Statistics** in the control panel. Descriptives can be added to the report by clicking **Add to Report** at the bottom of the control panel.
 
-![image_8.png](image_8.png)
+![](table-data-view.png)
 
 Data table entries as displayed in the Table widget can be exported as Excel or text (CSV) files via **File - Export to CSV** or **File – Export to Excel**.
 
-![image_9.png](image_9.png)
+![](export-table-data.png)
 
 > **Warning:** Grouping of data using split modes will not affect the exported data table, but only the data displayed within the software. The exported data table will always contain all variables exported from PhenoMaster independent of variable selection in the Table widget.
 > {style = 'warning'}

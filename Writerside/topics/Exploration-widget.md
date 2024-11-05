@@ -7,7 +7,7 @@ TSE Analytics offers multiple graphical tools to perform exploratory and distrib
 
 All plot settings can be adjusted using the control panel at the right-hand side of the Exploration widget.
 
-![image_12.png](image_12.png)
+![](exploration-widget.png)
 
 The respective variable to be plotted can be selected from the **Variable** drop-down menu on the top. The type of plot (**Histogram, Distribution, Normality**) can be chosen under **Plot**. If the plot type Distribution has been selected, two plot options are available: **violin** and **boxplot** (see **Distribution as**). 
 
@@ -23,7 +23,7 @@ To show plots and to apply any changes of settings to the plots displayed, click
 
 The plot appearance can be edited by using the tools available in the **plot menu** at the bottom of the control panel. 
 
-![image_13.png](image_13.png)
+![](plot-menu.png)
 
 - **Home button** (‘House’): Reset the orientation of the plot in its frame.
 - **Undo/Redo** (‘Arrows’ left/right): Undo and redo actions regarding the orientation of the graph in its frame (moving and zooming).
@@ -43,7 +43,7 @@ In addition to saving a plot on the hard drive via the plot menu, the graph disp
 
 Histograms can be generated in TSE Analytics by selecting **Plot type ‘Histogram’** in the Exploration widget.
 
-![image_24.png](image_24.png)
+![](histogram-plot-selector.png)
 
 - The x-axis of a histogram plot represents the range of data values included in the plot. The y-axis indicates the number of datapoints falling into a defined range of values, referred to as ‘bin’. 
 - Bins are represented by columns in the histogram plot. The column width shows the range of values covered by a bin, while the height of each bin indicates the number of datapoints assigned to a bin.
@@ -52,7 +52,7 @@ Histograms can be generated in TSE Analytics by selecting **Plot type ‘Histogr
 > **Note:** Less than ten columns are displayed in the histogram overview if the number of values assigned to a bin is very small or zero. Columns for small numbers of values appear when zooming into the respective area of the plot (Zoom in (‘Magnifying glass’) in the plot menu) at the bottom of the control panel.  No column is displayed if the number of values assigned to a bin is zero.
 {style = 'note'}
 
-![image_14.png](image_14.png)
+![](histogram-plot.png)
 
 # Violin plots
 
@@ -60,7 +60,7 @@ Violin plots can be generated in TSE Analytics by selecting
 - **Plot type ‘Distribution’**  
 - and **Distribution as ‘Boxplot’** in the Exploration widget. 
 
-![image_15.png](image_15.png)
+![](violin-plot-selector.png)
 
 Violin plots represent the distribution of a selected dataset by combining density curves (blue) and box plots (dark grey). 
 - The width of each density curve indicates the approximate frequency of data points. 
@@ -68,11 +68,11 @@ Violin plots represent the distribution of a selected dataset by combining densi
 - The adjacent whiskers indicate the range of 1.5 times the IQR (1.5*IQR) with whiskers ranging from the first/ third quartile to the smallest/ largest data point within 1.5*IQR.
 - The lower and upper end of the violin plot represent the minimum and maximum value. 
 
-![image_17.png](image_17.png)
+![](violin-plot.png)
 
 The appearance of the boxplot shown within the density plot can be customized by using the Curves tab implemented in the Figure options window access via the **‘Customize’** tool (‘Graph’ symbol) in the plot menu. Here, the style, width and color of lines can be adjusted, and markers can be added or customized.
 
-![image_18.png](image_18.png)
+![](plot-customization.png)
 
 The part of the box plot to be customized can be selected from the dropdown menu at the top of the Curves tab:
 - _child1: Boxplot whiskers
@@ -86,7 +86,7 @@ Box plots can be generated in TSE Analytics by selecting
 - **Plot type ‘Distribution’**
 - and **Distribution as ‘Boxplot’** in the Exploration widget.
 
-![image_25.png](image_25.png)
+![](boxplot-selector.png)
 
 Boxplots represent the distribution of a selected dataset including:
 - the box ranging from the first to the third quartile, indicating the interquartile range (IQR) 
@@ -94,24 +94,24 @@ Boxplots represent the distribution of a selected dataset including:
 - whiskers ranging from the first/ third quartile to the lowest/ highest value within the range of 1.5*IQR
 - values outside of the range of 1.5*IQR displayed as circles
 
-![image_20.png](image_20.png)
+![](box-plot.png)
 
 
 # Normal Probability Plots (Normality Plots)
 
 Normal probability plots (normality plots) can be generated in the Exploration widget by selecting the **Plot type ‘Normality’** to test for normal distribution of data sets. 
 
-![image_21.png](image_21.png)
+![](normality-plot-selector.png)
 
 Normal probability plots are scatter plot in which, for each value of the dataset, the actual quantiles of the sample data (ordered quantiles) on the y-axis are plotted against the theoretical quantiles of the respective normal distribution on the x-axis (blue dot). An alignment of the plot with the 45° line (y=x) indicates a normal distribution of the sample data.
 
 In addition, normality plots contain a ‘best-fit’ line resulting from linear regression analysis of all data points included in the plot, together with the confidence band and the coefficient of determination R2.
 
-![image_22.png](image_22.png)
+![](qq-plot.png)
 
 The appearance of the 45° line, regression line and confidence band of the normality plot can be customized by using the Curves tab implemented in the Figure options window accessed via the **‘Customize’** tool (‘Graph’ symbol) in the plot menu. Here, the style, width and color of lines can be adjusted, and markers can be added or customized.
 
-![image_23.png](image_23.png)
+![](plot-customization-2.png)
 
 The lines to be customized can be selected from the dropdown menu at the top of the Curves tab:
 - _child1: 45° line
