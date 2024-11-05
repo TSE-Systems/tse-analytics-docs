@@ -39,3 +39,5 @@ Data table entries as displayed in the Table widget can be exported as Excel or 
 
 > **Warning:** Grouping of data using split modes will not affect the exported data table, but only the data displayed within the software. The exported data table will always contain all variables exported from PhenoMaster independent of variable selection in the Table widget.
 > {style = 'warning'}
+
+New content

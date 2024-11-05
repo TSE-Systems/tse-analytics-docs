@@ -5,9 +5,9 @@ The **Animal** widget contains a list of all animals included in the dataset and
 > **Warning:** An existing animal name/ ID must not be assigned to another animal, since this will result in overwriting existing data.
 {style = 'warning'}
 
-![image_48.png](image_48.png)
+![](rename-animal.png)
 
 Animals in the animal list can be selected using the checkboxes on the left-hand side of the animal list. A single or multiple animals can be selected by checking the respective tick box(es). All animals in an animal list can be selected at once (all boxes checked) by clicking **Check All**. All animals can be deselected at once (all boxes unchecked) by clicking **Uncheck All**.
 
-![image_49.png](image_49.png)
-![image_50.png](image_50.png)
+![](check-all-animals.png)
+![](uncheck-all-animals.png)
