@@ -23,7 +23,7 @@ ANOVA results as displayed in the AN(C)OVA widget can be added to the report by 
 
 Besides adding AN(C)OVA results to the report, TSE Analytics does not offer a dedicated export function for AN(C)OVA results. However, results can be saved outside of TSE Analytics via “copy and paste”. All analysis results can be selected by clicking on the data table and pressing **Strg + A (Ctrl + A)** on the keyboard or by **right-clicking** on the analysis window and selecting **Select All**. Selected content can then be copied to the clipboard using **Strg + C (Ctrl + C)** or by right-clicking on the analysis window again and selecting **Copy**. Content copied to the clipboard can then be pasted and saved outside of TSE Analytics.
 
-![](copy-paste.png)
+![copy-paste.png](copy-paste.png)
 
 
 # One-Way ANOVA
@@ -93,7 +93,7 @@ Multiple comparisons plot:
 
 The multiple comparisons plot generated for one-way ANOVAs allows to graphically identify significant pairwise comparisons based on the Tukey HSD (Honestly Significant Difference) test statistic for multiple comparisons. The plot shows the means (dot) and confidence intervals (horizontal lines) of the selected variable for each factor group. Confidence intervals are calculated based on the respective Tukey’s q critical value, which is dependent on the confidence level, degrees of freedom and the number of groups. A statistically significant difference between two groups is given, if the respective confidence intervals do not overlap.
 
-![](tukey-pairwise-plot.png)
+![tukey-pairwise-plot.png](tukey-pairwise-plot.png)
 
 > **Note:** Graphical representation of confidence intervals is always based on the Tukey HSD test, independent of the pairwise comparison method applied to post-hoc test tables (Tukey HSD for one-way classic ANOVA and Games-Howell for one-way Welch ANOVA).
 {style = 'note'}
@@ -191,7 +191,7 @@ Pairwise post-hoc tests:
 > **Warning:** The time needed to calculate pairwise comparison results for repeated measures ANOVA increases with the number of time bins. In case of binning by time intervals, calculation of ANOVA results might take several minutes depending on the computer’s computing power. Therefore, when performing repeated measures ANOVA using time binning by time intervals, users can choose whether pairwise comparisons should be performed in a pop-up window.
 {style = 'warning'}
 
-![](perform-pairwise-tests-dialog.png)
+![perform-pairwise-tests-dialog.png](perform-pairwise-tests-dialog.png)
 
 
 # Mixed-design ANOVA
@@ -246,7 +246,7 @@ Pairwise post-hoc tests:
 > **Warning**: The time needed to calculate pairwise comparison results for mixed-design ANOVA increases with the number of time bins. In case of binning by time intervals, calculation of ANOVA results might take several minutes depending on the computer’s computing power. Therefore, when performing mixed-design ANOVA using time binning by time intervals, users can choose whether pairwise comparisons should be performed in a pop-up window.
 {style = 'warning'}
 
-![](perform-pairwise-tests-dialog.png)
+![perform-pairwise-tests-dialog.png](perform-pairwise-tests-dialog.png)
 
 
 # Analysis of Covariance (ANCOVA)
