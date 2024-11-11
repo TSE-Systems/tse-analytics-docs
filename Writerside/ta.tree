@@ -11,19 +11,22 @@
     <toc-element topic="Import-Datasets.md"/>
     <toc-element topic="Workspaces.md"/>
     <toc-element topic="Export-of-Data.md"/>
-    <toc-element topic="Dataset-widget.md"/>
-    <toc-element topic="Animal-List.md"/>
     <toc-element topic="Factors-widget.md"/>
     <toc-element topic="Variables-widget.md"/>
     <toc-element topic="Binning-widget.md"/>
-    <toc-element topic="Table-widget.md"/>
-    <toc-element topic="Plot-widget.md"/>
+    <toc-element topic="Table-widget.md">
+    </toc-element>
+    <toc-element topic="Plot-widget.md">
+        <toc-element topic="Dataset-widget.md"/>
+    </toc-element>
     <toc-element topic="Exploration-widget.md"/>
-    <toc-element topic="Bivariate-widget.md"/>
-    <toc-element topic="Martina-Test.md"/>
     <toc-element topic="AN-C-OVA-widget.md"/>
-    <toc-element topic="Dimensionality-widget.md"/>
+    <toc-element topic="Dimensionality-widget.md">
+        <toc-element topic="Animal-List.md"/>
+    </toc-element>
     <toc-element topic="Timeseries-widget.md"/>
     <toc-element topic="Report-widget.md"/>
-    <toc-element topic="tse-analytics-help-new.md"/>
+    <toc-element topic="tse-analytics-help-new.md">
+        <toc-element topic="Bivariate-widget.md"/>
+    </toc-element>
 </instance-profile>
