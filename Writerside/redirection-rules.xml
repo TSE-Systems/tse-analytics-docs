@@ -10,4 +10,8 @@
         <description><![CDATA[Created after removal of "<Martina-Test.md>" from TSE Analytics]]></description>
         <accepts>Martina-Test.html</accepts>
     </rule>
+    <rule id="2e6ca93a">
+        <description>Created after removal of "Introduction to TSE Analytics" from TSE Analytics</description>
+        <accepts>Dataset-widget.html</accepts>
+    </rule>
 </rules>
