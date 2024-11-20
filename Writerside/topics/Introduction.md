@@ -9,7 +9,7 @@ TSE Analytics offers a wide range of tools for easy and convenient processing of
 
 - **Integrated Data Handling**: TSE Analytics is designed to manage complex datasets like PhenoMaster data and integrates data processing, visualization, and statistical analysis.
 - **Flexible Data Customization**: The software allows users to tailor data structures to their specific needs by, for example, excluding outliers, defining time frames, merging multiple datasets, and creating new grouping factors.
-- **Automated Data Management:**TSE Analytics facilitates multi-dataset management with automatic metadata extraction and dataset processing options.
+- **Automated Data Management**:TSE Analytics facilitates multi-dataset management with automatic metadata extraction and dataset processing options.
 - **Dynamic Visualization**: TSE Analytics allows to quickly visualize data over time using the plot function and quickly screen and compare data across different groups, individual animals, or specific time periods.
 - **Comprehensive Statistical Analysis**: The software includes a broad range of statistical tools, from data exploration to advanced analyses.
 - **User-Friendly, Flexible and Efficient**: TSE Analytics stands out for its ease of use and extensive analytical capabilities combined with various export functions.

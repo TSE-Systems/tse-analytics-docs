@@ -1,4 +1,4 @@
-# Import of Datasets
+# Data Import
 
 **1.** **Export data from PhenoMaster software**
 

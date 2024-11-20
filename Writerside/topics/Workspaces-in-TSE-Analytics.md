@@ -1,4 +1,6 @@
-# Workspaces
+# Workspaces in TSE Analytics
+
+
 A _Workspace_ comprises all datasets (one or multiple) listed in the _Dataset_ tab including copies of imported datasets and merged datasets as well automatically extracted meta-data and settings which have been edited after import. These include animal information, factors, plot settings, settings for time binning (including light/ dark phases and custom time phases), animal selection, exclusion of animals and exclusion of time phases. Moreover, the report for each dataset is saved within a workspace and is restored when opening the workspace.
 
 A _Workspace_ can be saved via **File** – **Save Workspace** or by clicking the **Save Workspace** button.
@@ -13,3 +15,4 @@ Please ensure to either export graphs and analysis result or to add the respecti
 
 **Note:** The software layout (selection and arrangement of widgets) is not workspace specific. The layout of the last session will be restored when opening TSE Analytics again, independent of the loaded datasets or workspaces.
 
+Start typing here...

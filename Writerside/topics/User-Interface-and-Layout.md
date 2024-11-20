@@ -2,9 +2,15 @@
 
 This chapter provides a comprehensive overview of the TSE Analytics software user interface and layout and its possibilities for customization. The software interface includes the header and toolbar together with the main window, which is comprised of several movable widgets. For detailed instructions on the functionality of specific widgets, please refer to the subsequent chapters of this manual.
 
+![Overview of the software interface (default layout) and available widgets.png](Overview of the software interface (default layout) and available widgets.png)
+
+*Figure : Overview of the software interface (default layout) and available widgets*
+
 **1.** **Header and Toolbar**
 
 The _header_, located at the top of the TSE Analytics interface, comprises file import and export functions under **File** (see also 4. Import and Export of Data), view settings under **View** and access to additional information and support under **Help**
+
+![Header.png](Header.png)
 
 
 **File**
@@ -14,7 +20,9 @@ The _header_, located at the top of the TSE Analytics interface, comprises file 
 - Export to CSV/ Excel: Export data as .csv/ .xlsx file.
 - Exit: Close the application.
 
-“EXIT” WILL SAVE ANY CHANGES REGARDING THE SOFTWARE LAYOUT BUT WILL NOT AUTOMATICALLY SAVE THE WORKSPACE OR ANY OTHER CHANGES.
+>**Warning**: “Exit” will save any changes regarding the software layout but will not automatically save the workspace or any other changes.{style='warning'}
+
+
 
 **View**
 
@@ -23,7 +31,7 @@ The _header_, located at the top of the TSE Analytics interface, comprises file 
 
 **Help**
 
-- Help: Access support resources or contact customer support.
+- Help: Access support resources.
 - About: View information about the software version, access to open-source code, license agreement and third-party libraries.
 
 The _toolbar_ contains three shortcut buttons:
@@ -31,8 +39,12 @@ The _toolbar_ contains three shortcut buttons:
 - **Open Workspace**: Open a previously saved workspace to continue your analysis.
 - **Save Workspace**: Save your current workspace, including all datasets, respective settings and reports.
 - **Import Dataset**: Import individual datasets into the current workspace for analysis.
+- 
+![Toolbar.png](Toolbar.png)
 
 In the initial layout, the toolbar is located underneath the header. It can be detached from the main window or moved to the bottom, left- or right-hand side of the main window via drag and drop by clicking and holding the **dotted area** of the toolbar.
+
+![Detaching and moving the toolbar.png](Detaching and moving the toolbar.png)
 
 The toolbar can be activated or deactivated by selecting or deselecting the _ToolBar_ **check box** which appears when **right-clicking on the header/ toolbar area**.
 
@@ -44,7 +56,7 @@ The main window of TSE Analytics is a host of multiple dockable _widgets_. The w
 - **Info**: Displays general information about the selected dataset including animal information, variables, file name and data path, sampling interval and PhenoMaster version.
 - **Help**: Upon clicking the ‘Help’ icon **‘(?)’**, further information, explanations and instruction for the respective software function are displayed here.
 - **Log**: Error messages and warnings regarding the software code executed are displayed here. In case of any malfunction of the software, please inform TSE Systems about error messages shown here.
-- **Animals**: This widget contains an animal list and animal information extracted from the PhenoMaster file. Animals can be selected for data analysis and visualization using the checkboxes.
+- [//]: # (TODO: Contact Information Link)
 - **Variables**: This widget shows a list of all variables extracted from the selected data file. Time binning operations (Aggregation) per variable and outlier settings (outlier detection mode, sensitivity and variable selection) can be defined here.
 - **Factors**: Animals can be grouped according to factors determined by the user. Factors can be created and edited in this widget and are listed together with their associated groups.
 - **Binning**: Data can be binned over customizable time intervals. (De-)Activation of time binning and binning mode settings can be controlled in this widget.
@@ -61,13 +73,29 @@ Widgets can be detached (moved to a new application window), rearranged or group
 
 Each widget can also be detached or closed (deactivated) individually by **right-clicking** on the respective widget header and selecting **Detach** or **Close**.
 
+![etaching and closing a widget via right-click.png](etaching and closing a widget via right-click.png)
+
+*Figure: Detaching and closing a widget via right-click*
+
 Similarly, groups can be detached or closed by **right-clicking** on the header of a group of widgets on the right side of the widget names (not on the widget name itself) and selecting **Detach Group** or **Close Group**. All widgets except for the selected group will be closed when selecting **Close Other Groups**.
 
+![Deaching or closing a group via right-click.png](Deaching or closing a group via right-click.png)
+
+*Figure: Detaching or closing group via right-click*
+
 All widgets of a group except for the selected widget will be closed when **right-clicking** on the widget name within a group and selecting **Close Others**.
+
+![Detaching or closing widgets in a group via right-click.png](Detaching or closing widgets in a group via right-click.png)
+
+*Figure: Detaching or closing widgets in a group via right-click*
 
 An overview of all widgets together with the possibility to de-/activate single widgets and to reset the layout to its initial state can be found under **View**.
 
 - Widgets can be activated and deactivated (closed) using the checkboxes in the widget list. The widget list can be found under **View** in the software header.
 - The default layout including the original arrangement of widgets may be restored by clicking **View - Reset Layout**.
 
-**Note:** The layout is saved when quitting the application by closing the main window or via **File – Exit** and is independent of loaded workspaces or datasets.
+![De-/Action of widgets.png](image_2.png)
+
+*Figure: De-/Activation of widgets in the widget list (left) and reset of software layout (right) under "view"*
+
+>**Note:** The layout is saved when quitting the application by closing the main window or via **File – Exit** and is independent of loaded workspaces or datasets.

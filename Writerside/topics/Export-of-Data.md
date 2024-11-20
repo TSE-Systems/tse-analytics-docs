@@ -1,4 +1,4 @@
-# Export of Data
+# Export Data
 
 
 Data plots created in the _Plot_ widget can be exported by **right-clicking** on the plot window and selecting **Export** from the menu. In the _Export_ window which opens subsequently, one can choose which item of the plot should be exported (selected item framed in yellow), select the export format (CSV of original plot data; image file format such as _.png, .tif, .jpg_; Matplotlib Window; Scalable Vector Graphics) and adjust additional export parameters depending on the export format. By clicking **Copy**, image files and scalable vector graphics can be copied to the clipboard, while **Export** allows to select file destination and name, specifiy the data format and save the file by clicking **Save** in the _Save As_ window.

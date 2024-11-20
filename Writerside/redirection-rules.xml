@@ -14,4 +14,12 @@
         <description>Created after removal of "Introduction to TSE Analytics" from TSE Analytics</description>
         <accepts>Dataset-widget.html</accepts>
     </rule>
+    <rule id="4f65e48a">
+        <description>Created after removal of "Workspaces in TSE Analytics" from TSE Analytics</description>
+        <accepts>Workspaces-in-TSE-Analytics.html</accepts>
+    </rule>
+    <rule id="39fe40ca">
+        <description>Created after removal of "Workspaces" from TSE Analytics</description>
+        <accepts>Workspaces.html</accepts>
+    </rule>
 </rules>

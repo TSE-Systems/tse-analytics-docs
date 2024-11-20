@@ -1,4 +1,4 @@
-# Report widget
+# Report Data
 
 In addition to specific export options which vary between different analysis and plots, all results can be saved within a workspace and outside of TSE Analytics using the **Report** function. 
 
