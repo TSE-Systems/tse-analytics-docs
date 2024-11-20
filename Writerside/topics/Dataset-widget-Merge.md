@@ -3,7 +3,11 @@
 
 Two or more datasets can be merged by selecting the respective datasets in the _Dataset_ widget using the **tick boxes** on the left-hand side of the dataset list. To open the _Merge_ _Datasets_ dialogue window, click **Merge** in the header of the _Dataset_ widget.
 
-**Note**: The **Merge** button will only be active if two or more datasets are selected via tick boxes in the _Dataset_ widget.
+![image_25.png](image_25.png)
+
+*Figure: Merging two or more datasets selected via tick boxes*
+
+> **Note**: The **Merge** button will only be active if two or more datasets are selected via tick boxes in the _Dataset_ widget.
 
 _In this_ dialogue window, datasets can be adjusted individually via the **Adjust** button next to a dataset’s name to prepare and match all selected datasets for merging. Clicking **Adjust** opens the _Adjust Dataset_ window with the options to rename a dataset, apply resampling, apply time shift, trim time, exclude time and exclude animals (see INSTERT LINK) for each dataset individually. Tools to adjust a dataset can be activated by checking the respective tick box.
 
