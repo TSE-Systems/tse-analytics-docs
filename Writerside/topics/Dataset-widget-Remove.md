@@ -1,4 +1,4 @@
-# Dataset widget-Remove
+# Remove
 
 **Remove Dataset**
 

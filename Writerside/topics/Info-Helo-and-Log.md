@@ -1,3 +1,3 @@
-# Add Widget
+# Info, Helo and Log
 
 Start typing here...

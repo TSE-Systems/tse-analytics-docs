@@ -1,4 +1,4 @@
-# Dataset widget-Clone
+# Clone
 
 
 To create a copy of a dataset, select the respective dataset from the dataset list (selected dataset highlighted in blue) and click **Clone** in the header of the _Dataset_ widget. The name of the dataset clone can be changed in the pop-up window and is applied upon clicking **OK**. The default name for a dataset clone is ‘Clone of \[name of original dataset\]’.

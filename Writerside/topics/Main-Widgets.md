@@ -1,3 +1,3 @@
-# Add Widget
+# Main Widgets
 
 Start typing here...

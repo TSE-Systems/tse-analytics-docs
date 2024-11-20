@@ -22,4 +22,37 @@
         <description>Created after removal of "Workspaces" from TSE Analytics</description>
         <accepts>Workspaces.html</accepts>
     </rule>
+    <rule id="63fa4ea2">
+        <description>Created after removal of "Export data from Phenomaster software" from TSE Analytics</description>
+        <accepts>Export-data-from-Phenomaster-software.html</accepts>
+    </rule>
+    <rule id="48aa04ec">
+        <description>Created after removal of "Import Datasets into TSE Analytics" from TSE Analytics</description>
+        <accepts>Import-Datasets-into-TSE-Analytics.html</accepts>
+    </rule>
+    <rule id="1bffe467">
+        <description>Created after removal of "Workspaces in TSE Analytics" from TSE Analytics</description>
+        <accepts>Workspaces-in-TSE-Analytics.html</accepts>
+    </rule>
+    <rule id="3341bab5">
+        <description><![CDATA[Created after removal of "<Import-Datasets.md>" from TSE Analytics]]></description>
+        <accepts>Import-Datasets.html</accepts>
+    </rule>
+    <rule id="6d400e2f">
+        <description>
+            <![CDATA[Created after removal of "<User-Interface-and-Layout.md>" from TSE Analytics]]></description>
+        <accepts>User-Interface-and-Layout.html</accepts>
+    </rule>
+    <rule id="4aa14ba0">
+        <description>Created after removal of "Open Workspace" from TSE Analytics</description>
+        <accepts>Open-Workspace.html</accepts>
+    </rule>
+    <rule id="2dd808e3">
+        <description>Created after removal of "Save Workspace" from TSE Analytics</description>
+        <accepts>Save-Workspace.html</accepts>
+    </rule>
+    <rule id="7ff52f7">
+        <description>Created after removal of "Import Dataset" from TSE Analytics</description>
+        <accepts>File-View-and-Help.html</accepts>
+    </rule>
 </rules>

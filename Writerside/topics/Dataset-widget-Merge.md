@@ -1,4 +1,4 @@
-# Dataset widget-Merge
+# Merge
 
 
 Two or more datasets can be merged by selecting the respective datasets in the _Dataset_ widget using the **tick boxes** on the left-hand side of the dataset list. To open the _Merge_ _Datasets_ dialogue window, click **Merge** in the header of the _Dataset_ widget.

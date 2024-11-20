@@ -1,4 +1,4 @@
-# Dataset widget-Adjust
+# Adjust
 
 Several tools for editing and preprocessing a selected dataset are available in the header of the _Dataset_ widget. Those include **adjusting** a dataset in the _Adjust Dataset_ window, **removing** a dataset from the _Dataset_ widget, creating a copy (**cloning**) of a dataset and **merging** of datasets.
 
