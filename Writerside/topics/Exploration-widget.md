@@ -9,6 +9,8 @@ All plot settings can be adjusted using the control panel at the right-hand side
 
 ![exploration-widget.png](exploration-widget.png)
 
+*Figure: Control panel for plots in the Exploration widget*
+
 The respective variable to be plotted can be selected from the **Variable** drop-down menu on the top. The type of plot (**Histogram, Distribution, Normality**) can be chosen under **Plot**. If the plot type Distribution has been selected, two plot options are available: **violin** and **boxplot** (see **Distribution as**). 
 
 Various **Split modes** are available for all plot types:
@@ -24,6 +26,8 @@ To show plots and to apply any changes of settings to the plots displayed, click
 The plot appearance can be edited by using the tools available in the **plot menu** at the bottom of the control panel. 
 
 ![plot-menu.png](plot-menu.png)
+
+*Figure: Plot menu*
 
 - **Home button** (‘House’): Reset the orientation of the plot in its frame.
 - **Undo/Redo** (‘Arrows’ left/right): Undo and redo actions regarding the orientation of the graph in its frame (moving and zooming).
@@ -54,6 +58,8 @@ Histograms can be generated in TSE Analytics by selecting **Plot type ‘Histogr
 
 ![histogram-plot.png](histogram-plot.png)
 
+*Figure: Histogram created in TSE Analytics*
+
 # Violin plots
 
 Violin plots can be generated in TSE Analytics by selecting 
@@ -62,6 +68,8 @@ Violin plots can be generated in TSE Analytics by selecting
 
 ![violin-plot-selector.png](violin-plot-selector.png)
 
+*Figure: Violin plot*
+
 Violin plots represent the distribution of a selected dataset by combining density curves (blue) and box plots (dark grey). 
 - The width of each density curve indicates the approximate frequency of data points. 
 - The overlaid box plot (dark grey) shows the interquartile range (IQR), i.e. the range from the first to the third quartile (rectangle), together with the median (white dot).
@@ -69,6 +77,8 @@ Violin plots represent the distribution of a selected dataset by combining densi
 - The lower and upper end of the violin plot represent the minimum and maximum value. 
 
 ![violin-plot.png](violin-plot.png)
+
+*Figure: Violin plot created in TSE Analytics*
 
 The appearance of the boxplot shown within the density plot can be customized by using the Curves tab implemented in the Figure options window access via the **‘Customize’** tool (‘Graph’ symbol) in the plot menu. Here, the style, width and color of lines can be adjusted, and markers can be added or customized.
 
@@ -109,9 +119,13 @@ In addition, normality plots contain a ‘best-fit’ line resulting from linear
 
 ![qq-plot.png](qq-plot.png)
 
+*Figure: Normal probability (normality) plot in TSE Analytics*
+
 The appearance of the 45° line, regression line and confidence band of the normality plot can be customized by using the Curves tab implemented in the Figure options window accessed via the **‘Customize’** tool (‘Graph’ symbol) in the plot menu. Here, the style, width and color of lines can be adjusted, and markers can be added or customized.
 
 ![plot-customization-2.png](plot-customization-2.png)
+
+*Figure: Curve tab in the figure options window of the normality plot*
 
 The lines to be customized can be selected from the dropdown menu at the top of the Curves tab:
 - _child1: 45° line

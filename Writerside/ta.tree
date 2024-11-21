@@ -8,9 +8,9 @@
 
     <toc-element topic="Disclaimer.md"/>
     <toc-element topic="Introductions.md"/>
-    <toc-element topic="Intallation-and-Setup.md"/>
     <toc-element topic="Introduction.md">
     </toc-element>
+    <toc-element topic="Intallation-and-Setup.md"/>
     <toc-element topic="Main-Widgets.md">
         <toc-element topic="File-View-and-Help.md"/>
         <toc-element topic="Empty-M1D-Topic.md">
@@ -20,7 +20,6 @@
             <toc-element topic="Dataset-widget-Remove.md"/>
             <toc-element topic="Dataset-widget-Clone.md"/>
             <toc-element topic="Dataset-widget-Merge.md"/>
-            <toc-element topic="Binning-widget.md"/>
         </toc-element>
         <toc-element topic="Open-and-Save-Workspace.md">
         </toc-element>
@@ -33,8 +32,8 @@
             <toc-element topic="Dimensionality-widget.md"/>
             <toc-element topic="Timeseries-widget.md"/>
         </toc-element>
+        <toc-element topic="Binning-widget.md"/>
         <toc-element topic="Animals.md">
-            <toc-element topic="Animal-List.md"/>
         </toc-element>
         <toc-element topic="Factors.md">
             <toc-element topic="Factors-widget.md"/>

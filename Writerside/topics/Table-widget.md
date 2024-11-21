@@ -33,9 +33,13 @@ For each selected variable, statistical descriptives including the count of valu
 
 ![table-data-view.png](table-data-view.png)
 
+*Figure: Data table*
+
 Data table entries as displayed in the Table widget can be exported as Excel or text (CSV) files via **File - Export to CSV** or **File – Export to Excel**.
 
 ![export-table-data.png](export-table-data.png)
+
+*Figure: Export of Data table*
 
 > **Warning:** Grouping of data using split modes will not affect the exported data table, but only the data displayed within the software. The exported data table will always contain all variables exported from PhenoMaster independent of variable selection in the Table widget.
 > {style = 'warning'}

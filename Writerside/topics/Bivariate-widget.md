@@ -1,4 +1,3 @@
-# Bivariate widget
 
 To analyze the relationship between two variables, **Correlation** and **Regression** analysis can be performed in the **Bivariate** widget of TSE Analytics.
 - Two variables of interest can be selected from the dropdown menus **“X”** and **“Y”** for **Correlation** analysis or **“Covariate”** and **“Response”** for **Regression** analysis on the top of the control panel in the Bivariate window. 
@@ -10,12 +9,16 @@ Both plots and analysis results displayed are added to the report upon clicking 
 
 ![bivariate-widget.png](bivariate-widget.png)
 
+*Figure: Control panel for correlation and regression analysis in the Bivariate widget*
+
 >**Warning:** Only animals selected in the Animal list are considered for the calculation of correlation and regression analysis in the Bivariate widget. Changes regarding the selection of animals are only applied after clicking **Update**.
 {style = 'warning'}
 
 The plot appearance can be edited by using the tools available in the **plot menu** at the bottom of the control panel. 
 
 ![plot-menu.png](plot-menu.png)
+
+*Figure: Plot menu*
 
 From left to right:
 - **Home button** (‘House’): Reset the orientation of the plot in its frame.	Undo/Redo (‘Arrows’ left/right): Undo and redo actions regarding the orientation of the graph in its frame (moving and zooming)
@@ -26,14 +29,16 @@ From left to right:
 - **Save** (‘Memory disc’): Save image on the hard drive.
 
 > **Note:** Any changes in graph appearance made through the plot menu are applied immediately, without clicking Update.
-{style = 'note'}
 
 Except from adding results to the report, TSE Analytics does not offer a dedicated export function for bivariate analysis (correlation and regression) tables. However, results can be saved outside of TSE Analytics via “copy and paste”. All analysis results can be selected by clicking on the data table and pressing **Strg + A (Ctrl + A)** on the keyboard or by right-clicking on the analysis window and selecting **Select All**. Selected content can then be copied to the clipboard using **Strg + C (Ctrl + C)** or by right-clicking on the analysis window again and selecting **Copy**. Content copied to the clipboard can then be pasted **(Strg + V / Ctrl + V)** and saved outside of TSE Analytics.
 
 ![copy-paste.png](copy-paste.png)
 
+*Figure: Export of bivariate analysis results using "Copy-Paste"*
 
-# Correlation Analysis
+# Bivariate Analysis
+
+## Correlation Ananlysis
 
 **Correlation** analysis in TSE Analytics can be performed to determine the degree to which two selected variables X and Y are linearly related using the Pearson correlation coefficient. 
 Results of a correlation analysis performed in TSE Analytics are displayed as a scatter plot for all data pairs included in the analysis, individual density plots or histograms (for split mode ‘Total’) for each variable, the Pearson correlation coefficient together with associated statistical parameters, as well as t test statistics comparing X and Y variable.
@@ -58,8 +63,16 @@ To adjust the appearance of a plot, use the **‘Customize’** tool (‘Graph�
 dropdown menu.
 
 ![customize-correlation-plot.png](customize-correlation-plot.png)
+
+*Figure: Plot selection of the Customize tool for correlation analysis in the Bivariate widget*
+
 ![customize-correlation-plot-2.png](customize-correlation-plot-2.png)
+
+*Figure: Axes tab of the Customize tool for correlation analysis in the Bivariate tab*
+
 ![customize-correlation-plot-3.png](customize-correlation-plot-3.png)
+
+*Figure: Curves tab of the Customize tool for correlation analysis in the Bivariate tab*
 
 **Correlation analysis results table:**
 
@@ -91,7 +104,7 @@ The **T test statistics** comparing the X and Y variable include (from left to r
 - power: Achieved power of the test (= 1 - type II error)
 
 
-# Regression Analysis
+## Regression Analysis
 
 Linear regression analysis (**“Regression”**) can be performed in TSE Analytics to investigate the relationship between an independent variable (**Covariate**) and a dependent variable (**Response**).
 Results of a regression analysis performed in TSE Analytics are displayed as a regression plot and linear regression results in the GLM (Generalized Linear Model) table.
@@ -105,8 +118,13 @@ The regression plot combines a scatter plot of mean data values per time bin wit
 
 The title, as well as range, label and scale of axis and generation of an automatic legend can be defined in the **Axes** tab of the ‘Customize’ tool (‘Graph’ symbol) in the plot menu. The appearance of regression lines can be adjusted in the **Curves** tab of the ‘Customize’ tool, whereby each label represents one data subset.
 
-![customize-regression-plot.png](customize-regression-plot.png)
-![customize-regression-plot-2.png](customize-regression-plot-2.png)
+![image_33.png](image_33.png)
+
+*Figure: Axes tab of the Customize tool for regression analysis in the Bivariate tab*
+
+![image_34.png](image_34.png)
+
+*Figure: Curves tab of the Customize tool for regression analysis in the Bivariate tab*
 
 **Regression analysis results table:**
 
@@ -125,6 +143,6 @@ Results include (from left to right):
 
 If split mode ‘By Run’ or ‘By Factor’ is selected, a separate results table is displayed for each subset of data (for each run or group) in accordance with individual regression lines for each subset of data in the regression plot.
 
-> **Note:** An intercept is added as a constant term to the model, to limit the bias and to force the residual mean to equal zero (see Pingouin library documentation: https://pingouin-stats.org/build/html/generated/pingouin.linear_regression.html). The GLM table always contains a row for the intercept as its first entry including a coefficient and a p-value, however, these values are rarely meaningful.
-{style = 'note'}
+> **Note:** An intercept is added as a constant term to the model, to limit the bias and to force the residual mean to equal zero. The GLM table always contains a row for the intercept as its first entry including a coefficient and a p-value, however, these values are rarely meaningful.
+
 

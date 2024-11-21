@@ -55,4 +55,8 @@
         <description>Created after removal of "Import Dataset" from TSE Analytics</description>
         <accepts>File-View-and-Help.html</accepts>
     </rule>
+    <rule id="6557c3c4">
+        <description>Created after removal of "Animal List" from TSE Analytics</description>
+        <accepts>Animal-List.html</accepts>
+    </rule>
 </rules>
