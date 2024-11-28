@@ -1,7 +1,7 @@
 # Introduction
 
 TSE Analytics is a data analysis application designed specifically to work with the data output produced by
-[TSE PhenoMaster](https://www.tse-systems.com/service/phenotype/) software. It allows a simplified management of
+*TSE PhenoMaster software*. It allows a simplified management of
 multiple datasets, data sharing and reproducibility of experimental results in a flexible and user-friendly way.
 
 TSE Analytics offers a wide range of tools for easy and convenient processing of large datasets. These include:
@@ -23,4 +23,6 @@ TSE Analytics hosts various options for data analysis and visualization:
 - **Bivariate Analysis:** Calculate correlations between two variables using correlation or linear regression analysis.
 - **AN(C)OVA**: Perform several types of ANOVA (N-way, repeated measures, mixed design) or ANCOVA under consideration of factors and time bins.
 - **Multivariate and High-Dimensional Analysis**: Visualize and analyze correlations between multiple variables using matrix plots and dimensionality reduction techniques such as PCA and t-SNE.
-- **Time Series Analysis:** Perform time series analysis to detect patterns or trends in PhenoMaster data collected at regular time intervals.Start typing here...
+- **Time Series Analysis:** Perform time series analysis to detect patterns or trends in PhenoMaster data collected at regular time intervals.
+
+In this user manual, we will provide a detailed guide on how to operate TSE Analytics, including how to import, process, and analyze PhenoMaster data. With step-by-step instructions and practical examples, users will be able to quickly get started and make the most of the software's features. Now, let’s begin!
