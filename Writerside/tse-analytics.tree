@@ -2,7 +2,7 @@
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
-<instance-profile id="ta"
+<instance-profile id="tse-analytics"
                  name="TSE Analytics"
                  start-page="Disclaimer.md">
 
@@ -58,6 +58,6 @@
         <toc-element topic="Info-Helo-and-Log.md"/>
         <toc-element topic="Data-Export-and-Report.md"/>
     </toc-element>
-    <toc-element topic="Empty-MD-Topic.md">
+    <toc-element topic="PhenoMaster-Output-Variables.md">
     </toc-element>
 </instance-profile>

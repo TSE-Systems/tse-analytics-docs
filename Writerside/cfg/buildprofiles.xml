@@ -6,7 +6,7 @@
     <variables>
         <custom-css>custom.css</custom-css>
     </variables>
-    <build-profile instance="ta">
+    <build-profile instance="tse-analytics">
         <variables>
             <noindex-content>true</noindex-content>
         </variables>

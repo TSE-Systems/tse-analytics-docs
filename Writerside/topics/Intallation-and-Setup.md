@@ -9,10 +9,10 @@ Before installing TSE Analytics, ensure your system meets the following minimum 
 - Operating System: Windows 10 or 11 (64-bit)
 - Processor: Intel Core i7/ i9, AMD Ryzen or equivalent
 - CPU: Minimum 4 CPU cores (high CPU clock speed is highly recommended)
-- RAM: Minimum 16 Gb (some types of analysis (e.g. AcAAtiMot) may require more)
+- RAM: Minimum 16 Gb (some types of analysis, e.g. ActiMot, may require more)
 - Display: 1920×1080 or higher is recommended
 - Storage: SSD
-- Hard Disk Space: 700 Mb of free space for installation; 10 Gb or more free space recommended for smooth data handling
+- Disk Space: 700 Mb of free space for installation; 10 Gb or more free space recommended for smooth data handling
 
 >**Note**: TSE Analytics can ONLY be used in combination with the PhenoMaster specific version for designated customers. For details on the specific version, please contact your TSE sales representative.
 {style='note'}

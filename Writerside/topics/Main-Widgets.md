@@ -1,4 +1,5 @@
 # Main Window and Widgets
+
 ## Main Window
 
 Main window of TSE Analytics is a host of multiple dockable widgets. Users may resize, move and organize the layout
