@@ -1,4 +1,4 @@
-# Main Window and Widgets
+# Main Widgets
 
 ## Main Window
 
@@ -14,7 +14,7 @@ The layout is saved when you quit application.
 ![Figure: main window](main.png)
 
 
-## Data structure organization in TSE Analytics
+## Data structure organization
 
 All data in the application are organized in the following manner:
 

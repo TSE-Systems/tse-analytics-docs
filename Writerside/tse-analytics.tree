@@ -4,60 +4,68 @@
 
 <instance-profile id="tse-analytics"
                  name="TSE Analytics"
-                 start-page="Disclaimer.md">
+                 start-page="Introduction.md">
 
-    <toc-element topic="Disclaimer.md"/>
-    <toc-element topic="Introductions.md"/>
-    <toc-element topic="Intallation-and-Setup.md"/>
+    <toc-element topic="Introduction.md"/>
+    <toc-element topic="Intallation.md"/>
     <toc-element topic="Main-Widgets.md">
-        <toc-element topic="File-View-and-Help.md"/>
-        <toc-element topic="Empty-M1D-Topic.md">
+        <toc-element topic="Main-Menu.md"/>
+        <toc-element topic="Import-Dataset.md">
         </toc-element>
-        <toc-element topic="Open-and-Save-Workspace.md"/>
+        <toc-element topic="Workspaces.md"/>
         <toc-element topic="Data-Preprocessing.md">
             <toc-element topic="Dataset-widget.md"/>
-            <toc-element topic="Dataset-widget-Remove.md"/>
+            <toc-element topic="Remove-Dataset.md"/>
             <toc-element topic="Dataset-widget-Clone.md"/>
             <toc-element topic="Dataset-widget-Merge.md"/>
-        </toc-element>
-        <toc-element topic="Data-Analysis.md">
-            <toc-element topic="Table-widget.md"/>
-            <toc-element topic="Plot-widget.md"/>
-            <toc-element topic="Bivariate-widget.md">
-                <toc-element topic="Correlation.md"/>
-                <toc-element topic="Regression.md"/>
-            </toc-element>
-            <toc-element topic="Exploration-widget.md">
-                <toc-element topic="Histogram.md"/>
-                <toc-element topic="Distribution.md"/>
-                <toc-element topic="Normality.md"/>
-            </toc-element>
-            <toc-element topic="AN-C-OVA-widget.md">
-                <toc-element topic="One-way-ANOVA.md"/>
-                <toc-element topic="N-way-ANOVA.md"/>
-                <toc-element topic="Repeated-Measures-ANOVA.md"/>
-                <toc-element topic="Mixed-design-ANOVA.md"/>
-                <toc-element topic="ANCOVA.md"/>
-            </toc-element>
-            <toc-element topic="Dimensionality-widget.md"/>
-            <toc-element topic="Timeseries-widget.md">
-                <toc-element topic="Decomposition.md"/>
-                <toc-element topic="Autocorrelation.md"/>
-            </toc-element>
-            <toc-element topic="Empty-qqMD-Topic.md"/>
         </toc-element>
         <toc-element topic="Binning-widget.md"/>
         <toc-element topic="Animals.md">
         </toc-element>
         <toc-element topic="Factors.md">
         </toc-element>
-        <toc-element topic="Variable.md">
-            <toc-element topic="Variables-widget.md"/>
+        <toc-element topic="Variables.md">
+            <toc-element topic="Outlier-Detection.md"/>
             <toc-element topic="Aggregation.md"/>
         </toc-element>
         <toc-element topic="Info-Helo-and-Log.md"/>
         <toc-element topic="Data-Export-and-Report.md"/>
     </toc-element>
-    <toc-element topic="PhenoMaster-Output-Variables.md">
+    <toc-element topic="Additional-Widgets.md">
+        <toc-element topic="Data-Widgets.md">
+            <toc-element topic="Table-widget.md"/>
+            <toc-element topic="Plot-widget.md"/>
+        </toc-element>
+        <toc-element topic="Exploration-widget.md">
+            <toc-element topic="Histogram.md"/>
+            <toc-element topic="Distribution.md"/>
+            <toc-element topic="Normality.md"/>
+        </toc-element>
+        <toc-element topic="Bivariate-widget.md">
+            <toc-element topic="Correlation.md"/>
+            <toc-element topic="Regression.md"/>
+        </toc-element>
+        <toc-element topic="ANOVA-widget.md">
+            <toc-element topic="One-way-ANOVA.md"/>
+            <toc-element topic="N-way-ANOVA.md"/>
+            <toc-element topic="Repeated-Measures-ANOVA.md"/>
+            <toc-element topic="Mixed-design-ANOVA.md"/>
+            <toc-element topic="ANCOVA.md"/>
+        </toc-element>
+        <toc-element topic="Dimensionality-widget.md">
+            <toc-element topic="Matrix-Plot.md"/>
+            <toc-element topic="PCA.md"/>
+            <toc-element topic="t-SNE.md"/>
+        </toc-element>
+        <toc-element topic="Timeseries.md">
+            <toc-element topic="Decomposition.md"/>
+            <toc-element topic="Autocorrelation.md"/>
+        </toc-element>
+        <toc-element topic="Utils.md">
+            <toc-element topic="Report.md"/>
+        </toc-element>
     </toc-element>
+    <toc-element topic="PhenoMaster-Predefined-Variables.md">
+    </toc-element>
+    <toc-element topic="Disclaimer.md"/>
 </instance-profile>

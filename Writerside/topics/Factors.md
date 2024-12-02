@@ -33,4 +33,3 @@ Both manually and automatically generated groups and assignment of animals can b
 
 > **Warning:** Please ensure that at least two groups are assigned to each factor (with at least one animal selected per group) to guarantee full functionality of all analysis in TSE Analytics.
 {style = 'warning'}
-

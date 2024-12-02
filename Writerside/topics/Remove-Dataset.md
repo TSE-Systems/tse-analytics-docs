@@ -1,4 +1,4 @@
-# Remove
+# Remove Dataset
 
 To remove a dataset, select the respective dataset from the dataset list (selected dataset highlighted in blue) and click **Remove** in the header of the _Dataset_ widget. Click **Yes** in the popup window to confirm that the dataset should be removed.
 

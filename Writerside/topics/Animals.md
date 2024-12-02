@@ -17,6 +17,3 @@ To select/deselect individual entries, click on the entry holding **CTRL** key.
 
 > **Note**: When there is no selection in the animals list, it is considered as if all animals are selected!
 {style='note'}
-
-
-

@@ -1,4 +1,4 @@
-# Installation and Setup
+# Installation
 
 ## System Requirements
 
@@ -34,7 +34,7 @@ Before installing TSE Analytics, ensure your system meets the following minimum 
 
 ![Figure: Complete Installation](Complete Installation.png)
 
-### Uninstallation of TSE Analytics ###
+### Uninstallation of TSE Analytics
 
 Go to **Control Panel** > **Programs** > **Uninstall a program**. Select “TSE Analytics” in the list of installed programs and click "Uninstall."
 

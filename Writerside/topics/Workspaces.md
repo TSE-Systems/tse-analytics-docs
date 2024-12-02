@@ -1,4 +1,5 @@
-# Open and Save Workspace
+# Workspaces
+
 A *Workspace* comprises all datasets (one or multiple) listed in the Dataset tab including copies of imported datasets and merged datasets as well automatically extracted meta-data and settings which have been edited after import. These include animal information, factors, plot settings, settings for time binning (including light/ dark phases and custom time phases), animal selection, exclusion of animals and exclusion of time phases. 
 
 Moreover, the report for each dataset is saved within a workspace and is restored when opening the workspace. 
@@ -19,5 +20,5 @@ A *workspace* which has been opened via **File** – **Open Workspace** or by cl
 
 Please ensure to either export graphs and analysis result manually or to add the respective graphs and tables to the report followed by either saving/ printing the report or saving the workspace.
 
->**Note**: The software layout (selection and arrangement of widgets) is not workspace specific. The layout of the last session will be restored when opening TSE Analytics again, independent of the loaded datasets or workspaces.
+> **Note**: The software layout (selection and arrangement of widgets) is not workspace specific. The layout of the last session will be restored when opening TSE Analytics again, independent of the loaded datasets or workspaces.
 > {style = 'note'}

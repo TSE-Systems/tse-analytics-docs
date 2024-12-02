@@ -9,5 +9,3 @@ TSE Analytics reserves all legal rights concerning the protection of this data a
 For further information or inquiries regarding the use of the data in this manual, please contact TSE Analytics support.
 
 [//]: # (TODO: Contact information link)
-
-

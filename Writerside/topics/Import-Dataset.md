@@ -1,11 +1,12 @@
 # Import Dataset
 
-## Export data from PhenoMaster software ##
+## Export data from PhenoMaster software
+
 TSE Analytics only supports TSE Dataset files (.tse), which are experimental date files exported from PhenoMaster Specific Software Version.
 
 [//]: # (TODO: Explanation and screenshots on how to export datafiles from phenomaster and which specific version from PhenoMaster)
 
-## Import Data into TSE Analytics ##
+## Import Data into TSE Analytics
 
 Datasets exported from PhenoMaster Software as described above (file ending * **.tse** )can be imported into TSE Analytics via **File – Import Dataset** in the header or via the Import Dataset button. The * **.tse** dataset exported from the PhenoMaster software can then be selected in the File Explorer and is loaded into TSE Analytics upon clicking **Open**.
 

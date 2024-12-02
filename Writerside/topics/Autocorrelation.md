@@ -37,4 +37,3 @@ From left to right:
 {style='note'}
 
 Time series plots can be exported via the **Save** button (‘Memory disk’ symbol) in the plot menu at the bottom of the control panel or added to the report by clicking **Add to Report**.
-

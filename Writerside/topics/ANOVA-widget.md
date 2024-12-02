@@ -1,4 +1,4 @@
-# AN(C)OVA
+# ANOVA
 
 The **AN(C)OVA** widget offers multiple options for the Analysis of Variances (ANOVA) including One-Way ANOVA, N-Way ANOVA, repeated measures ANOVA, mixed design ANOVA and Analysis of Covariance (ANCOVA).
 

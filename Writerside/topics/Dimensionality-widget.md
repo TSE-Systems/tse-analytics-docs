@@ -1,7 +1,5 @@
 # Dimensionality
 
-#Dime Dimensionality
-
 The _Dimensionality_ widget offers multiple options for the generation of high-dimensional analysis plots considering multiple variables of interest.
 
 ![Figure: Dimensionality widget](image_54.png)

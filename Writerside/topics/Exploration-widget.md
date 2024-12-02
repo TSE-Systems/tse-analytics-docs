@@ -32,14 +32,10 @@ The plot appearance can be edited by using the tools available in the **plot men
 - **Pan** (‘Arrow cross’):  Grab and move the graph within the frame of the plot.
 - **Zoom** (‘Magnifying glass’): Select an area of the plot to zoom in/ enlarge the selected area.
 - **Subplots** (‘Slider bars’): Adjust the dimensions of frame borders and spacings between graphs (in the case of multiple plots).
-- **Customize** (‘Graph’):
-Define title, axis range, label and scale, and legend. Adjust style, size and color of curves (applies only to some elements within normality plots and violin plots).
+- **Customize** (‘Graph’): Define title, axis range, label and scale, and legend. Adjust style, size and color of curves (applies only to some elements within normality plots and violin plots).
 - **Save** (‘Memory disc’): Save image on the hard drive.
 
 > **Note:** Any changes in graph appearance made through the plot menu are applied immediately, without clicking Update.
 {style = 'note'}
 
 In addition to saving a plot on the hard drive via the plot menu, the graph displayed can be added to the report by clicking **Add to Report** and will be saved together with the currently active workspace.
-
-
-

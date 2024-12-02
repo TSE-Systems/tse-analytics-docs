@@ -1,4 +1,4 @@
-# PhenoMaster Output Variables
+# PhenoMaster Predefined Variables
 
 **1. Calorimetry**
 

@@ -1,4 +1,4 @@
-# Analysis of Covariance (ANCOVA)
+# ANCOVA
 
 Analysis of Covariance (ANCOVA) allows testing for statistical differences between two or more groups while at the same time controlling for the effects of covariate variables on the dependent variable, thereby combining ANOVA and regression analysis. 
 

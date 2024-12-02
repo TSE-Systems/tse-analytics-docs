@@ -34,7 +34,3 @@ From left to right:
 Except from adding results to the report, TSE Analytics does not offer a dedicated export function for bivariate analysis (correlation and regression) tables. However, results can be saved outside of TSE Analytics via “copy and paste”. All analysis results can be selected by clicking on the data table and pressing **Strg + A (Ctrl + A)** on the keyboard or by right-clicking on the analysis window and selecting **Select All**. Selected content can then be copied to the clipboard using **Strg + C (Ctrl + C)** or by right-clicking on the analysis window again and selecting **Copy**. Content copied to the clipboard can then be pasted **(Strg + V / Ctrl + V)** and saved outside of TSE Analytics.
 
 ![Figure: Export of bivariate analysis results using "Copy-Paste"](copy-paste.png)
-
-
-
-

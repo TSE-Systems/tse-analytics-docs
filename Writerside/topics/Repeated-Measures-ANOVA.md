@@ -64,4 +64,3 @@ Analysis result tables for repeated measures ANOVA include:
 {style = 'warning'}
 
 ![Figure: Pop-up window to decide on pairwise comparisons for repeated measures ANOVA for binning by time intervals](perform-pairwise-tests-dialog.png)
-

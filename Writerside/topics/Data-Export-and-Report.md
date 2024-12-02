@@ -10,8 +10,7 @@ The data table of the active dataset including all variables can be exported usi
 
 This data export option will save the current version of the active data table under consideration of changes that have been made using TSE Analytics. Changes considered for the exported data table include merging of datasets, exclusion of animals and animal selection in the animals list via checkboxes, exclusion of time phases and adjustment of time, editing of animal information or factors, time binning and removal of outliers.
 
->**Warning:** 
-<br/> Variable selection and Split Mode selection in the Table control panel do not affect the content of the exported data table, but only the way data is displayed in the Table widget. The exported data table always contains all variables extracted from the PhenoMaster file and data for individual animals (as for Split Mode “By Animal”).
+>**Warning:** Variable selection and Split Mode selection in the Table control panel do not affect the content of the exported data table, but only the way data is displayed in the Table widget. The exported data table always contains all variables extracted from the PhenoMaster file and data for individual animals (as for Split Mode “By Animal”).
 <br/>
 <br/>Similarly, sorting of data entries in the Table widget will change the order of data entries displayed under Table, but will not affect the exported data table.
 {style='warning'}
@@ -78,5 +77,5 @@ All entries of an existing report are cleared by clicking the **New Report** but
 
 ![Figure: Creating new report](image_95.png)
 
-> **Warning:** This action **cannot** be undone! Clicking **New Report** will definitively delete all previous content from the report.
+> **Warning:** This action cannot be undone! Clicking **New Report** will definitively delete all previous content from the report.
 {style = 'warning'}

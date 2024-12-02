@@ -24,4 +24,3 @@ When selecting binning by **Time Phases**, custom time phases can be added by cl
 
 >**Note:** For all other analysis widgets (Exploration, Bivariate, AN(C)OVA, Dimensionality and Timeseries), changes in time binning settings (applying of binning, binning mode and time binning settings) are only applied upon clinking **Update** in the control panel.
 {style='note'}
-

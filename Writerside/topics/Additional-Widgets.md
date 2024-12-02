@@ -1,4 +1,4 @@
-# Add Widget
+# Additional Widgets
 
 The Add Widget in TSE Analytics software is the central hub for data analysis, encompassing a comprehensive range of statistical methods. Users can seamlessly visualize and analyze their selected datasets, leveraging intuitive tools and customizable options to gain insights.
 
@@ -26,11 +26,12 @@ The Add Widget in TSE Analytics software is the central hub for data analysis, e
 │   ├── Dimensionality
 │   │   ├── Matrix Plot
 │   │   ├── PCA
-│   │   ├── tSNE
+│   │   ├── t-SNE
 │   ├── Time series
 │   │   ├── Decomposition
 │   │   ├── Autocorrelation
-│   ├── Time Report
+│   ├── Utils
+│   │   ├── Report
 ```
 
 - **Data Widget** 
@@ -62,4 +63,3 @@ The advanced features of the *Add Widget* include Multi-Dataset Support and Wind
 Additionally, individual analysis windows can be detached and repositioned, while multiple views can be displayed within a single workspace, streamlining multitasking and result comparison.
 
 ![Figure: Multiple analysis windows display](image_41.png)
-

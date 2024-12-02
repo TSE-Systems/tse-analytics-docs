@@ -41,4 +41,3 @@ If split mode ‘By Run’ or ‘By Factor’ is selected, a separate results ta
 
 > **Note:** An intercept is added as a constant term to the model, to limit the bias and to force the residual mean to equal zero. The GLM table always contains a row for the intercept as its first entry including a coefficient and a p-value, however, these values are rarely meaningful.
 {style = 'note'}
-

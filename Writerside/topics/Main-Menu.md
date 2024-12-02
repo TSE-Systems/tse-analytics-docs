@@ -1,6 +1,6 @@
-# File, View and Help
+# Main Menu
 
-The *header*, located at the top of the TSE Analytics interface, comprises file import,save, and export functions under **File** , view settings under **View** and access to additional information and support under **Help**.
+The main menu comprises file import, save and export functions under **File** , view settings under **View** and access to additional information and support under **Help**.
 
 ![Figure: Software header](image_3.png)
 
@@ -13,7 +13,7 @@ The *header*, located at the top of the TSE Analytics interface, comprises file 
 
 ![Figure: File Widget](image_5.png)
 
->**Warning**: “Exit” will save any changes regarding the software layout but will not automatically save the workspace or any other changes.
+>**Warning**: **Exit** command will save any changes regarding the software layout but will not automatically save the workspace or any other changes.
 > {style='warning'}
 
 **View**
@@ -26,5 +26,5 @@ The *header*, located at the top of the TSE Analytics interface, comprises file 
 
 -	Help: Access support resources or contact customer support.
 -	About: View information about the software version, access to open-source code, license agreement and third-party libraries.
-- 
+
 ![Figure: Help Widget](image_7.png)

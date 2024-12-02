@@ -1,6 +1,6 @@
 # Utils
 
-In addition to specific export options which vary between different analysis and plots, all results can be saved within a workspace and outside of TSE Analytics using the **Utils-Report** Widget.
+In addition to specific export options which vary between different analysis and plots, all results can be saved within a workspace and outside of TSE Analytics using the **Report** Widget.
 
 ![Figure: Utils-Report widget](image_89.png)
 
@@ -8,7 +8,7 @@ In addition to specific export options which vary between different analysis and
 
 ![Figure: Adding to Report](image_90.png)
 
-- Then click the **Utils-Report**, the added report works as a text editor and allows to add customized text to analysis results.
+- Then click the **Utils - Report**, the added report works as a text editor and allows to add customized text to analysis results.
 
 ![Figure: Editing the added report](image_91.png)
 

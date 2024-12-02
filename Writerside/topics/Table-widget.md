@@ -7,12 +7,14 @@ The **Table** widget shows all metadata as well as selected variables data for a
 ![Figure: Table window](image_109.png)
 
 - **DateTime**: Date and time of data collection
-> Note: *DateTime* is not included in Table for merged data files using the merging mode ‘Overlap’
+- 
+> **Note:** *DateTime* is not included in Table for merged data files using the merging mode ‘Overlap’
 > {style = 'note'}
 
 - **Timedelta**: Time difference between the start of an experiment at the time of data collection
 - **Animal**: Name of an animal as specified in the PhenoMaster file or Animal widget.
-> Note: Only data of animals selected in the Animal widget will be displayed in Table.
+
+> **Note:** Only data of animals selected in the Animal widget will be displayed in Table.
 > {style = 'note'}
 
 - **Box**: Box number as indicated in the PhenoMaster file and Animal widget.
@@ -30,7 +32,8 @@ Data of each time bin is grouped according to the **Split Mode** selected in the
 - **Total**: The mean of all data entries for each bin is calculated.
 - **Animal**: Data is displayed for each animal individually, i.e. without grouping (default). 
 - **Run**: The mean of all data entries assigned to the same run is calculated for each bin.
->Note: Split modes “Total” and “Run” produce the same results if only one individual dataset (i.e. one run) is analyzed. In case of merged datasets (not merged as a single run), this split mode allows to calculate means of the individual datasets (i.e. individual runs) used for merging.
+
+> **Note:** Split modes “Total” and “Run” produce the same results if only one individual dataset (i.e. one run) is analyzed. In case of merged datasets (not merged as a single run), this split mode allows to calculate means of the individual datasets (i.e. individual runs) used for merging.
 {style = 'note'}
 
 - **Factor**: The mean of all animals assigned to the same factor group is calculated for each bin. The factor considered for grouping has to be selected from the Factor dropdown menu.

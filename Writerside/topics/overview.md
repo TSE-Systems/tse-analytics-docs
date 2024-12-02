@@ -38,4 +38,3 @@ Almost all widgets work with the preprocessed data that passed through the inter
 >**Note:** If you observe some unexpected results during your analysis, please check animal selection in **Animals** widget and time binning options in **Binning** widget!
 >
 {style="warning"}
-

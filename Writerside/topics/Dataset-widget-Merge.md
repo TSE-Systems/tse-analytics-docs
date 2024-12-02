@@ -1,6 +1,5 @@
 # Merge
 
-
 Two or more datasets can be merged by selecting the respective datasets in the _Dataset_ widget using the **tick boxes** on the left-hand side of the dataset list. To open the _Merge_ _Datasets_ dialogue window, click **Merge** in the header of the _Dataset_ widget.
 
 > **Note**: The **Merge** button will only be active if two or more datasets are selected via tick boxes in the _Dataset_ widget.
@@ -66,6 +65,5 @@ After adjusting settings in the _Merge Dataset_ dialogue window, click **OK** to
 {style='warning'}
 
 >**Note**: Datasets can only be merged if the variables lists are identical. This applies to the individual variables contained in a dataset as well as variable settings specified in the _Variables_ widget (aggregation mode and selection of variables for outlier detection).
-<br/> 
-<br/> In case of discrepancies between variable settings, aggregation modes and selection of variables for outlier detection can be reset to default by clicking **Reset** in the header of the _Variables_ widget.
+In case of discrepancies between variable settings, aggregation modes and selection of variables for outlier detection can be reset to default by clicking **Reset** in the header of the _Variables_ widget.
 >{style='note'}

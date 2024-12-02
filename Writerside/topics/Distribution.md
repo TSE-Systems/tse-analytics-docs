@@ -1,6 +1,5 @@
 # Distribution
 
-
 # Violin plots
 
 Violin plots can be generated in TSE Analytics by selecting
