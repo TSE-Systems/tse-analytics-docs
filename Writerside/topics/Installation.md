@@ -23,14 +23,14 @@ Before installing TSE Analytics, ensure your system meets the following minimum 
 
 ### Installation of TSE Analytics
 
-1. **Locate the Installer:** Navigate to the folder where the installer file was downloaded.
-2. **Run the Installer:** Double-click the installer file (e.g., TSE_Analytics_Setup.exe).
-3. **Installation Wizard:** Follow the on-screen instructions provided by the installation wizard.
-- **Installation Directory:** Choose the installation directory or use the default path and choose whether to create a desktop shortcut.
+1. **Locate the Installer**: Navigate to the folder where the installer file was downloaded.
+2. **Run the Installer**: Double-click the installer file (e.g., TSE_Analytics_Setup.exe).
+3. **Installation Wizard**: Follow the on-screen instructions provided by the installation wizard.
+- **Installation Directory**: Choose the installation directory or use the default path and choose whether to create a desktop shortcut.
 
 ![Figure:Installation Directory](Installation Directory.png)
 
-- **Complete Installation:** Click "Install" to begin the installation process. Once completed, click "Finish" to exit the wizard
+- **Complete Installation**: Click "Install" to begin the installation process. Once completed, click "Finish" to exit the wizard
 
 ![Figure: Complete Installation](Complete Installation.png)
 

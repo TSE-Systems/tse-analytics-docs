@@ -6,7 +6,7 @@ Main window of TSE Analytics is a host of multiple dockable widgets. Users may r
 of the main application window up to their liking. Users can hide/show some widgets by using **View** section
 in the main menu.
 
-The layout is saved when you quit application.
+The layout is saved when you quit the application.
 
 >**Note**: Default layout may be restored by clicking **View - Reset Layout** menu item.
 > {style='note'}
@@ -47,7 +47,7 @@ extracted during import procedure (e.g. sampling time, animals and variables lis
 its own settings. After initial import, dataset is assigned an experiment *Run* number **1** by default.
 
 In order to import dataset, please click **File - Import Dataset** command. As soon as data from CSV file are imported,
-you will see a new entry in the *Datasets* widget. By selecting specific entry in this widget, one can switch freely
+you will see a new entry in the *Datasets* widget. By selecting a specific entry in this widget, one can switch freely
 between different datasets:
 
 ![Figure: datasets](datasets.png)

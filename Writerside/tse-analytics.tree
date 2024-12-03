@@ -7,7 +7,7 @@
                  start-page="Introduction.md">
 
     <toc-element topic="Introduction.md"/>
-    <toc-element topic="Intallation.md"/>
+    <toc-element topic="Installation.md"/>
     <toc-element topic="Main-Widgets.md">
         <toc-element topic="Main-Menu.md"/>
         <toc-element topic="Import-Dataset.md">
