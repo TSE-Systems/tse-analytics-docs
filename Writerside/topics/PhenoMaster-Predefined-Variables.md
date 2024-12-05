@@ -1,6 +1,6 @@
 # PhenoMaster Predefined Variables
 
-**1. Calorimetry**
+## Calorimetry
 
 | **Abbreviation** | **Unit**         | **Description**                                                                                                                                |
 |------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -26,7 +26,7 @@
 | Ref.CO2          | %                | CO2 concentration in reference box                                                                                                             |
 | TD               | °C / °F          | Reference value dew point (climate chamber only)                                                                                               |
 
-**2. Telemetry**
+## Telemetry
 
 | **Abbreviation** | **Unit** | **Description**                             |
 |------------------|----------|---------------------------------------------|
@@ -34,7 +34,7 @@
 | ActiT            | cnt      | Activity counts (counts per antenna change) |
 | HeartRate        | bpm      | Heart beats per minute                      |
 
-**3. Weight Sensors**
+## Weight Sensors
 
 | **Abbreviation** | **Unit** | **Description**                  |
 |------------------|----------|----------------------------------|
@@ -44,7 +44,7 @@
 | FeedC            | g        | Food consumption (cumulative)    |
 | Weight           | g        | Body weight (absolute data)      |
 
-**4. Activity**
+## Activity
 
 | **Abbreviation** | **Unit** | **Description**                                                                                      |
 |------------------|----------|------------------------------------------------------------------------------------------------------|
@@ -66,7 +66,7 @@
 | DistD            | cm       | Distance traveled in the horizontal plane (XY) (differential)                                        |
 | Speed            | cm/s     | Average speed                                                                                        |
 
-**5. Treadmill**
+## Treadmill
 
 | Abbreviation | Unit | Description                                                                                                                                                                                                   |
 |--------------|------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -82,7 +82,7 @@
 | Phs          | s    | Time from start of phase (motor start) up to light beam interruption                                                                                                                                          |
 | Tps          | s    | Time from start of timer to start of profile                                                                                                                                                                  |
 
-**6. Running Wheel**
+## Running Wheel
 
 | **Abbreviation** | **Unit** | **Description**                                                                                               |
 |------------------|----------|---------------------------------------------------------------------------------------------------------------|
@@ -104,7 +104,7 @@
 | HB-Power         | mW       | Hysteresis Brake Power                                                                                        |
 | SpeedR           | r/s      | Rotations per second (forced wheel)                                                                           |
 
-**7. Laboratory**
+## Laboratory
 
 | **Abbreviation** | **Unit**         | **Description**                                                     |
 |------------------|------------------|---------------------------------------------------------------------|
@@ -116,7 +116,7 @@
 | NoiseL           | a.u. (ADC value) | Noise level (actual value)                                          |
 | MotionL          | s                | Motion detector for monitoring staff presence (summed up over time) |
 
-**8. Climate Chamber**
+## Climate Chamber
 
 | **Abbreviation** | **Unit** | **Description**                               |
 |------------------|----------|-----------------------------------------------|

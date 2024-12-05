@@ -1,6 +1,6 @@
 # Distribution
 
-# Violin plots
+## Violin plots
 
 Violin plots can be generated in TSE Analytics by selecting
 - **Plot type ‘Distribution’**
@@ -9,6 +9,7 @@ Violin plots can be generated in TSE Analytics by selecting
 ![Figure: Violin plot widget](violin-plot-selector.png)
 
 Violin plots represent the distribution of a selected dataset by combining density curves (blue) and box plots (dark grey).
+
 - The width of each density curve indicates the approximate frequency of data points.
 - The overlaid box plot (dark grey) shows the interquartile range (IQR), i.e. the range from the first to the third quartile (rectangle), together with the median (white dot).
 - The adjacent whiskers indicate the range of 1.5 times the IQR (1.5*IQR) with whiskers ranging from the first/ third quartile to the smallest/ largest data point within 1.5*IQR.
@@ -26,7 +27,7 @@ The part of the box plot to be customized can be selected from the dropdown menu
 - _child3: Median
 
 
-# Boxplots
+## Boxplots
 
 Box plots can be generated in TSE Analytics by selecting
 Plot type **Distribution** and **Distribution as ‘Boxplot’** in the Exploration widget.

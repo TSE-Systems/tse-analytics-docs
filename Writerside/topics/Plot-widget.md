@@ -4,7 +4,7 @@ Line and scatter plots (if no binning or binning using time phases is applied) o
 
 ![Figure: Plot widget](image_110.png)
 
->**Warning**: Only animals selected in the Animal list are considered for the calculation of plots in the Plot widget
+> **Warning**: Only animals selected in the Animal list are considered for the calculation of plots in the Plot widget
 {style = 'warning'}
 
 Variable selection, split modes and plot settings can be adjusted using the control panel on the right-hand side of the plot.
@@ -32,7 +32,7 @@ For **line and scatter plots** (only if no time binning is applied or time binni
 
 ![Figure: Line and scatter plots](image_43.png)
 
-**Right-clicking** on the plot opens a submenu for plot modifications. Here, further adjustments regarding the plot appearance (e.g. axis, grid, transparency, etc.) can be made.****
+Right-clicking on the plot opens a submenu for plot modifications. Here, further adjustments regarding the plot appearance (e.g. axis, grid, transparency, etc.) can be made.****
 
 ![Figure: Plot modification menu](plot-data-view-options.png)
 

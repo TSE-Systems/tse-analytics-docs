@@ -1,8 +1,7 @@
 # Introduction
 
-TSE Analytics is a data analysis application designed specifically to work with the data output produced by
-*TSE PhenoMaster software*. It allows a simplified management of
-multiple datasets, data sharing and reproducibility of experimental results in a flexible and user-friendly way.
+TSE Analytics is a data analysis application designed specifically to work with the data output produced by *TSE PhenoMaster* software.
+It allows a simplified management of multiple datasets, data sharing and reproducibility of experimental results in a flexible and user-friendly way.
 
 TSE Analytics offers a wide range of tools for easy and convenient processing of large datasets. These include:
 
@@ -25,4 +24,5 @@ TSE Analytics hosts various options for data analysis and visualization:
 - **Multivariate and High-Dimensional Analysis**: Visualize and analyze correlations between multiple variables using matrix plots and dimensionality reduction techniques such as PCA and t-SNE.
 - **Time Series Analysis**: Perform time series analysis to detect patterns or trends in PhenoMaster data collected at regular time intervals.
 
-In this user manual, we will provide a detailed guide on how to operate TSE Analytics, including how to import, process, and analyze PhenoMaster data. With step-by-step instructions and practical examples, users will be able to quickly get started and make the most of the software's features. Now, let’s begin!
+In this user manual, we will provide a detailed guide on how to operate TSE Analytics, including how to import, process, and analyze PhenoMaster data.
+With step-by-step instructions and practical examples, users will be able to quickly get started and make the most of the software's features. Now, let’s begin!

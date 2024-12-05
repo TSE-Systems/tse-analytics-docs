@@ -13,20 +13,24 @@ Settings for AN(C)OVA calculations can be adjusted in the control panel of the A
 
 ![Figure:AN(C)OVA methods selecting](image_53.png)
 
-> **Note:** 
-<br/> For one-way ANOVA, p-value correction of pairwise comparisons is determined by the type of ANOVA (depending on homoscedasticity) and cannot be adjusted manually.
-<br/> 
-<br/>P-value adjustment is only applied in the case of more than one pairwise comparison.
+> **Note**: For one-way ANOVA, p-value correction of pairwise comparisons is determined by the type of ANOVA (depending on homoscedasticity) and cannot be adjusted manually.
+> 
+> P-value adjustment is only applied in the case of more than one pairwise comparison.
 {style='note'}
   
 To show ANOVA results or to apply changes, click **Update** in the control panel. Result tables will not update automatically.
 
 ANOVA results as displayed in the AN(C)OVA widget can be added to the report by clicking **Add to Report** in the control panel.
 
->**Warning:** Only animals selected in the Animal list are considered for the calculation of AN(C)OVA analysis results in the AN(C)OVA widget. Changes regarding the selection of animals are only applied after clicking **Update**.
+> **Warning**: Only animals selected in the Animal list are considered for the calculation of AN(C)OVA analysis results in the AN(C)OVA widget.
+> Changes regarding the selection of animals are only applied after clicking **Update**.
 {style = 'warning'}
 
-Besides adding AN(C)OVA results to the report, TSE Analytics does not offer a dedicated export function for AN(C)OVA results. However, results can be saved outside of TSE Analytics via “copy and paste”. All analysis results can be selected by clicking on the data table and pressing **Strg + A (Ctrl + A)** on the keyboard or by **right-clicking** on the analysis window and selecting **Select All**. Selected content can then be copied to the clipboard using **Strg + C (Ctrl + C)** or by right-clicking on the analysis window again and selecting **Copy**. Content copied to the clipboard can then be pasted and saved outside of TSE Analytics.
+Besides adding AN(C)OVA results to the report, TSE Analytics does not offer a dedicated export function for AN(C)OVA results.
+However, results can be saved outside of TSE Analytics via copy and paste.
+All analysis results can be selected by clicking on the data table and pressing <shortcut>Ctrl+A</shortcut> on the keyboard or by right-clicking on the analysis window and selecting **Select All**.
+Selected content can then be copied to the clipboard using <shortcut>Ctrl+C</shortcut> or by right-clicking on the analysis window again and selecting **Copy**.
+Content copied to the clipboard can then be pasted and saved outside of TSE Analytics.
 
 ![Figure: copy-paste report](copy-paste.png)
 

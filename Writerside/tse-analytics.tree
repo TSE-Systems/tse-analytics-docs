@@ -8,28 +8,25 @@
 
     <toc-element topic="Introduction.md"/>
     <toc-element topic="Installation.md"/>
-    <toc-element topic="Main-Widgets.md">
+    <toc-element topic="Getting-Started.md">
         <toc-element topic="Main-Menu.md"/>
-        <toc-element topic="Import-Dataset.md">
-        </toc-element>
         <toc-element topic="Workspaces.md"/>
-        <toc-element topic="Data-Preprocessing.md">
-            <toc-element topic="Dataset-widget.md"/>
-            <toc-element topic="Remove-Dataset.md"/>
-            <toc-element topic="Dataset-widget-Clone.md"/>
-            <toc-element topic="Dataset-widget-Merge.md"/>
+        <toc-element topic="Import-Dataset.md"/>
+        <toc-element topic="Data-Export-and-Report.md"/>
+    </toc-element>
+    <toc-element topic="Main-Widgets.md">
+        <toc-element topic="Datasets.md">
         </toc-element>
-        <toc-element topic="Binning-widget.md"/>
         <toc-element topic="Animals.md">
         </toc-element>
         <toc-element topic="Factors.md">
         </toc-element>
         <toc-element topic="Variables.md">
-            <toc-element topic="Outlier-Detection.md"/>
-            <toc-element topic="Aggregation.md"/>
         </toc-element>
-        <toc-element topic="Info-Helo-and-Log.md"/>
-        <toc-element topic="Data-Export-and-Report.md"/>
+        <toc-element topic="Binning-widget.md"/>
+        <toc-element topic="Info.md"/>
+        <toc-element topic="Help.md"/>
+        <toc-element topic="Log.md"/>
     </toc-element>
     <toc-element topic="Additional-Widgets.md">
         <toc-element topic="Data-Widgets.md">

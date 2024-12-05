@@ -10,5 +10,7 @@ Histograms can be generated in TSE Analytics by selecting **Plot type ‘Histogr
 
 ![Figure: Histogram created in TSE Analytics](histogram-plot.png)
 
-> **Note:** Less than ten columns are displayed in the histogram overview if the number of values assigned to a bin is very small or zero. Columns for small numbers of values appear when zooming into the respective area of the plot (Zoom in (‘Magnifying glass’) in the plot menu) at the bottom of the control panel.  No column is displayed if the number of values assigned to a bin is zero.
+> **Note**: Less than ten columns are displayed in the histogram overview if the number of values assigned to a bin is very small or zero.
+> Columns for small numbers of values appear when zooming into the respective area of the plot (Zoom in (‘Magnifying glass’) in the plot menu) at the bottom of the control panel.
+> No column is displayed if the number of values assigned to a bin is zero.
 {style = 'note'}

@@ -1,6 +1,6 @@
 # Autocorrelation
 
-*Autocorrelation* examines how data points are related across time lags, helping to understand dependencies or repetitive patterns in data over time. 
+Autocorrelation examines how data points are related across time lags, helping to understand dependencies or repetitive patterns in data over time. 
 
 Autocorrelation and respective plots can be used to identify significant correlations between data points for each lag, indicating repeating patterns and trends or the influence of past events on current data points.
 
@@ -9,8 +9,9 @@ Autocorrelation and respective plots can be used to identify significant correla
 
 ![Example of timeseries autocorrelation window display](image_70.png)
 
->**Note**:The y-axis shows the correlation values, ranging from -1 to +1, representing the strength and direction of the relationship between the data points. A value close to +1 indicates a strong positive correlation, while a value near -1 indicates a strong negative correlation.
-The lag values are automatically calculated by the software code and cannot be adjusted by the user.
+> **Note**: The y-axis shows the correlation values, ranging from -1 to +1, representing the strength and direction of the relationship between the data points.
+> A value close to +1 indicates a strong positive correlation, while a value near -1 indicates a strong negative correlation.
+> The lag values are automatically calculated by the software code and cannot be adjusted by the user.
 {style='note'}
 
 [//]: # (TODO: how to explain the x-axis,need Anton help to add...)

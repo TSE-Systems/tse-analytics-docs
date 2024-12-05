@@ -13,7 +13,8 @@ Both plots and analysis results displayed are added to the report upon clicking 
 
 ![Figure: Control panel for correlation and regression analysis in the Bivariate widget](image_45.png)
 
->**Warning:** Only animals selected in the Animal list are considered for the calculation of correlation and regression analysis in the Bivariate widget. Changes regarding the selection of animals are only applied after clicking **Update**.
+> **Warning**: Only animals selected in the Animal list are considered for the calculation of correlation and regression analysis in the Bivariate widget.
+> Changes regarding the selection of animals are only applied after clicking **Update**.
 {style = 'warning'}
 
 The plot appearance can be edited by using the tools available in the **plot menu** at the bottom of the control panel. 
@@ -22,15 +23,19 @@ The plot appearance can be edited by using the tools available in the **plot men
 
 From left to right:
 - **Home button** (‘House’): Reset the orientation of the plot in its frame.	Undo/Redo (‘Arrows’ left/right): Undo and redo actions regarding the orientation of the graph in its frame (moving and zooming)
-- **Pan** (‘Arrow cross’):  Grab and move the graph within the frame of the plot
+- **Pan** (‘Arrow cross’): Grab and move the graph within the frame of the plot
 - **Zoom** (‘Magnifying glass’): Select an area of the plot to zoom in/ enlarge the selected area.
 - **Subplots** (‘Slider bars’): Adjust the dimensions of frame borders and spacings between graphs 
-- **Customize** (‘Graph’): Define title, axis range, label and scale, and legend. Adjust style, size and color of curve.
+- **Customize** (‘Graph’): Define title, axis range, label and scale, and legend. Adjust style, size and color of a curve.
 - **Save** (‘Memory disc’): Save image on the hard drive.
 
-> **Note:** Any changes in graph appearance made through the plot menu are applied immediately, without clicking Update.
+> **Note**: Any changes in graph appearance made through the plot menu are applied immediately, without clicking Update.
 {style = 'note'}
 
-Except from adding results to the report, TSE Analytics does not offer a dedicated export function for bivariate analysis (correlation and regression) tables. However, results can be saved outside of TSE Analytics via “copy and paste”. All analysis results can be selected by clicking on the data table and pressing **Strg + A (Ctrl + A)** on the keyboard or by right-clicking on the analysis window and selecting **Select All**. Selected content can then be copied to the clipboard using **Strg + C (Ctrl + C)** or by right-clicking on the analysis window again and selecting **Copy**. Content copied to the clipboard can then be pasted **(Strg + V / Ctrl + V)** and saved outside of TSE Analytics.
+Except from adding results to the report, TSE Analytics does not offer a dedicated export function for bivariate analysis (correlation and regression) tables.
+However, results can be saved outside of TSE Analytics via copy and paste.
+All analysis results can be selected by clicking on the data table and pressing <shortcut>Ctrl+A</shortcut> on the keyboard or by right-clicking on the analysis window and selecting **Select All**.
+Selected content can then be copied to the clipboard using <shortcut>Ctrl+C</shortcut> or by right-clicking on the analysis window again and selecting **Copy**.
+Content copied to the clipboard can then be pasted <shortcut>Ctrl+V</shortcut> and saved outside of TSE Analytics.
 
 ![Figure: Export of bivariate analysis results using "Copy-Paste"](copy-paste.png)

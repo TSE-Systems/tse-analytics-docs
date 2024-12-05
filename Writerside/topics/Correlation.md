@@ -5,20 +5,21 @@ Results of a correlation analysis performed in TSE Analytics are displayed as a 
 
 ![Figure: Correlation window](image_115.png)
 
-**Correlation analysis plots:**
+## Correlation plots
 
 Data pairs for each time bin are depicted as dots in the **scatter plot** and are dependent on the selected split mode and time binning settings.
 
 ![Figure: Variable and split mode in correlation window](image_113.png)
 
-- Split mode **‘Total’** uses the mean data values of all animals per time bin.
--	Split mode **‘By Animal’** does not calculate means but uses individual data points for each animal per time bin.
--	Split mode **‘By Run’** uses the mean data values of each run per time bin.
--	Split mode **‘By Factor’** uses the mean data value of each group of the selected factor per time bin.
+- Split mode **Total** uses the mean data values of all animals per time bin.
+-	Split mode **By Animal** does not calculate means but uses individual data points for each animal per time bin.
+-	Split mode **By Run** uses the mean data values of each run per time bin.
+-	Split mode **By Factor** uses the mean data value of each group of the selected factor per time bin.
 
 **Histograms/ Density plots** represent the frequency of values separately for each variable (parallel to the respective axis) under consideration of the selected split mode and time binning settings.
 
-> **Note:** Histograms will only be used in split mode ‘Total’. If data is split into smaller subsets (By Animal/ By Run/ By Factor), separate density curves per subset of data are shown.
+> **Note**: Histograms will only be used in split mode Total.
+> If data is split into smaller subsets (By Animal/Run/Factor), separate density curves per subset of data are shown.
 {style = 'note'}
 
 To adjust the appearance of a plot, use the **‘Customize’** tool (‘Graph’ symbol) in the plot menu and select the respective plot from the drop-down menu (**“[Variable X] – [Variable Y]”** for scatter plot and **“[Variable X] – Count/Density”** or **“Count/Density – [Variable Y]”** for density plots/ histograms).
@@ -33,7 +34,7 @@ To adjust the appearance of a plot, use the **‘Customize’** tool (‘Graph�
 
 ![Figure: Curves tab of the Customize tool for correlation analysis](image_49.png)
 
-**Correlation analysis results table:**
+## Correlation results table
 
 Correlation analysis results are calculated based on the (mean) data values per time bin depending on the respective split mode.
 
@@ -51,7 +52,6 @@ The **Pearson correlation** coefficient table indicates (from left to right):
 -	p-unc: Uncorrected p-value
 -	BF10: Bayes factor of the alternative hypothesis
 -	power: Achieved power of the test (= 1 - type II error)
-
 
 The **T test statistics** comparing the X and Y variable include (from left to right):
 
