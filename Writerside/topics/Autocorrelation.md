@@ -1,8 +1,8 @@
 # Autocorrelation
 
-Autocorrelation examines how data points are related across time lags, helping to understand dependencies or repetitive patterns in data over time. 
-
-Autocorrelation and respective plots can be used to identify significant correlations between data points for each lag, indicating repeating patterns and trends or the influence of past events on current data points.
+Time series autocorrelation refers to the correlation of a time series with its own past values.
+It measures the degree of similarity between a time series and a lagged version of itself over successive time intervals.
+Autocorrelation is a key concept in time series analysis as it helps in identifying patterns and dependencies in the data.
 
 ![Figure: Time Series Autocorrelation window](image_69.png)
 

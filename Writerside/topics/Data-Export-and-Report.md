@@ -17,7 +17,6 @@ This data export option will save the current version of the active data table u
 > Similarly, sorting of data entries in the Table widget will change the order of data entries displayed under Table, but will not affect the exported data table.
 {style='warning'}
 
-
 ##  Export of Raw Data Plots
 
 Data plots created in the _Plot_ widget can be exported by **right-clicking** on the plot window and selecting **Export** from the menu.

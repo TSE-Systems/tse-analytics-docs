@@ -1,6 +1,7 @@
 # Time Series
 
-Timeseries widgets in TSE Analytics provides several options to perform time series analysis and thereby to analyze data collected over time during PhenoMaster experiments. 
+Time series analysis involves methods for analyzing time series data to extract meaningful statistics and identify characteristics of the data.
+The primary goals of time series analysis are to understand the underlying structure and function that produced the observed data and to forecast future values based on this understanding.
 
 ![Figure: Time Series widget](image_63.png)
 
