@@ -7,9 +7,9 @@ To perform one-way ANOVA in TSE Analytics, select the respective data set from t
 Select one factor from the **Factors** list and choose a variable from the **Dependent Variable** list.
 If needed, adjust the **Effect size type** via the dropdown menu. Click **Update** to calculate analysis results.
 
-![Figure: One-way ANOVA widget](image_134.png)
+![Figure: One-way ANOVA widget](One-way ANOVA widget.png)
 
-![Figure: One-way ANOVA anaysis results table](image_121.png)
+![Figure: One-way ANOVA anaysis results table](One-way ANOVA anaysis results table.png)
 
 Analysis result tables for one-way ANOVA include:
 
@@ -75,7 +75,7 @@ If equality of variances is not given (equal_var = False):
 
 **Multiple comparisons plot**
 
-![Figure: Multiple comparisons plot](image_123.png)
+![Figure: Multiple comparisons plot](Multiple comparisons plot.png)
 
 *The multiple comparisons plot* generated for one-way ANOVAs allows to graphically identify significant pairwise comparisons based on the Tukey HSD (Honestly Significant Difference) test statistic for multiple comparisons. The plot shows the means (dot) and confidence intervals (horizontal lines) of the selected variable for each factor group. Confidence intervals are calculated based on the respective Tukey’s q critical value, which is dependent on the confidence level, degrees of freedom and the number of groups. A statistically significant difference between two groups is given, if the respective confidence intervals do not overlap.
 

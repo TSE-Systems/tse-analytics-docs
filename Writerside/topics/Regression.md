@@ -3,11 +3,11 @@
 Linear regression analysis (**“Regression”**) can be performed in TSE Analytics to investigate the relationship between an independent variable (**Covariate**) and a dependent variable (**Response**).
 Results of a regression analysis performed in TSE Analytics are displayed as a regression plot and linear regression results in the GLM (Generalized Linear Model) table.
 
-![Figure: Regression window](image_116.png)
+![Figure: Regression window](Regression window.png)
 
 ## Regression plot
 
-![Figure: Variable and split mode in regression window](image_118.png)
+![Figure: Variable and split mode in regression window](Variable and split mode in regression window.png)
 
 The regression plot combines a scatter plot of mean data values per time bin with a regression line and confidence band based on the plotted data values.
 The calculation of mean data values and plot appearance are dependent on the selected split mode:
@@ -19,13 +19,13 @@ The calculation of mean data values and plot appearance are dependent on the sel
 The title, as well as range, label and scale of axis and generation of an automatic legend can be defined in the **Axes** tab of the ‘Customize’ tool (‘Graph’ symbol) in the plot menu.
 The appearance of regression lines can be adjusted in the **Curves** tab of the ‘Customize’ tool, whereby each label represents one data subset.
 
-![Figure: Axes tab of the Customize tool for regression analysis ](image_50.png)
+![Figure: Axes tab of the Customize tool for regression analysis ](Axes tab of the Customize tool for regression analysis.png)
 
-![Figure: Curves tab of the Customize tool for regression analysis ](image_51.png)
+![Figure: Curves tab of the Customize tool for regression analysis ](Curves tab of the Customize tool for regression analysis.png)
 
 ## Regression results table
 
-![Figure: Regression analysis results table](image_119.png)
+![Figure: Regression analysis results table](Regression analysis results table.png)
 
 The GLM (Generalized Linear Model) table shows the statistical results of the linear regression, under consideration of the selected split mode and time binning settings:
 

@@ -2,9 +2,9 @@
 
 The **Table** widget shows all metadata as well as selected variables data for all animals selected in the Animal widget under consideration of Time binning and Outlier settings as well as the selected Split Mode. 
 
-![Figure: Table widget](image_108.png)
+![Figure: Table widget](Table widget.png)
 
-![Figure: Table window](image_109.png)
+![Figure: Table window](Table window.png)
 
 - **DateTime**: Date and time of data collection
 - 

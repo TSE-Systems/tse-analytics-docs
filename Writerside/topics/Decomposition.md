@@ -2,7 +2,7 @@
 
 Time series decomposition is a technique used to break down a time series into its constituent components to better understand its underlying patterns, making it easier to model and forecast future values.
 
-![Figure: Time Series Decomposition window](image_65.png)
+![Figure: Time Series Decomposition window](Time Series Decomposition window.png)
 
 The main components of a time series are:
 
@@ -11,7 +11,7 @@ The main components of a time series are:
 - **Seasonal Component**: The seasonal component reflects periodic fluctuations in the data, typically occurring at fixed intervals.
 - **Residual Component**: The random noise or irregular component that cannot be explained by the trend, seasonality, or cyclic components. It represents the unpredictable variations in the data.
 
-![Figure: Example of timeseries decomposition window display](image_67.png)
+![Figure: Example of timeseries decomposition window display](Example of timeseries decomposition window display.png)
 
 One of three different Methods can be selected: **Naive**, **STL** (Seasonal and Trend decomposition using Loess) and **MSTL** (Multiple Seasonal and Trend decomposition using Loess).
 

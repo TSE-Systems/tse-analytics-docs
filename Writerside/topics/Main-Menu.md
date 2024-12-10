@@ -2,7 +2,7 @@
 
 The main menu comprises file import, save and export functions under **File**, view settings under **View** and access to additional information and support under **Help**.
 
-![Figure: Software header](image_3.png)
+![Figure: Software header](Software header.png)
 
 **File**
 -	Open Workspace/ Open Recent: Open an existing (recently used) workspace.
@@ -11,7 +11,7 @@ The main menu comprises file import, save and export functions under **File**, v
 -	Export to CSV/ Excel: Export data as .csv/ .xlsx file.
 -	Exit: Close the application. 
 
-![Figure: File Widget](image_5.png)
+![Figure: File Widget](File Widget.png)
 
 > **Warning**: *Exit* command will save any changes regarding the software layout but will not automatically save the workspace or any other changes.
 {style='warning'}
@@ -21,11 +21,11 @@ The main menu comprises file import, save and export functions under **File**, v
 - Show/Hide Tool Panels: customize the interface by de-/activating individual widgets.
 - Reset layout: restore initial layout with all widgets activated.
 
-![Figure: View Widget](image_6.png)
+![Figure: View Widget](View Widget.png)
 
 **Help**
 
 - Help: Access support resources or contact customer support.
 - About: View information about the software version, access to open-source code, license agreement and third-party libraries.
 
-![Figure: Help Widget](image_7.png)
+![Figure: Help Widget](Help Widget.png)

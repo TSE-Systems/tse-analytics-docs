@@ -2,11 +2,11 @@
 
 The _Dimensionality_ widget offers multiple options for the generation of high-dimensional analysis plots considering multiple variables of interest.
 
-![Figure: Dimensionality widget](image_54.png)
+![Figure: Dimensionality widget](Dimensionality widget.png)
 
 Variables, analysis mode and split mode for high-dimensional analysis can be selected from the control panel in the _Dimensionality_ widget:
 
-![Figure: Dimensionality window](image_144.png)
+![Figure: Dimensionality window](Dimensionality window.png)
 
 In the **Variables** list of the control panel, at least two variables must be selected for matrix plots and at least three variables for PCA or tSNE. 
 
@@ -24,7 +24,7 @@ Different **Split Modes** (Total, By Animal, By Run, By Factor) can be applied t
 
 [//]: # (TODO: Explanation of the split mode is right? need Anton help check...)
 
-![Figure: Split mode and Update](image_57.png)
+![Figure: Split mode and Update](Split mode and Update.png)
 
 Clicking **Update** in the control panel is necessary to display analysis results or to apply changes in the analysis settings.
 
@@ -34,7 +34,7 @@ Clicking **Update** in the control panel is necessary to display analysis result
 
 The plot appearance can be edited by using the tools available in the **plot menu** at the bottom of the control panel.
 
-![Figure: Plot menu](image_58.png)
+![Figure: Plot menu](Plot menu.png)
 
 From left to right:
 - **Home** button (‘House’): Reset the orientation of the plot in its frame.
@@ -50,6 +50,6 @@ From left to right:
 > **Note**: Any changes in graph appearance made through the plot menu are applied immediately, without clicking Update.
 {style='note'}
 
-![Figure: Dimensionality widget with control panel](image_62.png)
+![Figure: Dimensionality widget with control panel](Dimensionality widget with control panel.png)
 
 Dimensionality plots can be exported via the **Save** button (‘Memory disk’ symbol) in the plot menu at the bottom of the control panel or added to the report by clicking **Add to Report**.

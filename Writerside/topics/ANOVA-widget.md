@@ -2,7 +2,7 @@
 
 The **AN(C)OVA** widget offers multiple options for the Analysis of Variances (ANOVA) including One-Way ANOVA, N-Way ANOVA, repeated measures ANOVA, mixed design ANOVA and Analysis of Covariance (ANCOVA).
 
-![Figure:AN(C)OVA widget](image_52.png)
+![Figure:AN(C)OVA widget](AN(C)OVA widget.png)
 
 Settings for AN(C)OVA calculations can be adjusted in the control panel of the AN(C)OVA widget:
 - The respective analysis (One-Way ANOVA, N-Way ANOVA, repeated measures ANOVA, mixed design ANOVA, ANCOVA) can be chosen under **ANCOVA**. 
@@ -11,7 +11,7 @@ Settings for AN(C)OVA calculations can be adjusted in the control panel of the A
 - For the calculation of effect sizes, the **Effect size type** can be selected from the respective dropdown menu. The available effect size types are: unbiased Cohen d, Hedges g, eta-square, odds ratio, area under the curve and common language effect size. 
 - A dropdown menu to choose a method for **P-value adjustment** is available for N-way ANOVA, repeated measures ANOVA, mixed-design ANOVA and ANCOVA. Different methods for p-value adjustment include one-step Bonferroni, one-step Sidak, step-down Bonferroni, Benjamini/Hochberg FDR (false discovery rate) and Benjamini/Yekutieli FDR (false discovery rate). 
 
-![Figure:AN(C)OVA methods selecting](image_53.png)
+![Figure:AN(C)OVA methods selecting](AN(C)OVA methods selecting.png)
 
 > **Note**: For one-way ANOVA, p-value correction of pairwise comparisons is determined by the type of ANOVA (depending on homoscedasticity) and cannot be adjusted manually.
 > 

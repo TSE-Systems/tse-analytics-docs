@@ -6,7 +6,7 @@ These include animal information, factors, plot settings, settings for time binn
 Moreover, the report for each dataset is saved within a workspace and is restored when opening the workspace. 
 A *Workspace* can be saved via **File | Save Workspace** or by clicking the **Save Workspace** button. 
 
-![Figure: Options for saving a workspace](image_10.png)
+![Figure: Options for saving a workspace](Options for saving a workspace.png)
 
 > **Warning**: A workspace must be saved manually as described above before closing the software since workspaces are not saved automatically.
 > All changes made to a workspace will be lost if the workspace has not been saved before closing or exiting the software. 
@@ -15,7 +15,7 @@ A *Workspace* can be saved via **File | Save Workspace** or by clicking the **Sa
 
 A *workspace* which has been opened via **File | Open Workspace** or by clicking the **Open Workspace** button. Workspaces which have been used recently in TSE Analytics can be easily accessed via **File | Open Recent**.
 
-![Figure: Options for opening a workspace](image_11.png)
+![Figure: Options for opening a workspace](Options for opening a workspace.png)
 
 > **Warning**: Graphs, statistical analysis results, split modes, variable selection and outlier detection settings are NOT saved within a workspace and will be deleted or reset when closing TSE Analytics even if a workspace has been saved.
 {style = 'warning'}

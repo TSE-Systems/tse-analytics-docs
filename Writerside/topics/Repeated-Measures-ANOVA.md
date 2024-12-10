@@ -7,14 +7,14 @@ To perform repeated measures ANOVA using the within-subject factor â€œtime binâ€
 If needed, select a **P-values adjustment** method or adjust the **Effect size type** via the dropdown menu.
 Click **Update** to calculate analysis results and apply changes in the analysis settings.
 
-![Figure: Repeated Measure ANOVA widget](image_132.png)
+![Figure: Repeated Measure ANOVA widget](Repeated Measure ANOVA widget.png)
 
 > **Note**: Repeated measures ANOVA is only be performed if **Time Binning** is applied.
 {style='note'}
 
 Analysis result tables for repeated measures ANOVA include:
 
-![Figure: Sphericity test table](image_128.png)
+![Figure: Sphericity test table](Sphericity test table.png)
 
 **Sphericity test:**
 
@@ -24,7 +24,7 @@ Analysis result tables for repeated measures ANOVA include:
 - DOF: Degrees of freedom
 - p-value: p-value
 
-![Figure: Repeated measures one-way ANOVA table](image_129.png)
+![Figure: Repeated measures one-way ANOVA table](Repeated measures one-way ANOVA table.png)
 
 **Repeated measures one-way ANOVA:**
 
@@ -41,7 +41,7 @@ Analysis result tables for repeated measures ANOVA include:
 - W-spher: Sphericity test statistic
 - p-spher: p-value of the sphericity test
 
-![Figure: Pairwise post-hoc tests table](image_130.png)
+![Figure: Pairwise post-hoc tests table](Pairwise post-hoc tests table.png)
 
 **Pairwise post-hoc tests:**
 
