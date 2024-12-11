@@ -1,5 +1,7 @@
 # Distribution
 
+Distribution can be generated in the Exploration widget by selecting the **Plot type ‘Distribution’**. This allows you to visualize data distributions using options like the violin plot and the box plot.
+
 ## Violin plots
 
 Violin plots can be generated in TSE Analytics by selecting
