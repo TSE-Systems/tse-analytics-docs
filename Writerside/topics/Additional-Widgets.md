@@ -1,5 +1,7 @@
 # Additional Widgets
 
+New content
+
 The Add Widget in TSE Analytics software is the central hub for data analysis, encompassing a comprehensive range of statistical methods. Users can seamlessly visualize and analyze their selected datasets, leveraging intuitive tools and customizable options to gain insights.
 
 ![Figure: Add Widget Menu](Add Widget Menu.png)
