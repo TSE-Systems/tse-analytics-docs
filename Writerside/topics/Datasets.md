@@ -94,7 +94,7 @@ To create a copy of a dataset, select the respective dataset from the dataset li
 
 Two or more datasets can be merged by selecting the respective datasets in the _Dataset_ widget using the **tick boxes** on the left-hand side of the dataset list. To open the _Merge_ _Datasets_ dialogue window, click **Merge** in the header of the _Dataset_ widget.
 
-> **Note**: The **Merge** button will only be active if two or more datasets are selected via tick boxes in the _Dataset_ widget.
+> **Note**: The *Merge* button will only be active if two or more datasets are selected via tick boxes in the _Dataset_ widget.
 {style='note'}
 
 ![Figure: Merging two or more datasets selected via tick boxes](Merging two or more datasets selected via tick boxes.png)

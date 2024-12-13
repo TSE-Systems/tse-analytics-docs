@@ -6,7 +6,7 @@ In addition to specific export options which vary between different analysis and
 
 - Result tables and graphs can be added to the Report by clicking **Add to Report** at the bottom of the control panel of the respective widget.
 
-![Figure: Adding to Report](Adding to Report.png)
+![Figure: Adding to Report](Adding to report.png)
 
 - Then click the **Utils - Report**, the added report works as a text editor and allows to add customized text to analysis results.
 

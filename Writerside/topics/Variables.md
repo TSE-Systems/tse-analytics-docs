@@ -36,7 +36,7 @@ Decreasing the coefficient will result in more values being identified as outlie
 
 ![Figure: Outlier detection coefficient](Outlier detection coefficient.png)
 
-The variables to which outlier detection should be applied, need to be selected using the tick boxes in the ‘**Outliers’** column in the _Variables_ widget.
+The variables to which outlier detection should be applied, need to be selected using the tick boxes in the ‘**Outliers**’ column in the _Variables_ widget.
 Only variables selected here will be considered for the identification of outliers.
 The variable selection for outlier detection can be reset to the default (no variables selected) together with the aggregation mode selector by clicking **Reset** in the Variables widget.
 

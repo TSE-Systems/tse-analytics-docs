@@ -43,7 +43,7 @@ All analysis results can be selected by clicking on the data table and pressing 
 Selected content can then be copied to the clipboard using <shortcut>Ctrl+C</shortcut> or by right-clicking on the analysis window again and selecting **Copy**.
 Content copied to the clipboard can then be pasted and saved outside of TSE Analytics.
 
-![Figure: Export of AN(C)OVA and bivariate analysis results using "Copy and Paste"](Export of AN(C)OVA and bivariate analysis results using "Copy and Paste".png)
+![Figure: Export of AN(C)OVA and bivariate analysis results using "Copy and Paste"] (Export of AN(C)OVA and bivariate analysis results using "Copy and Paste".png)
 
 ## Export of Data via Report
 
