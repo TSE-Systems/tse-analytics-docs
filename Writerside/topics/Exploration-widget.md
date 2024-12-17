@@ -11,7 +11,7 @@ All plot settings can be adjusted using the control panel at the right-hand side
 
 ![Figure: Control panel in the Exploration widget](Control panel in the Exploration widget.png)
 
-The respective variable to be plotted can be selected from the **Variable** drop-down menu on the top. The type of plot (**Histogram, Distribution, Normality**) can be chosen under **Plot**. If the plot type Distribution has been selected, two plot options are available: **violin** and **boxplot** (see **Distribution as**). 
+The respective variable to be plotted can be selected from the **Variable** drop-down menu on the top. The type of plot (**Histogram, Distribution, Normality**) can be chosen under **Plot**. If the plot type Distribution has been selected, two plot options are available: **violin** and **boxplot**. 
 
 Various **Split modes** are available for all plot types:
 - **Total**: All data entries for the respective variable are considered for plotting.

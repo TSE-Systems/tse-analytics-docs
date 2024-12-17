@@ -1,4 +1,4 @@
-#Table
+# Table
 
 The **Table** widget shows all metadata as well as selected variables data for all animals selected in the Animal widget under consideration of Time binning and Outlier settings as well as the selected Split Mode. 
 
@@ -7,7 +7,7 @@ The **Table** widget shows all metadata as well as selected variables data for a
 ![Figure: Table window](Table window.png)
 
 - **DateTime**: Date and time of data collection
-- 
+
 > **Note**: *DateTime* is not included in Table for merged data files using the merging mode ‘Overlap’
 {style = 'note'}
 
@@ -19,7 +19,7 @@ The **Table** widget shows all metadata as well as selected variables data for a
 
 - **Box**: Box number as indicated in the PhenoMaster file and Animal widget.
 - **Run**: Run number. For individual datasets, the default value is “1”. For merged dataset (merged as multiple runs), each dataset is assigned a run number according to their merging order (i.e. their chronological order).
-- **Bin**: Time bin number. Data with the same ‘DateTime’ stamp, i.e. data collected at the same time (‘Deltatime’ for merged datasets using ‘Overlap’) is assigned the same time bin, according to their chronological order. If time binning is applied, time intervals, light/ dark cycles or time phases are used as time bins.
+- **Bin**: Time bin number. Data with the same ‘DateTime’ stamp, i.e. data collected at the same time (‘Timedelta’ for merged datasets using ‘Overlap’) is assigned the same time bin, according to their chronological order. If time binning is applied, time intervals, light/ dark cycles or time phases are used as time bins.
 - **Factors**: Factors and assignment of animals to groups as specified in the Factors widget.
 
 Data can be sorted by a variable by clicking on the respective variable in the table header. The order of data entries (low to high vs high to low) can be changed by clicking the respective variable header again. By default, data is sorted by 'DateTime'.

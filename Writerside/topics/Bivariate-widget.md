@@ -4,8 +4,8 @@ To analyze the relationship between two variables, **Correlation** and **Regress
 
 ![Figure: Bivariate widget](Bivariate widget.png)
 
-- Two variables of interest can be selected from the dropdown menus **“X”** and **“Y”** for **Correlation** analysis or **“Covariate”** and **“Response”** for **Regression** analysis on the top of the control panel in the Bivariate window. 
-- The type of analysis (**Correlation** or **Regression**) can be selected under **Analysis**. 
+- Two variables of interest can be selected from the dropdown menus **“X”** and **“Y”**. 
+- The type of analysis (**Correlation** or **Regression**) can be selected under **Bivariate**. 
 - Different **Split Modes** (**Total**, **By Animal**, **By Run**, **By Factor**) can be applied to correlation and regression analysis. 
 
 To show plots and analysis results and to apply changes in the settings, click **Update** in the control panel. 
