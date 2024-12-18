@@ -29,3 +29,9 @@ The main menu comprises file import, save and export functions under **File**, v
 - About: View information about the software version, access to open-source code, license agreement and third-party libraries.
 
 ![Figure: Help Widget](Help Widget.png)
+
+
+> **Note:** If the toolbar disappears, and you can't find the following widgets: Open Workspace, Save Workspace, Import Dataset, and Add Widget, it is likely that the toolbar has been hidden. To restore the toolbar, right-click on the main menu and select the option to display the toolbar again.
+> {style = 'note'}
+
+![Figure: Dispaly the toolbar](Dispaly the toolbar_3.png)
