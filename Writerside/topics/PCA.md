@@ -8,7 +8,7 @@ To perform a Matrix Plot in TSE Analytics, go to **Add Widget | Dimensionality |
 
 ![Figure: PCA results window.png](PCA results window.png)
 
-**Interpreting PCA Results**
+**PCA Analysis**
 
 - **Explained Variance Ratio**:
 This indicates the proportion of the dataset's variance captured by each component. Higher values mean the component captures more of the dataset's structure.The total variance shown as example figure is **93.86%**, which is quite high. This means that these two components capture most of the variability in your data. 
