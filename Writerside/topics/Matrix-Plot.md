@@ -11,5 +11,5 @@ To perform a Matrix Plot in TSE Analytics, go to **Add Widget | Dimensionality |
 
 Once you've made your selections, click **Update**. The Matrix Plot will display the relationships between the variables you chose, making it easy to spot patterns or correlations that can guide your next steps in the analysis.
 
-> **Note:** The Matrix Plot works by identifying the pairwise relationships between selected features. Therefore, the software only works at least two or more variables for the Matrix Plot to generate meaningful results.
+> **Note:** The Matrix Plot works by identifying the pairwise relationships between selected features. Therefore, the software only works at least **two or more variables** for the Matrix Plot to generate meaningful results.
 {style='note'}

@@ -24,5 +24,5 @@ By reducing the data dimensions, you can visualize clusters or trends in your da
 
 ![Figure : PCA at least three variables need to choose.png](PCA at least three variables need to choose.png)
 
-> **Note:** Using fewer variables may limit the ability to capture meaningful patterns in the data.Therefore, please ensure that at least **three variables** need to be chosen for the PCA analysis when using software.
+> **Note:** Using fewer variables may limit the ability to capture meaningful patterns in the data.Therefore, please ensure that at least **three or more variables** need to be chosen for the PCA analysis when using software.
 {style='note'}

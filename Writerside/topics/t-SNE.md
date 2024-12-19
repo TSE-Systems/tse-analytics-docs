@@ -22,5 +22,5 @@ Points that are close together on the plot indicate that they are similar in the
 
 ![TSNE at least three variables to choose.png](TSNE at least three variables to choose.png)
 
-> **Note:**  The t-SNE algorithm requires at least three variables to accurately capture the complex relationships and high-dimensional structure of the data. Therefore, the software only supports the selection of at least **three variables** for tSNE analysis.
+> **Note:**  The t-SNE algorithm requires at least three variables to accurately capture the complex relationships and high-dimensional structure of the data. Therefore, the software only supports the selection of at least **three or more variables** for tSNE analysis.
 {style='note'}
