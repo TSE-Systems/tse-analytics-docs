@@ -49,7 +49,7 @@ between different datasets:
 
 ![Figure: datasets](datasets.png)
 
-> **Note**: Only one dataset can be active at the time in the workspace!
+> **Note**: Only one dataset can be active at a time in the workspace!
 {style='note'}
 
 When dataset is selected, all other widgets will be updated accordingly: for example, **Info**, **Animals**,

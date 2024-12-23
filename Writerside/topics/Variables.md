@@ -14,12 +14,12 @@ entries you want to choose. To select/deselect individual entries, click on the 
 
 Different methods of calculation (**Aggregation** modes) can be used for the calculation of data values for individual time bins during binning: mean, median, sum, minimum and maximum.
 
-![Figure: Aggregation mode](Aggregation mode.png)
+![Figure: Aggregation mode](aggregation-mode.png)
 
 These modes can be specified individually for each variable via the dropdown menu in the **Aggregation** column of the _Variables_ widget.
 The most suitable aggregation mode differs between variables depending on the way data is collected and displayed during a PhenoMaster experiment.
 
-![Figure: Resetting default aggregation mode](Resetting default aggregation mode.png)
+![Figure: Resetting variables](resetting-variables.png)
 
 The default aggregation mode is the recommended method of calculation. Aggregation modes for all variables can be reset to the default state by clicking **Reset** in the header of the _Variables_ widget.
 
@@ -29,12 +29,12 @@ The default aggregation mode is the recommended method of calculation. Aggregati
 Outlier detection settings can be adjusted in the _Variables_ widget.
 Here, one can choose between different modes via the dropdown menu: no outlier detection (**Outliers detection off**), highlighting outliers in the data table (**Highlight outliers**), and removing outliers from the dataset (**Remove outliers**).
 
-![Figure: Selection of outlier detection mode in the variables tab](Selection of outlier detection mode in the variables tab.png)
+![Figure: Outlier detection mode](outlier-detection-mode.png)
 
 The sensitivity of outlier detection can be adjusted via the coefficient (for further information about the outlier detection method used (please see below: IQR method for outlier detection).
 Decreasing the coefficient will result in more values being identified as outliers, while increasing the coefficient will result in less outliers.
 
-![Figure: Outlier detection coefficient](Outlier detection coefficient.png)
+![Figure: Outlier detection coefficient](outlier-detection-coefficient.png)
 
 The variables to which outlier detection should be applied, need to be selected using the tick boxes in the ‘**Outliers**’ column in the _Variables_ widget.
 Only variables selected here will be considered for the identification of outliers.
@@ -46,7 +46,7 @@ The variable selection for outlier detection can be reset to the default (no var
 > Therefore, it is recommended to only select the variable(s) for outlier detection which are used for subsequent analysis.
 {style='warning'}
 
-![Figure: Selecting (left) and resetting (right) of variables for outlier detection. in the Variables widget](Selecting (left) and resetting (right) of variables for outlier detection. in the Variables widget.png)
+![Figure: Selecting outliers variables](selecting-outliers-variables.png)
 
 
 > **IQR method for outlier detection**

@@ -2,9 +2,9 @@
 
 The **Table** widget shows all metadata as well as selected variables data for all animals selected in the Animal widget under consideration of Time binning and Outlier settings as well as the selected Split Mode. 
 
-![Figure: Table widget](Table widget.png)
+![Figure: Table command](table-command.png)
 
-![Figure: Table window](Table window.png)
+![Figure: Table widget](table-widget.png)
 
 - **DateTime**: Date and time of data collection
 
@@ -38,13 +38,13 @@ Data of each time bin is grouped according to the **Split Mode** selected in the
 
 - **Factor**: The mean of all animals assigned to the same factor group is calculated for each bin. The factor considered for grouping has to be selected from the Factor dropdown menu.
 
-For each selected variable, statistical descriptives including the count of values (count), mean, standard deviation (std), minimum and maximum are displayed in a separate window under **Descriptive Statistics** in the control panel. Descriptives can be added to the report by clicking **Add to Report** at the bottom of the control panel.
+For each selected variable, descriptive statistics including the count of values (count), mean, standard deviation (std), minimum and maximum are displayed in a separate window under **Descriptive Statistics** in the control panel. Descriptives can be added to the report by clicking **Add to Report** at the bottom of the control panel.
 
-![Figure: Data table (containing factors and selected variables) and control panel for split mode ‘By Animal’](table-data-view.png)
+![Figure: Table data view](table-data-view.png)
 
 Data table entries as displayed in the Table widget can be exported as Excel or text (CSV) files via **File - Export to CSV** or **File – Export to Excel**.
 
-![Figure: Export of Data table](export-table-data.png)
+![Figure: Tabular data export](export-table-data.png)
 
 > **Warning**: Grouping of data using split modes will not affect the exported data table, but only the data displayed within the software. The exported data table will always contain all variables exported from PhenoMaster independent of variable selection in the Table widget.
 {style = 'warning'}

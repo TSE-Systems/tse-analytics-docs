@@ -27,19 +27,19 @@ Before installing TSE Analytics, ensure your system meets the following minimum 
 3. **Installation Wizard**: Follow the on-screen instructions provided by the installation wizard.
 - **Installation Directory**: Choose the installation directory or use the default path and choose whether to create a desktop shortcut.
 
-![Figure:Installation Directory](Installation Directory.png)
+![Figure:Installation Directory](installation-directory.png)
 
 - **Complete Installation**: Click "Install" to begin the installation process. Once completed, click "Finish" to exit the wizard
 
-![Figure: Complete Installation](Complete Installation.png)
+![Figure: Complete Installation](complete-installation.png)
 
 ## Uninstallation
 
 Go to **Control Panel** > **Programs** > **Uninstall a program**. Select “TSE Analytics” in the list of installed programs and click "Uninstall."
 
-![Figure: Uninstallation (step1)](Deinstallation.png)
+![Figure: Uninstallation (step1)](uninstallation.png)
 
-![Figure: Uninstallation (step2)](Deinstallation2.png)
+![Figure: Uninstallation (step2)](uninstallation2.png)
 
 > **Warning**: Please ensure to save all open workspaces and export all relevant data before uninstalling TSE Analytics.
 > Data which has not been saved on your device cannot be restored after Uninstallation.

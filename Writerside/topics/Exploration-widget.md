@@ -2,14 +2,14 @@
 
 TSE Analytics offers multiple graphical tools to perform exploratory and distribution analysis in the **Exploration** widget, including histograms, violin- and boxplots, as well as normal probability plots. Plots can be generated using different split modes (total, by animal, by run, by factor) under consideration of time binning settings and outlier detection settings. 
 
-![Exploration widget](Exploration widget.png)
+![Exploration widgets](exploration-widgets.png)
 
-> **Warning:** Only animals selected in the Animal list are considered for the calculation and display  of plots in the Exploration widget. Changes regarding the selection of animals are only applied after clicking **Update**.
+> **Warning**: Only animals selected in the Animal list are considered for the calculation and display  of plots in the Exploration widget. Changes regarding the selection of animals are only applied after clicking **Update**.
 {style = 'warning'}
 
 All plot settings can be adjusted using the control panel at the right-hand side of the Exploration widget.
 
-![Figure: Control panel in the Exploration widget](Control panel in the Exploration widget.png)
+![Figure: Exploration widgets settings](exploration-widgets-settings.png)
 
 The respective variable to be plotted can be selected from the **Variable** drop-down menu on the top. The type of plot (**Histogram, Distribution, Normality**) can be chosen under **Plot**. If the plot type Distribution has been selected, two plot options are available: **violin** and **boxplot**. 
 
@@ -35,7 +35,7 @@ The plot appearance can be edited by using the tools available in the **plot men
 - **Customize** (‘Graph’): Define title, axis range, label and scale, and legend. Adjust style, size and color of curves (applies only to some elements within normality plots and violin plots).
 - **Save** (‘Memory disc’): Save image on the hard drive.
 
-> **Note:** Any changes in graph appearance made through the plot menu are applied immediately, without clicking Update.
+> **Note**: Any changes in graph appearance made through the plot menu are applied immediately, without clicking Update.
 {style = 'note'}
 
 In addition to saving a plot on the hard drive via the plot menu, the graph displayed can be added to the report by clicking **Add to Report** and will be saved together with the currently active workspace.

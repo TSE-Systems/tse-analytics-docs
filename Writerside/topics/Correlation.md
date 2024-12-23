@@ -3,13 +3,13 @@
 **Correlation** analysis in TSE Analytics can be performed to determine the degree to which two selected variables X and Y are linearly related using the Pearson correlation coefficient.
 Results of a correlation analysis performed in TSE Analytics are displayed as a scatter plot for all data pairs included in the analysis, individual density plots or histograms (for split mode ‘Total’) for each variable, the Pearson correlation coefficient together with associated statistical parameters, as well as t test statistics comparing X and Y variable.
 
-![Figure: Correlation window](Correlation window.png)
+![Figure: Correlation command](correlation-command.png)
 
 ## Correlation plots
 
 Data pairs for each time bin are depicted as dots in the **scatter plot** and are dependent on the selected split mode and time binning settings.
 
-![Figure: Variable and split mode in correlation window](Variable and split mode in correlation window.png)
+![Figure: Correlation widget settings](correlation-widget-settings.png)
 
 - Split mode **Total** uses the mean data values of all animals per time bin.
 -	Split mode **By Animal** does not calculate means but uses individual data points for each animal per time bin.
@@ -24,13 +24,13 @@ Data pairs for each time bin are depicted as dots in the **scatter plot** and ar
 
 To adjust the appearance of a plot, use the **‘Customize’** tool (‘Graph’ symbol) in the plot menu and select the respective plot from the drop-down menu (**“[Variable X] – [Variable Y]”** for scatter plot and **“[Variable X] – Count/Density”** or **“Count/Density – [Variable Y]”** for density plots/ histograms).
 
-- The title, as well as range, label and scale of axis and generation of an automatic legend of the individual plots can be defined in the **Axes tab** of the Customize tool.
+- The title, as well as range, label and scale of axis and plot legend generation of individual plots can be defined in the **Axes tab** of the Customize tool.
 - In the case of multiple animals, runs or groups (for split modes By Animal, By Run or By Factor, respectively), the appearance of each data subset can be adjusted individually in the **Curves tab** of the ‘Customize’ tool by selecting the respective subset form the upper
   dropdown menu.
 
 ![Figure: Plot selection of the Customize tool for correlation analysis](Plot selection of the Customize tool for correlation analysis.png)
 
-![*Figure: Axes tab of the Customize tool for correlation analysis](Axes tab of the Customize tool for correlation analysis.png)
+![Figure: Axes tab of the Customize tool for correlation analysis](Axes tab of the Customize tool for correlation analysis.png)
 
 ![Figure: Curves tab of the Customize tool for correlation analysis](Curves tab of the Customize tool for correlation analysis.png)
 
@@ -38,7 +38,7 @@ To adjust the appearance of a plot, use the **‘Customize’** tool (‘Graph�
 
 Correlation analysis results are calculated based on the (mean) data values per time bin depending on the respective split mode.
 
-![Figure: Correlation analysis resulta table](Correlation analysis resulta table.png)
+![Figure: Correlation analysis results table](correlation-analysis-results-table.png)
 
 The **Pearson correlation** coefficient table indicates (from left to right):
 

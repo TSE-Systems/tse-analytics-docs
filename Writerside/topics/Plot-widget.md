@@ -2,14 +2,14 @@
 
 Line and scatter plots (if no binning or binning using time phases is applied) or bar plots (for time binning using light/dark cycles or time phases) can be generated using the **Plot** widget. 
 
-![Figure: Plot widget](Plot widget.png)
+![Figure: Plot command](plot-command.png)
 
 > **Warning**: Only animals selected in the Animal list are considered for the calculation of plots in the Plot widget
 {style = 'warning'}
 
 Variable selection, split modes and plot settings can be adjusted using the control panel on the right-hand side of the plot.
 
-![Figure: Plot window with control panel](Plot window with control panel.png)
+![Figure: Plot widget](plot-widget.png)
 
 The **Variable** to be plotted is selected from the dropdown menu in the upper right corner within the Plot widget. 
 
@@ -30,10 +30,12 @@ For **line and scatter plots** (only if no time binning is applied or time binni
 - For line and scatter plots, two data plots are displayed. The large upper window is the main plot window and all settings specified in the control panel will be applied to this plot. The smaller plot at the bottom is always displayed as a line plot without error bars and serves as an overview over the whole plot. When the upper plot is used for zooming or enlarging an area of interest, a blue rectangle in the smaller plot at the bottom indicates the sector of the whole plot that is currently displayed in the upper window.
 - The layout of both plots can be reset to their initial state by clicking **“A”** in the bottom left corner of each plot. The reset button (**“A”**) is only visible when hovering over the respective plot with the mouse cursor. 
 
-![Figure: Line and scatter plots](Line and scatter plots.png)
+![Figure: Line and scatter plots](line-scatter-plots.png)
 
-Right-clicking on the plot opens a submenu for plot modifications. Here, further adjustments regarding the plot appearance (e.g. axis, grid, transparency, etc.) can be made.****
+Right-clicking on the plot opens a submenu for plot modifications.
+Here, further adjustments regarding the plot appearance (e.g. axis, grid, transparency, etc.) can be made.****
 
-![Figure: Plot modification menu](plot-data-view-options.png)
+![Figure: Plot options](plot-data-view-options.png)
 
-The plot displayed can be exported by selecting **Export** and adjusting export options in the Export window. Alternatively, the current plot can be added to the report by clicking **Add to Report** in the control panel and will be saved together with the currently active workspace.
+The plot displayed can be exported by selecting **Export** and adjusting export options in the Export window.
+Alternatively, the current plot can be added to the report by clicking **Add to Report** in the control panel and will be saved together with the currently active workspace.
