@@ -7,11 +7,11 @@ Select a factor from the **Factors** list, choose a dependent variable from the 
 If needed, a **P-values adjustment** method and **Effect size type** can be selected from the respective dropdown menu.
 Analysis results are calculated according to the selected settings by clicking **Update**.
 
-![Figure: ANCOVA widget](ANCOVA widget.png)
+![Figure: ANCOVA widget](ancova-command.png)
 
 Analysis result tables for ANCOVA include:
 
-![Figure: ANCOVA analysis results table](ANCOVA analysis results table.png)
+![Figure: ANCOVA analysis results table](ancova-analysis-results-table.png)
 
 **ANCOVA:**
 
@@ -22,7 +22,7 @@ Analysis result tables for ANCOVA include:
 - p-unc: Uncorrected p-values
 - np2: Partial eta-squared
 
-![Figure: Pairwise post-hoc tests table](Pairwise post-hoc tests table.png)
+![Figure: Pairwise post-hoc tests table](pairwise-post-hoc-tests-table.png)
 
 **Pairwise post-hoc tests:**
 

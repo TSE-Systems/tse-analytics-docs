@@ -14,33 +14,36 @@ Before installing TSE Analytics, ensure your system meets the following minimum 
 - Storage: SSD
 - Disk Space: 700 Mb of free space for installation; 10 Gb or more free space recommended for smooth data handling
 
-> **Note**: TSE Analytics can ONLY be used in combination with the PhenoMaster specific version for designated customers.
-> For details on the specific version, please contact your TSE sales representative.
+> **Note**: TSE Analytics can ONLY be used in combination with the PhenoMaster software specific version for designated customers.If you have any further questions, please contact [TSE Service](https://www.tse-systems.com/support/).
 {style='note'}
-
-[//]:# (TODO: Which Phenomaster Specific Verson )
 
 ## Installation
 
 1. **Locate the Installer**: Navigate to the folder where the installer file was downloaded.
-2. **Run the Installer**: Double-click the installer file (tse-analytics-setup-1.0.0.exe).
+
+![Figure: Locate the Installer](Located the Installer.png)
+
+2. **Run the Installer**: Double-click the installer file.
+
+![Figure: Run the Installer](Run the Installer.png)
+
 3. **Installation Wizard**: Follow the on-screen instructions provided by the installation wizard.
-- **Installation Directory**: Choose the installation directory or use the default path and choose whether to create a desktop shortcut.
 
-![Figure:Installation Directory](installation-directory.png)
+![Figure: Wizard Installation](Wizard Installation.png)
 
-- **Complete Installation**: Click "Install" to begin the installation process. Once completed, click "Finish" to exit the wizard
+4. **Installation Directory**: Choose the installation directory or use the default path and choose whether to create a desktop shortcut.
 
-![Figure: Complete Installation](complete-installation.png)
+![Figure: Installation Finish](Installation Finish.png)
 
 ## Uninstallation
 
 Go to **Control Panel** > **Programs** > **Uninstall a program**. Select “TSE Analytics” in the list of installed programs and click "Uninstall."
 
-![Figure: Uninstallation (step1)](uninstallation.png)
+![Figure: Uninstallation (Step1)](uninstallation.png)
 
-![Figure: Uninstallation (step2)](uninstallation2.png)
+![Figure: Uninstallation (Step2)](Uninstallation 2.png)
 
-> **Warning**: Please ensure to save all open workspaces and export all relevant data before uninstalling TSE Analytics.
-> Data which has not been saved on your device cannot be restored after Uninstallation.
+> **Important**: Please ensure to save all open workspaces and export all relevant data before uninstalling TSE Analytics.Data which has not been saved on your device cannot be restored after uninstallation.
 {style='warning'}
+
+

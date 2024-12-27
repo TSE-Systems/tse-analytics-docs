@@ -28,11 +28,11 @@ To adjust the appearance of a plot, use the **‘Customize’** tool (‘Graph�
 - In the case of multiple animals, runs or groups (for split modes By Animal, By Run or By Factor, respectively), the appearance of each data subset can be adjusted individually in the **Curves tab** of the ‘Customize’ tool by selecting the respective subset form the upper
   dropdown menu.
 
-![Figure: Plot selection of the Customize tool for correlation analysis](Plot selection of the Customize tool for correlation analysis.png)
+![Figure: Plot selection of the Customize tool for correlation analysis](plot-customization-1.png)
 
-![Figure: Axes tab of the Customize tool for correlation analysis](Axes tab of the Customize tool for correlation analysis.png)
+![Figure: Axes tab of the Customize tool for correlation analysis](plot-customization-axes.png)
 
-![Figure: Curves tab of the Customize tool for correlation analysis](Curves tab of the Customize tool for correlation analysis.png)
+![Figure: Curves tab of the Customize tool for correlation analysis](plot-customization-curves.png)
 
 ## Correlation results table
 
@@ -53,7 +53,7 @@ The **Pearson correlation** coefficient table indicates (from left to right):
 -	BF10: Bayes factor of the alternative hypothesis
 -	power: Achieved power of the test (= 1 - type II error)
 
-The **T test statistics** comparing the X and Y variable include (from left to right):
+The **T-test statistics** comparing the X and Y variable include (from left to right):
 
 - T: T-value
 - dof: Degrees of freedom

@@ -5,7 +5,7 @@ Mixed-design ANOVA can be used to determine the effects of within-subject factor
 In TSE Analytics, (two-way) mixed-design ANOVA is performed using the within-subject factor “time bin” (depending on the selected time binning settings) and one between-subject factor as determined in the factors list.
 To perform mixed-design ANOVA, select the respective data set from the *Add widget* and choose **Mixed-design ANOVA** as the analysis **Mode** in the AN(C)OVA control panel. 
 
-![Figure: Mixed-design ANVOVA widget](Mixed-design ANVOVA widget.png)
+![Figure: Mixed-design ANVOVA widget](mixed-design-anova-command.png)
 
 **Apply (Time) Binning** using the binning mode which defines the repeated measures, i.e. bins, of interest.
 Select a between-subject factor from the **Factors** list and choose a variable from the **Dependent Variable** list.
@@ -17,7 +17,7 @@ Analysis results are calculated according to the selected settings by clicking *
 
 Analysis result tables for repeated measures ANOVA include:
 
-![Figure: Sphericity test table](Sphericity test table.png)
+![Figure: Sphericity test table](sphericity-test-table.png)
 
 **Sphericity test:**
 
@@ -27,7 +27,7 @@ Analysis result tables for repeated measures ANOVA include:
 - DOF: Degrees of freedom
 - p-value: p-value
 
-![Figure: Mixed-design ANOVA table](Mixed-design ANOVA table.png)
+![Figure: Mixed-design ANOVA table](mixed-design-anova-table.png)
 
 **Mixed-design ANOVA:**
 
@@ -41,7 +41,7 @@ Analysis result tables for repeated measures ANOVA include:
 - np2: Partial eta-squared effect sizes
 - eps: Greenhouse-Geisser epsilon factor (= index of sphericity)
 
-![Figure: Pairwise post-hoc tests table](Pairwise post-hoc tests table.png)
+![Figure: Pairwise post-hoc tests table](pairwise-post-hoc-tests-table.png)
 
 **Pairwise post-hoc tests:**
 

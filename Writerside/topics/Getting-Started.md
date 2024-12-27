@@ -9,7 +9,7 @@ The layout is saved when you quit the application.
 > **Note**: Default layout can be restored by clicking **View | Reset Layout** menu command.
 {style='note'}
 
-![Figure: main window](main.png)
+![Figure: Main Window.png](Main Window.png)
 
 ## Data structure
 
@@ -39,10 +39,6 @@ All data in the application are organized in the following manner:
 
 Top level data structure is a *Workspace*. It can contain one or many datasets.
 
-Each *dataset* represents a single imported CSV data file from TSE PhenoMaster software.
-All relevant metadata extracted during import procedure (e.g., sampling time, animals and variables lists, etc.).
-Each dataset contains a set of its own settings. After initial import, dataset is assigned an experiment *Run* number **1** by default.
-
 To import dataset, please click **File | Import Dataset** command. As soon as data from CSV file are imported,
 you will see a new entry in the *Datasets* widget. By selecting a specific entry in this widget, one can switch freely
 between different datasets:
@@ -55,19 +51,20 @@ between different datasets:
 When dataset is selected, all other widgets will be updated accordingly: for example, **Info**, **Animals**,
 **Variables** and **Factors** widgets will show information relevant to the active (currently selected) dataset.
 
-Let's have a look at selection widgets.
+## Data Analysis Pipeline
 
+The data analysis pipeline defines the internal logic by which the software processes and prepares raw data before it is used by any analytical or visualization widget.
+In other words, it represents the sequence of operations that transform raw experimental data into a consistent and analysis-ready form.
+This ensures that all widgets work with the same filtered, cleaned, and time-aligned dataset, providing consistent analytical results across the application.
+### 1. Animal Filtering
+The system selects data only for the animals chosen in the **Animals** widget.This allows users to focus on a specific subset of animals for analysis.
+### 2. Outlier Removal
+The pipeline can remove outlier values — data points that are statistically abnormal or likely due to measurement errors.  
+This step can be enabled or disabled in the **Outliers** widget.
+### 3. Time Binning
+The data are grouped into defined time intervals (“bins”), simplifying temporal analysis and making it easier to observe behavioral trends over time.
 
-## Data analysis pipeline
-
-Almost all widgets (with some exceptions mentioned later) work with the preprocessed data that passed through the
-internal data analysis pipeline.
-
-1. Raw data first goes into *Animal Filter* pipe operator. This unit obtains data only for the selected set
-   of animals. Animals can be selected in **Animals** widget.
-2. The Second step is the outliers removal in the *Outliers* pipe operator. This unit can be activated/deactivated in the
-   **Outliers** widget (see details below).
-3. The Last step in the preprocessing data pipeline is *time binning* operation.
+Each of these preprocessing stages is described in detail in the following sections.
 
 > **Note**: If you observe some strange results during your analysis, please check that proper animals are selected in **Animals** widget!
 {style='note'}
