@@ -4,10 +4,10 @@ Time series autocorrelation refers to the correlation of a time series with its 
 It measures the degree of similarity between a time series and a lagged version of itself over successive time intervals.
 Autocorrelation is a key concept in time series analysis as it helps in identifying patterns and dependencies in the data.
 
-![Figure: Time Series Autocorrelation window](Time Series Autocorrelation window.png)
+![Figure: Time Series Autocorrelation command](timeseries-autocorrelation-command.png)
 
 
-![Example of timeseries autocorrelation window display](Example of timeseries autocorrelation window display.png)
+![Timeseries autocorrelation widget](timeseries-autocorrelation-widget.png)
 
 > **Note**: The y-axis shows the correlation values, ranging from -1 to +1, representing the strength and direction of the relationship between the data points.
 > A value close to +1 indicates a strong positive correlation, while a value near -1 indicates a strong negative correlation.
@@ -21,7 +21,7 @@ Clicking **Update** in the control panel is necessary to display time series plo
 
 The plot appearance can be edited by using the tools available in the **plot menu** at the bottom of the control panel.
 
-![Figure: Plot menu](Plot menu.png)
+![Figure: Plot menu](plot-menu.png)
 
 From left to right:
 - **Home** button (‘House’): Reset the orientation of the plot in its frame.

@@ -7,11 +7,11 @@ Select two or more factors from the **Factors** list and choose a variable from 
 If needed, select a **P-values adjustment** method or adjust the **Effect size type** via the dropdown menu.
 Click **Update** to calculate results and apply changes in the analysis settings.
 
-![Figure: N-way ANOVA widget](N-way ANOVA widget.png)
+![Figure: N-way ANOVA widget](n-way-anova-command.png)
 
 Analysis result tables for N-way ANOVA include:
 
-![Figure: Two-way ANOVA analysis results table](Two-way ANOVA analysis results table.png)
+![Figure: Two-way ANOVA analysis results table](two-way-anova-results-table.png)
 
 **N-way ANOVA** (Two-way ANOVA, Three-way ANOVA, …):
 
@@ -23,7 +23,7 @@ Analysis result tables for N-way ANOVA include:
 - p-unc: uncorrected p-values
 - np2: Partial eta-square effect sizes
 
-![Figure: Pairwise post-hoc tests table](Pairwise post-hoc tests table.png)
+![Figure: Pairwise post-hoc tests table](pairwise-post-hoc-tests-table.png)
 
 **Pairwise post-hoc tests** (only for two-way ANOVA):
 

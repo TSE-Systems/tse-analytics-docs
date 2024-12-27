@@ -5,4 +5,4 @@ The *Info, Help, and Log* panel, located in the lower-left corner of the TSE ana
 
 [//]:# (TODO:Who/which will be the interface when customer has the systme problme? Insert link or email address when decide)
 
-![Figure:Log widget](Log widget.png)
+![Figure:Log widget](log-widget.png)

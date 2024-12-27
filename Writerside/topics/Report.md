@@ -2,7 +2,7 @@
 
 In addition to specific export options which vary between different analysis and plots, all results can be saved within a workspace and outside of TSE Analytics using the **Report** Widget.
 
-![Figure: Utils-Report widget](Utils-Report widget.png)
+![Figure: Report command](report-command.png)
 
 - Result tables and graphs can be added to the Report by clicking **Add to Report** at the bottom of the control panel of the respective widget.
 
@@ -10,7 +10,7 @@ In addition to specific export options which vary between different analysis and
 
 - Then click the **Utils - Report**, the added report works as a text editor and allows to add customized text to analysis results.
 
-![Figure: Editing the added report](Editing the added report.png)
+![Figure: Report editing](report-editing.png)
 
 The Report menu offers several tools for editing the report and text elements (from left to right):
 
