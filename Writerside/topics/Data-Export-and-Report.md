@@ -4,14 +4,14 @@ TSE Analytics offers multiple options for data export depending on the data form
 
 ## Export of Data table
 
-The data table of the active dataset including all variables can be exported using text (.csv) or Excel (.xlsx) format via **File | Export to CSV** or **File | Export to Excel** in the software header.
+The data table of the active dataset including all variables can be exported using text (.csv) or Excel (.xlsx) format via **Export | Export to CSV** or **Export| Export to Excel** in the header.
 After setting the file destination and file name in the File Explorer, the data table is stored at the selected destination by clicking **Save**. 
 
-![Figure: Data table export](data-table-export.png)
+![Figure: Export of Data Table](Export of Data Table.png)
 
 This data export option will save the current version of the active data table under consideration of changes that have been made using TSE Analytics. Changes considered for the exported data table include merging of datasets, exclusion of animals and animal selection in the animals list via checkboxes, exclusion of time phases and adjustment of time, editing of animal information or factors, time binning and removal of outliers.
 
-> **Warning**: Variable selection and Split Mode selection in the Table control panel do not affect the content of the exported data table, but only the way data is displayed in the Table widget.
+> **Important**: Variable selection and Split Mode selection in the Table control panel do not affect the content of the exported data table, but only the way data is displayed in the Table widget.
 > The exported data table always contains all variables extracted from the PhenoMaster file and data for individual animals (as for Split Mode “By Animal”).
 >
 > Similarly, sorting of data entries in the Table widget will change the order of data entries displayed under Table, but will not affect the exported data table.
@@ -19,12 +19,49 @@ This data export option will save the current version of the active data table u
 
 ##  Export of Raw Data Plots
 
-Data plots created in the _Plot_ widget can be exported by **right-clicking** on the plot window and selecting **Export** from the menu.
+First, ensure that your **main window** is displaying the plot you wish to export. For instructions on how to display data plots, refer to the chapter of this manual **Import|Data Overview and Visualization**
 
-In the _Export_ window which opens subsequently, one can choose which item of the plot should be exported (selected item framed in yellow), select the export format (CSV of original plot data; image file format such as _.png, .tif, .jpg_; Matplotlib Window; Scalable Vector Graphics) and adjust additional export parameters depending on the export format. By clicking **Copy**, image files and scalable vector graphics can be copied to the clipboard, while **Export** allows to select file destination and name, specifiy the data format and save the file by clicking **Save** in the _Save As_ window.
+![Figure: Data Plot](Data Plot.png)
+
+Once the plot is visible on your desktop, move the mouse cursor over the plot and **right-click**. This allows you to customize the display mode of the plot.
+
+### Plot Export Options
 
 ![Figure: Raw data plot export](raw-data-plot-export.png)
 
+In the **Plot Export** menu, you will find several options for exporting or customizing your plots:  
+
+- **CSV of Original Plot Data** – Exports the raw data used to generate the plot in CSV format.  
+- **Image File** – Exports the plot as an image file (e.g., PNG or JPEG).  
+- **Matplotlib Window** – Opens the plot in a separate **Matplotlib** window, allowing further customization and editing.  
+- **SVG** – Exports the plot as a scalable vector graphic file.  
+
+#### Matplotlib Window
+
+![Figure: Matplotlib Window](Matplotlib Window.png)
+
+When selecting **Matplotlib**, the plot opens in a standalone Matplotlib interface where you can modify and refine its appearance in greater detail.  
+The toolbar at the top of this window provides several useful tools, listed from left to right:  
+
+![Figure: Matplotlib Toolbar](Matplotlib Toolbar.png)
+
+- **Home (House icon)** – *Reset View.* Restores the plot to its original appearance after any modifications.  
+- **Back/Forward (Arrow icons)** – Navigate backward or forward through previous plot views or edits.  
+- **Pan (Crossed arrows icon)** – Enables panning and zooming of the entire plot. Click and drag to move the plot or adjust the zoom level.  
+- **Zoom (Magnifying glass icon)** – Allows zooming into a specific area of the plot. After selecting this tool, the cursor changes shape; click and drag to define the region to magnify.  
+- **Configure Subplots (Three horizontal bars icon)** – Opens the subplot configuration panel, allowing you to adjust the overall layout, including figure size, margins, and spacing.  
+
+![Figure: Configure Subplots](Configure Subplots.png)
+
+- **Edit Plot (Upward arrow icon)** – Opens the plot editor, where you can customize X- and Y-axis parameters such as range limits, scaling, and axis labels. 
+
+![Figure: Edit Plot](Edit Figure.png)
+
+- **Save (Floppy disk icon)** – Opens the save dialog, allowing you to select an output format (e.g., JPG, PNG, PDF) and specify the file version or name.  
+
+![Save Dialog.png](Save Dialog.png)
+
+This option is particularly useful when you need to refine or customize the visual presentation of your data plot before the final export.
 ## Export of Data from the Exploration, Bivariate, Dimensionality and Timeseries Widgets
 
 Export of analysis results and graphs works in the same way for the _Exploration_ widget (histograms, violin plots, box plots and normal probability plots), _Bivariate_ widget (correlation and regression analysis) and the _Timeseries_ widget. 
