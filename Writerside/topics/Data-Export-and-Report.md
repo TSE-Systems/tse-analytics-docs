@@ -62,6 +62,7 @@ The toolbar at the top of this window provides several useful tools, listed from
 ![Save Dialog.png](Save Dialog.png)
 
 This option is particularly useful when you need to refine or customize the visual presentation of your data plot before the final export.
+
 ## Export of Data from the Exploration, Bivariate, Dimensionality and Timeseries Widgets
 
 Export of analysis results and graphs works in the same way for the _Exploration_ widget (histograms, violin plots, box plots and normal probability plots), _Bivariate_ widget (correlation and regression analysis) and the _Timeseries_ widget. 
