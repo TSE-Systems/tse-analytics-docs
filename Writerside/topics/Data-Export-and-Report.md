@@ -2,7 +2,7 @@
 
 TSE Analytics offers multiple options for data export depending on the data format and the user’s preferences.
 
-## Export of Data table
+## Export of Raw Data table
 
 The data table of the active dataset including all variables can be exported using text (.csv) or Excel (.xlsx) format via **Export | Export to CSV** or **Export| Export to Excel** in the header.
 After setting the file destination and file name in the File Explorer, the data table is stored at the selected destination by clicking **Save**. 
@@ -17,7 +17,7 @@ This data export option will save the current version of the active data table u
 > Similarly, sorting of data entries in the Table widget will change the order of data entries displayed under Table, but will not affect the exported data table.
 {style='warning'}
 
-##  Export of Raw Data Plots
+##  Export of Raw Data Plot
 
 First, ensure that your **main window** is displaying the plot you wish to export. For instructions on how to display data plots, refer to the chapter of this manual **Import|Data Overview and Visualization**
 
@@ -59,69 +59,58 @@ The toolbar at the top of this window provides several useful tools, listed from
 
 - **Save (Floppy disk icon)** – Opens the save dialog, allowing you to select an output format (e.g., JPG, PNG, PDF) and specify the file version or name.  
 
-![Save Dialog.png](Save Dialog.png)
+![Figure: Save Dialog](Save Dialog.png)
 
 This option is particularly useful when you need to refine or customize the visual presentation of your data plot before the final export.
 
-## Export of Data from the Exploration, Bivariate, Dimensionality and Timeseries Widgets
+## Editing and Exporting Analysis Results (Via Report)
 
-Export of analysis results and graphs works in the same way for the _Exploration_ widget (histograms, violin plots, box plots and normal probability plots), _Bivariate_ widget (correlation and regression analysis) and the _Timeseries_ widget. 
+### 1. Enabling the Report Function
 
-Each widget contains a plot menu in the bottom right corner of the control panel including a **Save button** (‘Memory card’ symbol).
-By clicking the **Save** **button**, a _File Explorer_ window opens, in which file destination, file name and format can be selected.
-Clicking **Save** will store the graphic file at the selected location.
+After exporting the Raw Data, you may have performed further statistical analyses using the  Statistics submenu *Toolbox*. To consolidate these analysis results into a custom report, you can use the **Add to Report** function.
 
-![Figure: Saving plots](saving-plots.png)
+Before using Add to Report, open the Report Window: **Toolbox → Utils → Report**.
 
-## Export of AN(C)OVA Results and Bivariate Analysis Tables
+![Figure: Open Report Window](Open Report Window.png)
 
-TSE Analytics does not offer a dedicated export function for AN(C)OVA or bivariate analysis (correlation and regression) result tables so far.
-However, results can be saved outside TSE Analytics via copy and paste.
-All analysis results can be selected by clicking on the data table and pressing <shortcut>Ctrl+A</shortcut> on the keyboard or by **right-clicking** on the analysis window and selecting **Select All**.
-Selected content can then be copied to the clipboard using <shortcut>Ctrl+C</shortcut> or by right-clicking on the analysis window again and selecting **Copy**.
-Content copied to the clipboard can then be pasted and saved outside TSE Analytics.
+This will open the Report interface in your software window. The report interface functions like a blank notebook, ready to receive analysis results.
 
-![Figure: Copy & Paste] (copy-paste.png)
+![Figure: Report Interface](Report Interface.png)
 
-## Export of Data via Report
+### 2. Adding Analysis Results to the Report
 
-In addition to specific export options which vary between different analysis and plots, all results can be saved within a workspace and outside of TSE Analytics using the **Add Widget | Utils | Report** widget. 
+Once an analysis is completed (e.g., ANOVA, Tukey test, mean, standard deviation), click the *Add to Report* button located at the top right of the interface.The selected results will be added to the Report Window, forming your experimental "data notebook".
 
-- Result tables and graphs can be added to the Report by clicking Add to Report at the bottom of the control panel of the respective widget. 
+![Figure: Add the results to report](Add the results to report.png)
 
-![Figure: Adding to report](add-to-report.png)
+Repeat this process to compile multiple analyses into a single report.
 
-- In addition, the Report works as a text editor and allows adding customized text to analysis results. 
+Within the Report Window, you can further organize and customize all added data and charts, including reordering content, modifying titles, adding annotations, and other editing functions.
 
-![Figure: Editing report](editing-report.png)
+After the report is finalized, it can be exported or printed for documentation, record-keeping, or publication purposes.
+
+![Finalizing the report.png](Finalizing the report.png)
+
+> **Note**: When performing data analysis, if you click *Add to Report* and nothing appears to happen, your data has actually been successfully added to the report. The reason nothing is visible is that the Report Window is not currently open or active. To view the report, open the **Report Window** by navigating to:**Toolbox → Utils → Report**.
+{style='note'}
+> 
+### 3. Example Workflow
+
+Suppose you have performed One-way ANOVA and Regression analyse on your dataset and want to consolidate the results into a report:
+1. Open the Report Window: **Toolbox → Utils → Report**
+2. Perform One-way ANOVA: **Toolbox → ANOVA → One-way ANOVA**. Once the analysis is complete, click *Add to Report*.
+3. Perform Regression Analysis on the same dataset: **Toolbox → Bivariate → Regression**. After completion, click *Add to Report* again. The results are automatically added to the report.
+4. Continue adding additional analyses as needed. Within the **Report Window**, you can organize, edit, and customize all collected results.
+
+Detailed instructions for using Regression, One-way ANOVA, and other statistical tools are provided in later chapters.
+
+![Report: Report Window](Report Window.png)
 
 Each dataset has an individual report, and all reports are saved within a workspace in TSE Analytics when saving the workspace. 
-
-The Report menu offers several tools for editing the report and text elements (from left to right):
-
-- Undo/Redo
-- Cut/ Copy/ Paste
-- Selection of text font
-- Selection of text size
-- Text style: Bold/ Italic/ Underline
-- Content alignment: Left/ Center/ Right/ Justify
-
-![Figure: Report toolbar](report-toolbar.png)
-
-Each dataset has an individual report and all reports are saved within a workspace in TSE Analytics when saving the workspace.
-
-Reports can also be saved outside of TSE Analytics as an .html file by clicking on the **Save** button (‘Memory disk’ symbol) in the Report menu.
-
-![Figure: Saving report](saving-report.png)
-
-Reports can also be printed by clicking on the **Print** button (‘Printer’ symbol) in the Report menu.
-If **Microsoft Print to PDF** is selected under **Printer** in the printing settings, reports can thereby also be saved as .pdf files.
-
-![Figure: Printing report](printing-report.png)
 
 All entries of an existing report are cleared by clicking the **New Report** button (‘Sheet’ symbol) on the left of the report menu.
 
 ![Figure: New report](new-report.png)
 
-> **Warning**: This action cannot be undone! Clicking **New Report** will definitively delete all previous content from the report.
+> **Important**: This action cannot be undone! Clicking **New Report** will definitively delete all previous content from the report.
 {style = 'warning'}

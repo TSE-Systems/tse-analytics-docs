@@ -4,40 +4,34 @@
 
 Several tools for editing and preprocessing a selected dataset are available in the header of the Dataset widget. Those include **adjusting** a dataset in the Adjust Dataset window, **removing** a dataset from the Dataset widget, creating a copy (**cloning**) of a dataset and **merging** of datasets.
 
-![Figure: Dataset widget](datasets-widget.png)
+![Figure: Dataset Tools](Dataset Tools.png)
 
+## Import
+
+![Figure: Datasets Import](Datasets Import.png)
 
 ## Adjust
 
 The _Adjust Dataset_ window offers multipe tools for editing a dataset and selecting time phases and animals of interest. To open the _Adjust Dataset_ window, select the respective dataset from the dataset list (selected dataset highlighted in blue) and and click **Adjust** in the _Dataset_ header.
 
-![Figure: Adjust button](adjust-button.png)
+![Figure: Adjust Dialog](Adjust Dialog.png)
 
-![Figure: Adjust Dataset dialog](adjust-dataset-dialog.png)
-
-To select and activate a tool for editing the dataset, tick the checkbox of the respective tool. Available operations are:
+To activate a tool for dataset editing, check the corresponding checkbox. The following operations are available:
 
 - **Rename**: The dataset can be renamed by entering a new dataset name in the text field underneath.
 
-![Figure: Rename dataset](rename-dataset.png)
+![Figure: Rename](Rename.png)
 
 - **Apply resampling**: A new sample interval can be defined by typing in a new time interval using the format ‘hh:mm:ss’ or by using the arrows on the right.
 
-![Figure: Apply resampling](apply-resampling.png)
+![Apply resampling](Apply ressampling.png)
 
 > **Note**: New sample intervals cannot be shorter than the original sample interval during the measurement.
 {style = 'note'}
 
-- **Apply time shift**: The time stamps of an experiment can be shifted forward (into the future) by selecting ‘+’ (plus) or backwards (into the past) by selecting ‘-‘ (minus). The time shift can be defined as a custom number of days and/or hours, minutes and seconds.
-
-![Figure: Apply time shift](apply-time-shift.png)
-
-> **Note**: Adjusting the time will directly change the time stamps in the raw data table used by TSE Analytics and thereby manipulate your data and results artificially. Please only use this option if you have a particular reason to do so, e.g. if the time stamp in the original data file does not match the actual date or time of the experiment.
-{style = 'note'}
-
 - **Trim time**: The date and time of the start and the end of a dataset can be changed here to shorten the time span covered by the dataset. Thereby, data from the beginning and the end of an experiment can be excluded.
 
-![Figure: Trim time](trim-time.png)
+![Figure: Trim time](Trim time.png)
 
 > **Note**: The start time cannot be a time before the actual start of the experiment, and the end time cannot be a time after the actual end of the experiment.
 {style = 'note'}
@@ -48,18 +42,18 @@ The example below shows time trimming via the exclusion of a time phase at the b
 
 - **Exclude time**: A custom time phase (at the beginning, the end or in the middle of an experiment) can be excluded by defining the start and the end time of the time phase that should be excluded.
 
-![Figure: Exclude time](exclude-time.png)
 
-> **Note**: It is not possible to enter a start time for the excluded time phase that lies before the beginning of the experiment or after the end of the excluded time phase. The end time for the excluded time phase cannot be a date or time after the end of the experiment or before the start time of the excluded time phase.
+> **Note**: The start time of the excluded phase must fall within the experiment’s duration.
+The end time must be later than the start time and not beyond the experiment’s end.
 {style = 'note'}
 
 - **Exclude animals**: Animals which should be permanently excluded from the dataset together with all associated data can be selected from the animals list. Selected animals are highlighted in blue.
 
-![Figure: Exclude animals](exclude-animals.png)
+![Figure: Exclude animals](Exclude animals.png)
 
 To apply changes specified in the _Adjust Dataset_ window to the selected dataset, click **OK**.
 
-> **Warning**: Changes regarding the trimming or exclusion of time phases as well as exclusion of animals cannot be undone once they have been applied (by clicking **OK**). It is recommended to create a clone of a dataset before making adjustments as a backup.
+> **Important**: Changes regarding the trimming or exclusion of time phases as well as exclusion of animals cannot be undone once they have been applied (by clicking **OK**). It is recommended to create a clone of a dataset before making adjustments as a backup.
 {style='warning'}
 
 > **Note**: All changes made via the _Adjust Dataset_ window will only be applied to the dataset within TSE Analytics but do not affect the original dataset stored outside of TSE Analytics.
@@ -71,9 +65,9 @@ To apply changes specified in the _Adjust Dataset_ window to the selected datase
 To remove a dataset, select the respective dataset from the dataset list (selected dataset highlighted in blue) and click **Remove** in the header of the _Dataset_ widget.
 Click **Yes** in the popup window to confirm that the dataset should be removed.
 
-![Figure: Removing dataset](removing-dataset.png)
+![Remove Datasets.png](Remove Datasets.png)
 
-> **Warning**: *Remove* will remove the chosen dataset including all changes, analysis results and reports permanently from the currently active workspace. Removed datasets cannot be restored.
+> **Important**: *Remove* will remove the chosen dataset including all changes, analysis results and reports permanently from the currently active workspace. Removed datasets cannot be restored.
 {style='warning'}
 
 >**Note**: *Remove* does not affect the original dataset stored outside TSE Analytics.
@@ -84,7 +78,7 @@ Click **Yes** in the popup window to confirm that the dataset should be removed.
 
 To create a copy of a dataset, select the respective dataset from the dataset list (selected dataset highlighted in blue) and click **Clone** in the header of the _Dataset_ widget. The name of the dataset clone can be changed in the pop-up window and is applied upon clicking **OK**. The default name for a dataset clone is ‘Clone of \[name of original dataset]’.
 
-![Figure: Cloning dataset](cloning-dataset.png)
+![Figure: Clone Datasets](Clone.png)
 
 >**Note**: Cloning a dataset will apply all changes that have been applied to the original dataset also to the newly created clone. This affects the exclusion of animals and times, adjusting time, animal selection, factors, time binning settings, outlier detections settings, report, and analysis settings.
 {style='note'}
