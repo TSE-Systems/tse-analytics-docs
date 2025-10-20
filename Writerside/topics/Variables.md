@@ -1,10 +1,10 @@
 # Variables
 
-This widget is used to choose of one or many variables that you want to display in the **Data** widget table or
-include in the downstream analysis in components that support multiple variables selection, like **Matrix** or **PCA**
-widgets.
+The **Variables** Widgets in TSE Analytics allows users to select and manage experimental variables. Users can configure aggregation methods for each variable, such as mean, sum, or other statistics. Selected variables are automatically applied to downstream components, including **Matrix** and **PCA** statistical tools, ensuring analyses use a consistent and properly processed dataset.
 
-![Figure: Variables widget](variables.png)
+The Variables interface also allows users to **delete a selected variables** by clicking the delete button or **add custom variables** by clicking the *Add* button.
+
+![Variables Widgets.png](Variables Widgets.png)
 
 Similarly to **Animals** widget, in order to select all variables at once, please press <shortcut>Ctrl+A</shortcut> or drag mouse over
 entries you want to choose. To select/deselect individual entries, click on the entry holding <shortcut>Ctrl</shortcut> key.
