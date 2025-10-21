@@ -1,8 +1,9 @@
 # Binning
+Time binning is a data processing technique used to group time-series data into defined time intervals or phases, facilitating analysis and pattern recognition. 
 
-Time binning is a data processing technique used to group time-series data into fixed intervals, or "bins," for easier analysis.
-This method can be particularly useful when dealing with large datasets that capture events or measurements over time, such as sensor readings, stock prices, or web traffic logs.
-By aggregating data into these intervals, you can simplify analysis, identify trends, and make comparisons more manageable.
+In behavioral experiments, such as continuous monitoring of rodent activity, feeding, or social interactions, large volumes of data are generated at high temporal resolution. Time binning allows users to aggregate these data according to fixed time intervals, light/dark cycles, or custom time phases, enabling the calculation of summary metrics such as average activity levels, feeding events, or social interactions within each period. By aggregating data into these intervals, you can simplify analysis, identify trends, and make comparisons more manageable.
+
+![Figure: Binning Plot Example ](Binning Plot Example.png)
 
 Time binning can be applied to a selected dataset by ticking the **Apply Binning** check box in the _Binning_ widget.
 For time binning, three different **Binning Modes** with customizable settings are available and can be selected from the dropdown menu: binning by repeating **Time Intervals**, binning according to **Light/Dark Cycles** and binning by custom **Time Phases**.
