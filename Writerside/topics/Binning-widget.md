@@ -23,7 +23,7 @@ A time phase can be removed by selecting the respective row in the list (highlig
 
 ![Figure: Time Phases binning mode](time-phases-binning-mode.png)
 
-> **Warning**: Changes in time binning settings are not applied automatically to the data table in the _Table_ widget and plots in the _Plot_ widget.
+> **Important**: Changes in time binning settings are not applied automatically to the data table in the _Table_ widget and plots in the _Plot_ widget.
 > These widgets are only updated if previously deactivated time binning is activated again. 
 > 
 > It is recommended to change settings only while time binning is inactive (tick box not checked) and to apply changes by activating time binning again.

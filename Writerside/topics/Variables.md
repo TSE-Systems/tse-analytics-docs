@@ -12,9 +12,18 @@ entries you want to choose. To select/deselect individual entries, click on the 
 
 ## Aggregation
 
-Different methods of calculation (**Aggregation** modes) can be used for the calculation of data values for individual time bins during binning: mean, median, sum, minimum and maximum.
+Different methods of calculation (**Aggregation** modes) can be used for the calculation of data values for individual time bins during binning(i.e., when raw data are grouped into defined time intervals): mean, median, sum, minimum and maximum.
+
+The *Binning* widget and its settings will be described in detail in the following section.
 
 ![Figure: Aggregation mode](aggregation-mode.png)
+
+> **Note**:For cumulative variables, such as DistK,the default aggregation mode is max. Within each time bin, this mode reports the maximum cumulative value, corresponding to the total distance reached by the end of that interval. 
+> 
+> If you are interested in the distance covered within each interval (i.e., interval-based activity), you can use the differential variable DistD and apply aggregation modes such as sum or mean.
+> 
+> The default aggregation mode is only a suggestion; users can adjust it according to specific analysis needs.
+{style='note'}
 
 These modes can be specified individually for each variable via the dropdown menu in the **Aggregation** column of the _Variables_ widget.
 The most suitable aggregation mode differs between variables depending on the way data is collected and displayed during a PhenoMaster experiment.
@@ -40,7 +49,7 @@ The variables to which outlier detection should be applied, need to be selected 
 Only variables selected here will be considered for the identification of outliers.
 The variable selection for outlier detection can be reset to the default (no variables selected) together with the aggregation mode selector by clicking **Reset** in the Variables widget.
 
-> **Warning**: Selecting **Remove outliers** will not only delete outlier values but the whole row (i.e. time bin) in the data set which contains one or more values detected as outliers.
+> **Important**: Selecting **Remove outliers** will not only delete outlier values but the whole row (i.e. time bin) in the data set which contains one or more values detected as outliers.
 > This means that values of all variables recorded at the same time point as the outlier are removed from the dataset as well. 
 >
 > Therefore, it is recommended to only select the variable(s) for outlier detection which are used for subsequent analysis.
@@ -50,10 +59,7 @@ The variable selection for outlier detection can be reset to the default (no var
 
 
 > **IQR method for outlier detection**
-> - Outlier detection is performed using the interquartile range (IQR) method for outlier detecting.
-> - The IQR is defined as the range between the first quartile (Q1) and the third quartile (Q3) of a given dataset (IQR = Q3 – Q1).
-> The IQR method identifies outliers by multiplying the IQR with a coefficient set by the user (a coefficient of 3 is set by default in TSE Analytics).
-> The resulting value (IQR \* coefficient) is used to define a new range of values used for outlier detection by extending the IQR on both sides by this calculated value.
-> The borders of this new range of values are therefore defined as Q1 – IQR \* coefficient and Q3 + IQR \* coefficient.
-> All data points outside of the range [Q1 – IQR * coefficient; Q3 + IQR * coefficient] are considered **outliers**.
+> - **The IQR (Interquartile Range) method** detects outliers by analyzing the middle 50% of the data.
+> First, the 1st quartile (Q1) and 3rd quartile (Q3) are calculated, giving IQR = Q3 – Q1. A coefficient k (default is 1.5 in TSE Analytics) is then applied to define the bounds: Lower Bound = Q1 – k × IQR, Upper Bound = Q3 + k × IQR.
+> - All data points outside of the range [Q1 – IQR * coefficient; Q3 + IQR * coefficient] are considered **outliers**.
 {style='note'}
