@@ -1,12 +1,12 @@
-# Additional Widgets
+# Toolbox Widgets
 
-The Add Widget in TSE Analytics software is the central hub for data analysis, encompassing a comprehensive range of statistical methods. Users can seamlessly visualize and analyze their selected datasets, leveraging intuitive tools and customizable options to gain insights.
+The *Toolbox* Widget in TSE Analytics software is the central hub for data analysis, encompassing a comprehensive range of statistical methods. Users can seamlessly visualize and analyze their selected datasets, leveraging intuitive tools and customizable options to gain insights.
 
-![Figure: Add Widget Menu](add-widget-menu.png)
+![Figure: Toolbox](Toolbox.png)
 
 
 ```
-├── Add Widget
+├── Toolbox
 │   ├── Data
 │   │   ├── Table
 │   │   ├── Plot
@@ -30,15 +30,21 @@ The Add Widget in TSE Analytics software is the central hub for data analysis, e
 │   ├── Time series
 │   │   ├── Decomposition
 │   │   ├── Autocorrelation
+│   ├── Circadian Analysis
+│   │   ├── Actogram
+│   │   ├── Periodogram
 │   ├── Utils
 │   │   ├── Report
+│   ├── IntelliCage
+
 ```
+
 
 - **Data Widget** 
 
 The _Data Widget_ is designed to display the selected raw dataset, offering two intuitive view modes to suit user needs. The **Table** view presents data in a structured, tabular format, making it easy to reference and interpret specific values. Alternatively, the **Plot** view visualizes data through charts, providing a clear and concise way to identify patterns, trends, and distributions at a glance.
 
-![Figure: Data Widget](data-widget.png)
+![Figure: Toolbox Data Widget](Toolbox Data Widget.png)
 
 - **Statistical Analysis Widgets** 
 
@@ -48,7 +54,7 @@ The _Statistical Analysis Widgets_ offers a range of tools, each corresponding t
 
 Detailed instructions for using each method are provided in subsequent chapters.
 
-![Figure:Data analysis widgets](data-analysis-widgets.png)
+![Figure: Statistical Analysis Widgets](Statistical Analysis Widgets.png)
 
 - **Utils Widget**
 

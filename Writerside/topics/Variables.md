@@ -59,7 +59,8 @@ The variable selection for outlier detection can be reset to the default (no var
 
 
 > **IQR method for outlier detection**
-> - **The IQR (Interquartile Range) method** detects outliers by analyzing the middle 50% of the data.
-> First, the 1st quartile (Q1) and 3rd quartile (Q3) are calculated, giving IQR = Q3 – Q1. A coefficient k (default is 1.5 in TSE Analytics) is then applied to define the bounds: Lower Bound = Q1 – k × IQR, Upper Bound = Q3 + k × IQR.
-> - All data points outside of the range [Q1 – IQR * coefficient; Q3 + IQR * coefficient] are considered **outliers**.
+> - In TSE Analytics, the **Interquartile Range (IQR)** method is used to detect outliers. This approach identifies outliers by examining the middle 50% of the data.
+> 
+> - The dataset is first sorted, and three quartiles are calculated: the first quartile (Q1, 25% of the data ≤ Q1), the second quartile (Q2, the median), and the third quartile (Q3, 75% of the data ≤ Q3). The IQR is defined as IQR = Q3 − Q1, representing the range of the central half of the data. A coefficient k (default is 1.5 in TSE Analytics) is then applied to define the bounds: Lower Bound = Q1 – k × IQR, Upper Bound = Q3 + k × IQR.
+> - All data points outside of the range **[Q1 – k × IQR; Q3 + k × IQR]** are considered **outliers**.
 {style='note'}
