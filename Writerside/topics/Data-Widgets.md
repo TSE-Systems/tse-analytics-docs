@@ -8,3 +8,4 @@ When using the Data Widget, users can visualize source data from different dimen
 By selecting or filtering variables as needed, users can customize data visualization to suit specific analysis requirements.
 
 This functionality allows for greater flexibility in exploring and interpreting the data, making it easier to identify trends, outliers, and relationships within the dataset.
+

@@ -48,9 +48,7 @@ The _Data Widget_ is designed to display the selected raw dataset, offering two 
 
 - **Statistical Analysis Widgets** 
 
-The _Statistical Analysis Widgets_ offers a range of tools, each corresponding to a specific statistical method, to cater to diverse data analysis needs. 
-
-**Exploration** provides tools for initial data examination.**Bivariate** focuses on analyzing relationships between two variables using techniques like correlation and regression. **ANOVA** enables comparison of means across multiple groups through analysis of variance. **Dimensionality** includes methods like Principal Component Analysis (PCA) to simplify high-dimensional data. **Time Series** equips users with tools for analyzing temporal data, including Decomposition and autocorrelation. 
+The software provides a comprehensive suite of data analysis tools. **Exploration** supports initial data examination, **Bivariate** analysis evaluates relationships between two variables (e.g., correlation and regression), and **ANOVA** compares means across multiple groups. Dimensionality reduction methods, such as PCA, simplify high-dimensional datasets. **Time Series** analysis addresses temporal data through decomposition and autocorrelation, while **Circadian Analysis**, including Actogram and Periodogram, enables the study of animals’ circadian rhythms. Researchers may select the methods most appropriate to their experimental goals and data characteristics.
 
 Detailed instructions for using each method are provided in subsequent chapters.
 
@@ -58,15 +56,13 @@ Detailed instructions for using each method are provided in subsequent chapters.
 
 - **Utils Widget**
 
-The _Utils_ widget is designed to help users edit and refine reports generated from data analysis. After completing the analysis, clicking **Update** for showing the analysis result, then click **Add to Report** , the report will be copied into the report editor. Users can then navigate to **Add Widget - Utils** to access the editor, where can customize and format their report content to align with their presentation or documentation needs.
+The _Utils_ widget is designed to help users edit and refine reports generated from data analysis. After completing the analysis, clicking **Update** for showing the analysis result, then click **Add to Report** , the report will be copied into the report editor. Users can then navigate to **Toolbox - Utils- Report** to access the editor, where can customize and format their report content to align with their presentation or documentation needs.
 
-![Figure: Report widget](report-widget.png)
-
-The advanced features of the *Add Widget* include Multi-Dataset Support and Window Management, providing enhanced flexibility and efficiency for data analysis.
+The advanced features of the *Toolbox* include Multi-Dataset Support and Window Management, providing enhanced flexibility and efficiency for data analysis.
 Users can select and analyze multiple datasets simultaneously, applying different methods to separate datasets within the same session to facilitate comparative insights. 
 
-![Figure: Multi-datasets analysis](multi-datasets-analysis.png)
+![Figure: Multi-Datasets Window](Multi-Datasets Window.png)
 
 Additionally, individual analysis windows can be detached and repositioned, while multiple views can be displayed within a single workspace, streamlining multitasking and result comparison.
 
-![Figure: Floating widgets](floating-widgets.png)
+![Figure: Floating widgets](Floating widegts.png)

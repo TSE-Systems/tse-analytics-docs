@@ -2,7 +2,7 @@
 
 The **Table** widget shows all metadata as well as selected variables data for all animals selected in the Animal widget under consideration of Time binning and Outlier settings as well as the selected Split Mode. 
 
-![Figure: Table command](table-command.png)
+![Figure: Table widget](Table widget.png)
 
 ![Figure: Table widget](table-widget.png)
 
@@ -17,7 +17,7 @@ The **Table** widget shows all metadata as well as selected variables data for a
 > **Note**: Only data of animals selected in the Animal widget will be displayed in Table.
 {style = 'note'}
 
-- **Box**: Box number as indicated in the PhenoMaster file and Animal widget.
+- **Box**: Box(cage) number as indicated in the PhenoMaster file and Animal widget.
 - **Run**: Run number. For individual datasets, the default value is “1”. For merged dataset (merged as multiple runs), each dataset is assigned a run number according to their merging order (i.e. their chronological order).
 - **Bin**: Time bin number. Data with the same ‘DateTime’ stamp, i.e. data collected at the same time (‘Timedelta’ for merged datasets using ‘Overlap’) is assigned the same time bin, according to their chronological order. If time binning is applied, time intervals, light/ dark cycles or time phases are used as time bins.
 - **Factors**: Factors and assignment of animals to groups as specified in the Factors widget.
@@ -46,5 +46,5 @@ Data table entries as displayed in the Table widget can be exported as Excel or 
 
 ![Figure: Tabular data export](export-table-data.png)
 
-> **Warning**: Grouping of data using split modes will not affect the exported data table, but only the data displayed within the software. The exported data table will always contain all variables exported from PhenoMaster independent of variable selection in the Table widget.
+> **Important**: Grouping of data using split modes will not affect the exported data table, but only the data displayed within the software. The exported data table will always contain all variables exported from PhenoMaster independent of variable selection in the Table widget.
 {style = 'warning'}
