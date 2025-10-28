@@ -1,4 +1,4 @@
-can# Table
+#Table
 
 The **Table** widget shows all metadata as well as selected variables data for all animals selected in the Animal widget under consideration of Time binning and Outlier settings as well as the selected Split Mode. 
 
@@ -28,6 +28,8 @@ The column width can automatically be adjusted by clicking **Resize Columns** in
 
 One or multiple variables to be displayed in the data table can be selected from the **Variables** selector in the control panel of the Table widget (selected variables highlighted in blue). 
 
+![Figure: Selecting variables shows in the data table](Selceting variables shows in the data table.png)
+
 Data of each time bin is grouped according to the **Split Mode** selected in the control panel:
 - **Total**: The mean of all data entries for each bin is calculated.
 - **Animal**: Data is displayed for each animal individually, i.e. without grouping (default). 
@@ -40,11 +42,9 @@ Data of each time bin is grouped according to the **Split Mode** selected in the
 
 For each selected variable, descriptive statistics including the count of values (count), mean, standard deviation (std), minimum and maximum are displayed in a separate window under **Descriptive Statistics** in the control panel. Descriptives can be added to the report by clicking **Add to Report** at the bottom of the control panel.
 
-![Figure: Table data view](table-data-view.png)
+![Figure: Datatable export](Datatable export.png)
 
-Data table entries as displayed in the Table widget can be exported as Excel or text (CSV) files via **File - Export to CSV** or **File – Export to Excel**.
-
-![Figure: Tabular data export](export-table-data.png)
+Data table entries as displayed in the Table widget can be exported as Excel or text (CSV) files via **Export - Export to CSV** or **Export to Excel**.
 
 > **Important**: Grouping of data using split modes will not affect the exported data table, but only the data displayed within the software. The exported data table will always contain all variables exported from PhenoMaster independent of variable selection in the Table widget.
 {style = 'warning'}

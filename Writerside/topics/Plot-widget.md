@@ -1,27 +1,28 @@
 # Plot
 
-Line and scatter plots (if no binning or binning using time phases is applied) or bar plots (for time binning using light/dark cycles or time phases) can be generated using the **Plot** widget. 
+Line and scatter plots or bar plots can be generated using the **Plot** widget. 
 
-![Figure: Plot command](plot-command.png)
+![Plot widget.png](Plot widget.png)
 
-> **Warning**: Only animals selected in the Animal list are considered for the calculation of plots in the Plot widget
+Using the control panel, researchers can choose the animals, experimental groups, variables, and time phases for plotting and analysis.
+
+> **Important**: Only animals selected in the Animal list are considered for the calculation of plots in the Plot widget
 {style = 'warning'}
+> 
+![Figure: Selecting widgets.png](Selecting widgets.png)
 
-Variable selection, split modes and plot settings can be adjusted using the control panel on the right-hand side of the plot.
+Various selections for plotting can be made using the control panel located above the plot.
 
-![Figure: Plot widget](plot-widget.png)
+- **Variable Selection**: Users can select the variables of interest directly from the variables list. By default, descriptive statistics (aggregation) for the selected variables are calculated automatically. To view or modify these settings, use the **Variables → Aggregation** panel at the bottom-right of the interface.
 
-The **Variable** to be plotted is selected from the dropdown menu in the upper right corner within the Plot widget. 
+- **Group Selection**: By default, data are grouped by individual animals or totals. If factor groups have been defined in the Factors panel, the group list will also display any additional groups created. To add or remove groups, use the **Factors → Edit Factors** panel at the bottom-right of the interface.
 
-Various **Split Modes** can be selected:
-- **Total**: The mean over all data entries is plotted.
-- **By Animal**: A plot for each animal is generated individually.
-- **By Run**: The mean over all data entries assigned to a run is plotted, resulting in individual plots for each run.
+- **Binning Mode**: The binning mode for plot display can be further adjusted using the **Binning → Apply Binning** panel at the bottom-right of the interface.
 
->**Note**: Split modes “Total” and “Run” produce the same results if only one individual dataset (i.e. one run) is analyzed. In case of merged datasets (not merged as a single run), this split mode allows to compare the plots of the individual datasets (i.e. individual runs) used for merging.
+>**Note**: All changes made through the control panel are reflected automatically in the plot. For large datasets, there may be a short delay of a few seconds.
 {style = 'note'}
 
-- **By Factor**: The mean over all data entries assigned to a factor group is plotted, resulting in individual plots for each group. The respective factor of interest can be selected from the “By factor” dropdown menu.
+
 
 Errors for each mean value plotted are shown, if the **Display Errors** checkbox is ticked. Errors can be displayed as “Standard deviation” or “Standard error” (see selection underneath “Display Error”). No errors are displayed, if split mode ‘By animal’ is selected, if a factor group only contains one animal (for split mode ‘By factor’) or if only one animal is selected from the animal list independent of split mode.
 

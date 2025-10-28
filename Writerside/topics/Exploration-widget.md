@@ -2,9 +2,9 @@
 
 TSE Analytics offers multiple graphical tools to perform exploratory and distribution analysis in the **Exploration** widget, including histograms, violin- and boxplots, as well as normal probability plots. Plots can be generated using different split modes (total, by animal, by run, by factor) under consideration of time binning settings and outlier detection settings. 
 
-![Exploration widgets](exploration-widgets.png)
+![Figure: Exploration widget](Exploration widget.png)
 
-> **Warning**: Only animals selected in the Animal list are considered for the calculation and display  of plots in the Exploration widget. Changes regarding the selection of animals are only applied after clicking **Update**.
+> **Important**: Only animals selected in the Animal list are considered for the calculation and display  of plots in the Exploration widget. Changes regarding the selection of animals are only applied after clicking **Update**.
 {style = 'warning'}
 
 All plot settings can be adjusted using the control panel at the right-hand side of the Exploration widget.
