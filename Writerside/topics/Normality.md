@@ -2,7 +2,7 @@
 
 Normal probability plots (normality plots) can be generated in the Exploration widget by selecting the **Plot type ‘Normality’** to test for normal distribution of data sets.
 
-![Figure: normality-plot widget](normality-plot-selector.png)
+![Normality widget.png](Normality widget.png)
 
 Normal probability plots are scatter plot in which, for each value of the dataset, the actual quantiles of the sample data (ordered quantiles) on the y-axis are plotted against the theoretical quantiles of the respective normal distribution on the x-axis (blue dot). An alignment of the plot with the 45° line (y=x) indicates a normal distribution of the sample data.
 

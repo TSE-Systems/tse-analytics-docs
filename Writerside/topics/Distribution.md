@@ -1,14 +1,17 @@
 # Distribution
+The Distribution plot displays how data are spread across different groups, enabling researchers to compare patterns, variability, and central tendencies between conditions.
 
-Distribution can be generated in the Exploration widget by selecting the **Plot type ‘Distribution’**. This allows you to visualize data distributions using options like the violin plot and the box plot.
+In TSE Analytics, the **Distribution** can be examined by selecting Distribution under the **Exploration** widget, where **Box plot** and **Violin plot** are provided to illustrate group-level differences in data dispersion and shape.
+
+![Distribution widgets.png](Distribution widgets.png)
 
 ## Violin plots
 
 Violin plots can be generated in TSE Analytics by selecting
 - **Plot type ‘Distribution’**
-- and **Distribution as ‘Boxplot’** in the Exploration widget.
+- and **Distribution as ‘Violin’** in the Exploration widget.
 
-![Figure: Violin plot widget](violin-plot-selector.png)
+![Violin plot widget.png](Violin plot widget.png)
 
 Violin plots represent the distribution of a selected dataset by combining density curves (blue) and box plots (dark grey).
 
@@ -19,27 +22,35 @@ Violin plots represent the distribution of a selected dataset by combining densi
 
 ![Figure: Violin plot](violin-plot.png)
 
-The appearance of the boxplot shown within the density plot can be customized by using the Curves tab implemented in the Figure options window access via the **‘Customize’** tool (‘Graph’ symbol) in the plot menu. Here, the style, width and color of lines can be adjusted, and markers can be added or customized.
+The appearance of the plot shown within the density plot can be customized by using the Curves tab implemented in the Figure options window access via the **‘Customize’** tool (‘Graph’ symbol) in the plot menu. Here, the style, width and color of lines can be adjusted, and markers can be added or customized.
 
-![Figure: plot-customization](plot-customization.png)
+![Figure: Plot customization](Plot customization.png)
 
-The part of the box plot to be customized can be selected from the dropdown menu at the top of the Curves tab:
-- _child1: Boxplot whiskers
-- _child2: Interquartile range (IQR)
-- _child3: Median
+The part of the box plot to be customized can be selected from the dropdown menu at the top of the Curves
+tab:
+
+![Curves selection.png](Curves selection.png)
+
+- child1: Boxplot whiskers
+- child2: Interquartile range (IQR)
+- child3: Median
 
 
-## Boxplots
+## Box plot
 
 Box plots can be generated in TSE Analytics by selecting
-Plot type **Distribution** and **Distribution as ‘Boxplot’** in the Exploration widget.
+Plot type **Distribution** and **Distribution as ‘Boxplot’** under the Exploration widget.
 
-![Figure: boxplot-selector](boxplot-selector.png)
+![Box plot widget.png](Box plot widget.png)
 
-Boxplots represent the distribution of a selected dataset including:
+Box plots represent the distribution of a selected dataset including:
 - the box ranging from the first to the third quartile, indicating the interquartile range (IQR)
 - the median
 - whiskers ranging from the first/ third quartile to the lowest/ highest value within the range of 1.5*IQR
 - values outside of the range of 1.5*IQR displayed as circles
 
-![Figure: box-plot](box-plot.png)
+![Figure: Box plot](box-plot.png)
+
+The method to customize the box plot’s appearance is the same as mentioned above.
+
+![Box plot example.png](Box plot example.png)
