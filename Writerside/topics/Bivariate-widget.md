@@ -2,7 +2,7 @@
 
 To analyze the relationship between two variables, **Correlation** and **Regression** analysis can be performed in the *Bivariate* widget of TSE Analytics.
 
-![Figure: Bivariate widgets](bivariate-widgets.png)
+![Figure: Bivariate widget.png](Bivariate widget.png)
 
 - Two variables of interest can be selected from the dropdown menus **“X”** and **“Y”**. 
 - The type of analysis (**Correlation** or **Regression**) can be selected under **Bivariate**. 
@@ -13,7 +13,7 @@ Both plots and analysis results displayed are added to the report upon clicking 
 
 ![Figure: Bivariate widgets settings](bivariate-widgets-settings.png)
 
-> **Warning**: Only animals selected in the Animal list are considered for the calculation of correlation and regression analysis in the Bivariate widget.
+> **Important**: Only animals selected in the Animal list are considered for the calculation of correlation and regression analysis in the Bivariate widget.
 > Changes regarding the selection of animals are only applied after clicking **Update**.
 {style = 'warning'}
 

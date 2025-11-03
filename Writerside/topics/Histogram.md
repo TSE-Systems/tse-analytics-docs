@@ -16,7 +16,8 @@ This histogram showing the distribution of animal speeds, with speed in (cm/s) o
 
 On this representative example, we can observe that animals No. 32, 35, 38, and 39 show peaks near 0 cm/s, indicating that they remained mostly inactive during the observation period. In contrast, animals No. 6, 7, and 13 show a wider range of speed values, suggesting a higher level of locomotor activity.
 
-> **Note**: In TSE Analytics, histogram bars are displayed with equal visual width because the software divides the total range into fixed value intervals (bins).
-When data points per bin are low, the auto-scaling of the Y-axis may make all bars appear similar in height, even though the underlying frequencies differ.
-Users should interpret bar height using the numeric scale on the Y-axis, not by visual comparison alone.
+![Customized the axis ranges.png](Cutomized the axis ranges.png)
+
+> **Note**: In TSE Analytics, histograms are plotted with X- and Y-axis ranges automatically adjusted based on the data's minimum and maximum values. As a result, different histograms may have different scales,for example, one speed range might be 0.0–1.6, while another is only 0.0–0.8.
+This ensures that each plot accurately reflects the distribution of its data. Users should interpret bar heights according to the axis values, rather than by visual comparison alone. If desired, users can also manually adjust the axis ranges.
 {style = 'note'}

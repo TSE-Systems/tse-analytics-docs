@@ -3,7 +3,7 @@
 **Correlation** analysis in TSE Analytics can be performed to determine the degree to which two selected variables X and Y are linearly related using the Pearson correlation coefficient.
 Results of a correlation analysis performed in TSE Analytics are displayed as a scatter plot for all data pairs included in the analysis, individual density plots or histograms (for split mode ‘Total’) for each variable, the Pearson correlation coefficient together with associated statistical parameters, as well as t test statistics comparing X and Y variable.
 
-![Figure: Correlation command](correlation-command.png)
+![Figure: Correlation widget](Correlation widget.png)
 
 ## Correlation plots
 

@@ -3,7 +3,7 @@
 Linear regression analysis (**“Regression”**) can be performed in TSE Analytics to investigate the relationship between an independent variable (**Covariate**) and a dependent variable (**Response**).
 Results of a regression analysis performed in TSE Analytics are displayed as a regression plot and linear regression results in the GLM (Generalized Linear Model) table.
 
-![Figure: Regression window](regression-command.png)
+![Figure: Regression widget](Regression widget.png)
 
 ## Regression plot
 
