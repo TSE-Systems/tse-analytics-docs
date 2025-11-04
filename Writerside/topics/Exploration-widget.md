@@ -23,19 +23,8 @@ After selecting a variable, different groups can be chosen for analysis.
 > **Note**: To show plots and to apply any changes of settings to the plots displayed, click **Update** in the control panel (graphs won’t update automatically).
 {style = 'note'}
 
-Use the **plot menu** above the graph to edit the plot's appearance.
+To further customize the appearance of the generated plot, use the **Plot Menu** located above the graph. 
+For detailed instructions, refer to the section ***“Customize the Appearance of the Result”*** in the *“Toolbox – Statistical Analysis Widgets”* chapter.
 
-![Plot menu.png](Plot menu.png)
+The displayed graphs can be saved together in the current active workspace for further editing or export by clicking **Add to Report**. For detailed instructions, refer to the section ***“Editing and Exporting Analysis Results (Via Report)”*** in the *“Getting Started – Data Export”* chapter.
 
-- **Home button** (‘House’): Reset the orientation of the plot in its frame.
-- **Undo/Redo** (‘Arrows’ left/right): Undo and redo actions regarding the orientation of the graph in its frame (moving and zooming).
-- **Pan** (‘Arrow cross’):  Grab and move the graph within the frame of the plot.
-- **Zoom** (‘Magnifying glass’): Select an area of the plot to zoom in/ enlarge the selected area.
-- **Subplots** (‘Slider bars’): Adjust the dimensions of frame borders and spacings between graphs (in the case of multiple plots).
-- **Customize** (‘Graph’): Define title, axis range, label and scale, and legend. Adjust style, size and color of curves (applies only to some elements within normality plots and violin plots).
-- **Save** (‘Memory disc’): Save image on the hard drive.
-
-> **Note**: Any changes in graph appearance made through the plot menu are applied immediately, without clicking Update.
-{style = 'note'}
-
-In addition to saving a plot on the hard drive via the plot menu, the graph displayed can be added to the report by clicking **Add to Report** and will be saved together with the currently active workspace.
