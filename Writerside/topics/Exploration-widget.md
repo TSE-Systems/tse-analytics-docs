@@ -11,7 +11,7 @@ TSE Analytics offers multiple graphical tools to perform exploratory analysis in
 
 All plot settings can be adjusted using the control panel of the Exploration widget.
 
-![Figure: Exploration setting](Exploration Box plot.png)
+![Figure: Example of exploratory analysis](Exploration Box plot.png)
 
 The respective variable to be plotted can be selected from the **Variable** drop-down menu on the top. The type of plot (**Histogram, Distribution, Normality**) can be chosen under **Exploration**. If the plot type **Distribution** has been selected, two plot options are available: **violin** and **boxplot**. 
 
