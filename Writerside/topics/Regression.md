@@ -7,7 +7,7 @@ Results of a regression analysis performed in TSE Analytics are displayed as a r
 
 ## Regression plot
 
-![Figure: Variable and split mode in regression window](regression-settings.png)
+![Figure: Regression plot](Regression plot.png)
 
 The regression plot combines a scatter plot of mean data values per time bin with a regression line and confidence band based on the plotted data values.
 The calculation of mean data values and plot appearance are dependent on the selected split mode:

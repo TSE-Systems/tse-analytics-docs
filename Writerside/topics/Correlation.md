@@ -1,25 +1,19 @@
 # Correlation
 
-**Correlation** analysis in TSE Analytics can be performed to determine the degree to which two selected variables X and Y are linearly related using the Pearson correlation coefficient.
-Results of a correlation analysis performed in TSE Analytics are displayed as a scatter plot for all data pairs included in the analysis, individual density plots or histograms (for split mode ‘Total’) for each variable, the Pearson correlation coefficient together with associated statistical parameters, as well as t test statistics comparing X and Y variable.
+**Correlation analysis** is used to determine the strength and direction of the linear relationship between two variables, X and Y.
+ 
+In TSE Analytics, the results are displayed as a scatter plot of all data pairs, along with individual density plots or histograms for each variable. Pearson's correlation coefficient is then calculated to quantify the strength and direction of this relationship. T-test statistics are used to assess the statistical significance of the correlation coefficient. Correlation analysis helps researchers identify significant associations between variables, guiding the further interpretation of experimental data.
 
 ![Figure: Correlation widget](Correlation widget.png)
 
 ## Correlation plots
 
-Data pairs for each time bin are depicted as dots in the **scatter plot** and are dependent on the selected split mode and time binning settings.
+Data pairs for each time bin are depicted as dots in the **scatter plot** and are dependent on the selected variables, groups and time binning settings.
 
-![Figure: Correlation widget settings](correlation-widget-settings.png)
+![Figure: Correlation plot](Correlation plot.png)
 
-- Split mode **Total** uses the mean data values of all animals per time bin.
--	Split mode **By Animal** does not calculate means but uses individual data points for each animal per time bin.
--	Split mode **By Run** uses the mean data values of each run per time bin.
--	Split mode **By Factor** uses the mean data value of each group of the selected factor per time bin.
-
-**Histograms/ Density plots** represent the frequency of values separately for each variable (parallel to the respective axis) under consideration of the selected split mode and time binning settings.
-
-> **Note**: Histograms will only be used in split mode Total.
-> If data is split into smaller subsets (By Animal/Run/Factor), separate density curves per subset of data are shown.
+**Histograms/ Density plots** represent how frequently different values occur for each variable. The plots are drawn along the axis corresponding to the variable, and the way the data is grouped and time-binned is taken into account.
+> **Note**: Histograms are only shown when the data is grouped by “Total.” If the data is split into subsets (for example, by Animal or Factor), histograms are not used. Instead, a separate density curve is drawn for each subset.
 {style = 'note'}
 
 To adjust the appearance of a plot, use the **‘Customize’** tool (‘Graph’ symbol) in the plot menu and select the respective plot from the drop-down menu (**“[Variable X] – [Variable Y]”** for scatter plot and **“[Variable X] – Count/Density”** or **“Count/Density – [Variable Y]”** for density plots/ histograms).
@@ -28,17 +22,28 @@ To adjust the appearance of a plot, use the **‘Customize’** tool (‘Graph�
 - In the case of multiple animals, runs or groups (for split modes By Animal, By Run or By Factor, respectively), the appearance of each data subset can be adjusted individually in the **Curves tab** of the ‘Customize’ tool by selecting the respective subset form the upper
   dropdown menu.
 
-![Figure: Plot selection of the Customize tool for correlation analysis](plot-customization-1.png)
+![Figure: Axes tab of the customize tool](Customized the Histogram plots.png)
 
-![Figure: Axes tab of the Customize tool for correlation analysis](plot-customization-axes.png)
+![Curve tab of the customized tool](image_2.png)
 
-![Figure: Curves tab of the Customize tool for correlation analysis](plot-customization-curves.png)
 
 ## Correlation results table
 
 Correlation analysis results are calculated based on the (mean) data values per time bin depending on the respective split mode.
 
 ![Figure: Correlation analysis results table](correlation-analysis-results-table.png)
+
+The **T-test statistics** comparing the X and Y variable include (from left to right):
+
+- T: T-value
+- dof: Degrees of freedom
+- alternative: Tail of the test (two-sided)
+- p-val: p-value
+- CI95%: Confidence intervals of the difference in means
+- cohen-d: Cohen d effect size
+- BF10: Bayes factor of the alternative hypothesis
+- power: Achieved power of the test (= 1 - type II error)
+
 
 The **Pearson correlation** coefficient table indicates (from left to right):
 
@@ -53,13 +58,3 @@ The **Pearson correlation** coefficient table indicates (from left to right):
 -	BF10: Bayes factor of the alternative hypothesis
 -	power: Achieved power of the test (= 1 - type II error)
 
-The **T-test statistics** comparing the X and Y variable include (from left to right):
-
-- T: T-value
-- dof: Degrees of freedom
-- alternative: Tail of the test (two-sided)
-- p-val: p-value
-- CI95%: Confidence intervals of the difference in means
-- cohen-d: Cohen d effect size
-- BF10: Bayes factor of the alternative hypothesis
-- power: Achieved power of the test (= 1 - type II error)

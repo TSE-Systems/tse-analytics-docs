@@ -22,4 +22,4 @@ Both plots and analysis results displayed are added to the report upon clicking 
 {style = 'warning'}
 
 To further customize the appearance of the generated plot, use the **Plot Menu** located above the graph. 
-For detailed instructions, refer to the section ***“Customize the Appearance of the Result”*** in the *“Toolbox – Statistical Analysis Widgets”* chapter.
+For detailed instructions, refer to the section ***“Customize the Appearance of the Result”*** in the *“Toolbox Widgets”* chapter.
