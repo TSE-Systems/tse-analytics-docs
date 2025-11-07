@@ -1,27 +1,27 @@
 # Regression
 
-Linear regression analysis (**“Regression”**) can be performed in TSE Analytics to investigate the relationship between an independent variable (**Covariate**) and a dependent variable (**Response**).
-Results of a regression analysis performed in TSE Analytics are displayed as a regression plot and linear regression results in the GLM (Generalized Linear Model) table.
+**Regression** analysis is used to model and quantify the relationship between **variable** and **covariate**. Regression aims to predict the value of the response based on the covariates and to understand the functional form of their relationship.
+
+In TSE Analytics, results of a regression analysis are displayed as a regression plot with the fitted regression line overlaid, along with linear regression statistics for each covariate.
+This analysis helps researchers make predictions, estimate effect sizes, and interpret the influence of covariates on the response outcome.
 
 ![Figure: Regression widget](Regression widget.png)
 
 ## Regression plot
 
-![Figure: Regression plot](Regression plot.png)
+The regression plot combines a **scatter plot** of data values for each time bin with a fitted **regression line** and its corresponding **confidence band** based on the plotted data. 
 
-The regression plot combines a scatter plot of mean data values per time bin with a regression line and confidence band based on the plotted data values.
-The calculation of mean data values and plot appearance are dependent on the selected split mode:
+![Regression analysis plot.png](Regression analysis plot.png)
 
-- Split mode **Total** uses the mean data values of all animals per time bin.
-- Split mode **By Run** uses the mean data values of each run per time bin. Individual regression plots for each subset of data (runs) are displayed in one graph.
-- Split mode **By Factor** uses the mean data value of each group of the selected factor per time bin. Individual regression plots for each subset of data (groups of the selected factor) are displayed in one graph.
+Data points for each time bin are shown as individual dots in the scatter plot, and their values depend on the selected **variables, groups, and time binning** settings.
 
-The title, as well as range, label and scale of axis and generation of an automatic legend can be defined in the **Axes** tab of the ‘Customize’ tool (‘Graph’ symbol) in the plot menu.
-The appearance of regression lines can be adjusted in the **Curves** tab of the ‘Customize’ tool, whereby each label represents one data subset.
+**Customize Plots**:
 
-![Figure: Axes tab of the Customize tool for regression analysis ](regression-plot-customization-1.png)
+- **Axes tab**: Set the title, axis labels, range, scale, and create an automatic legend.
 
-![Figure: Curves tab of the Customize tool for regression analysis ](regression-plot-customization-2.png)
+- **Curves tab**: Adjust the appearance of regression lines. Each label corresponds to a different data subset.
+
+![Axes and Curves tab of the Customize tool.png](Axes and Curves tab of the Customize tool.png)
 
 ## Regression results table
 

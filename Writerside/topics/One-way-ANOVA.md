@@ -2,11 +2,13 @@
 
 One-way ANOVA can be used to identify significant differences between the means of two or more groups of one factor. 
 
+![Figure: One-way ANOVA Widget](One-way ANOVA Widget.png)
+
+
 To perform one-way ANOVA in TSE Analytics, select the respective data set from the *Add widget* and choose **One-way ANOVA** as the analysis **Mode** in the AN(C)OVA control panel.
 Select one factor from the **Factors** list and choose a variable from the **Dependent Variable** list.
 If needed, adjust the **Effect size type** via the dropdown menu. Click **Update** to calculate analysis results.
 
-![Figure: One-way ANOVA command](one-way-anova-command.png)
 
 ![Figure: One-way ANOVA anaysis results table](one-way-anova-results-table.png)
 

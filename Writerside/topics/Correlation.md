@@ -58,3 +58,27 @@ The **Pearson correlation** coefficient table indicates (from left to right):
 -	BF10: Bayes factor of the alternative hypothesis
 -	power: Achieved power of the test (= 1 - type II error)
 
+## Example Interpretation
+
+The figure below shows the correlation between XT+YT (sum of X and Y beam interruptions, representing locomotor activity) and H(3) (heat production) measured by the PhenoMaster system.
+
+![Figure: Correlation analysis example](Correlation analysis example.png)
+
+In this plot:
+
+- Each **dot** represents one data pair (XT+YT and H(3)) averaged over a 2-hour time bin.
+
+- Different **colors** correspond to individual animals.
+
+- The **x-axis** shows the XT+YT values (activity).
+
+- The **y-axis** shows the H(3) values (heat production).
+
+- The **density plots** along the axes display the value distributions for each variable and animal group.
+
+The **T-test** yielded a very large **t-value (t = 23.99)** with an extremely small **p-value (p = 4.0 × 10⁻⁷⁷)**, well below conventional significance threshold(**p < 0.001**). The high effect size (**Cohen’s d = 2.50**) and full statistical power indicate that the observed difference is highly significant and unlikely to result from random variation.
+
+**Pearson correlation** analysis confirmed a strong linear association between activity and heat production (**r = 0.77, 95% CI [0.70, 0.82]**), supported by robust **Bayesian evidence (BF10 ≫ 1)** and a sufficient sample size.
+
+These results demonstrate that **more active mice produce more heat**, reflecting **increased metabolic energy expenditure** during movement, consistent with the expected physiological relationship between **activity and metabolism**.
+

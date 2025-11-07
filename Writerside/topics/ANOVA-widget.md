@@ -2,7 +2,7 @@
 
 The **ANOVA** widgets offer multiple options for the Analysis of Variances (ANOVA) including One-Way ANOVA, N-Way ANOVA, repeated measures ANOVA, mixed design ANOVA and Analysis of Covariance (ANCOVA).
 
-![Figure:ANOVA widgets](anova-command.png)
+![Figure: ANOVA widgets](ANOVA widgets.png)
 
 Settings for AN(C)OVA calculations can be adjusted in the control panel of the AN(C)OVA widget:
 - The respective analysis (One-Way ANOVA, N-Way ANOVA, repeated measures ANOVA, mixed design ANOVA, ANCOVA) can be chosen under **ANCOVA**. 
@@ -22,7 +22,7 @@ To show ANOVA results or to apply changes, click **Update** in the control panel
 
 ANOVA results as displayed in the AN(C)OVA widget can be added to the report by clicking **Add to Report** in the control panel.
 
-> **Warning**: Only animals selected in the Animal list are considered for the calculation of AN(C)OVA analysis results in the AN(C)OVA widget.
+> **Important**: Only animals selected in the Animal list are considered for the calculation of AN(C)OVA analysis results in the AN(C)OVA widget.
 > Changes regarding the selection of animals are only applied after clicking **Update**.
 {style = 'warning'}
 
