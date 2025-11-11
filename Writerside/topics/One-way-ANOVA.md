@@ -9,8 +9,7 @@ To perform one-way ANOVA in TSE Analytics, select the respective data set from t
 Select one factor from the **Factors** list and choose a variable from the **Dependent Variable** list.
 If needed, adjust the **Effect size type** via the dropdown menu. Click **Update** to calculate analysis results.
 
-
-![Figure: One-way ANOVA anaysis results table](one-way-anova-results-table.png)
+![Figure: One-way ANOVA analysis results table.png](One-way ANOVA analysis results table.png)
 
 Analysis result tables for one-way ANOVA include:
 
@@ -76,9 +75,40 @@ If equality of variances is not given (equal_var = False):
 
 **Multiple comparisons plot**
 
-![Figure: Multiple comparisons plot](multiple-comparisons-plot.png)
+![Figure: Multiple comparisons plot](Mutiple comparisons plot.png)
 
 *The multiple comparisons plot* generated for one-way ANOVAs allows to graphically identify significant pairwise comparisons based on the Tukey HSD (Honestly Significant Difference) test statistic for multiple comparisons. The plot shows the means (dot) and confidence intervals (horizontal lines) of the selected variable for each factor group. Confidence intervals are calculated based on the respective Tukey’s q critical value, which is dependent on the confidence level, degrees of freedom and the number of groups. A statistically significant difference between two groups is given, if the respective confidence intervals do not overlap.
 
 > **Note**: Graphical representation of confidence intervals is always based on the Tukey HSD test, independent of the pairwise comparison method applied to post-hoc test tables (Tukey HSD for one-way classic ANOVA and Games-Howell for one-way Welch ANOVA).
 {style='note'}
+
+## Example Interpretation
+
+Based on the example dataset analyzed above, in an animal behavior experiment, RER (respiratory exchange ratio) was measured to compare different genotypes (Genotype), with groups WT (wild-type) and KO (knockout).
+
+**1.** Before interpreting the ANOVA results, ensure that the data meet the analysis assumptions (**normality and homoscedasticity**):
+
+![Figure: Normality and Homoscedasticity Test](Normality and Homoscedasticty Test.png)
+
+- Both WT (**p = 0.234**) and KO (**p = 0.157**) have p-values greater than 0.05, indicating that their data are approximately normally distributed.
+
+- The Levene test examines whether the group variances are equal.
+The test shows **p = 0.283 (> 0.05)**, meaning that the variances between WT and KO are not significantly different.
+
+**2.** Once the assumptions are satisfied, the **One-way ANOVA** results can be examined:
+
+![One-way classic ANOVA Test.png](One-way classic ANOVA Test.png)
+
+- The ANOVA table compares the variance between groups (Genotype) and within groups (individual differences).
+
+- The **F statistic (0.11092)** is very small, and the **p-value (0.746)** is much greater than 0.05, indicating that the difference in RER between WT and KO is not statistically significant.
+The **effect size (η² = 0.011)** is also very small, suggesting that genotype explains only a minimal proportion of total variance.
+
+**3.** If ANOVA shows no significant difference, a **post-hoc test (e.g., Tukey)** can be performed to confirm that group differences remain non-significant.
+
+![Post-hoc Test.png](Post-hoc Test.png)
+
+- The Tukey post-hoc test confirms that the difference between WT and KO remains non-significant (**p = 0.746**).
+The mean difference (0.005) is negligible, and the small effect size (**Hedges g = 0.18**) further supports that the groups behave similarly in RER.
+
+In this example, WT and KO exhibit very similar RER values. Therefore, the difference between the groups is not statistically significant, and genotype exerts minimal effect on the outcome.

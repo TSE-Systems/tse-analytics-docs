@@ -23,3 +23,5 @@ Both plots and analysis results displayed are added to the report upon clicking 
 
 To further customize the appearance of the generated plot, use the **Plot Menu** located above the graph. 
 For detailed instructions, refer to the section ***“Customize the Appearance of the Result”*** in the *“Toolbox Widgets”* chapter.
+
+The displayed graphs can be saved together in the current active workspace for further editing or export by clicking **Add to Report**. For detailed instructions, refer to the section ***“Editing and Exporting Analysis Results (Via Report)”*** in the *“Getting Started – Data Export”* chapter.

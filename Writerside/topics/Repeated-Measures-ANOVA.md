@@ -2,19 +2,19 @@
 
 Repeated measures ANOVA is used to identify significant differences between the means of groups with the same subjects, for example for repeated measurements in the same animals at different time points. 
 
+![Figure: Repeated Measure ANOVA](Repeated Measure ANOVA.png)
+
 To perform repeated measures ANOVA using the within-subject factor “time bin” without additional between-subject factors, select the respective data set from the *Add widget* and choose **Repeated measures ANOVA** as the analysis **Mode** in the AN(C)OVA control panel.
 **Apply (Time) Binning** using the binning mode which defines the repeated measures, i.e. bins, and choose a variable from the **Dependent Variable** list.
 If needed, select a **P-values adjustment** method or adjust the **Effect size type** via the dropdown menu.
 Click **Update** to calculate analysis results and apply changes in the analysis settings.
-
-![Figure: Repeated Measure ANOVA widget](repeated-measures-anova-command.png)
 
 > **Note**: Repeated measures ANOVA is only be performed if **Time Binning** is applied.
 {style='note'}
 
 Analysis result tables for repeated measures ANOVA include:
 
-![Figure: Sphericity test table](sphericity-test-table.png)
+![Figure: Sphericity test table](Sphericity test table.png)
 
 **Sphericity test:**
 
@@ -24,9 +24,9 @@ Analysis result tables for repeated measures ANOVA include:
 - DOF: Degrees of freedom
 - p-value: p-value
 
-![Figure: Repeated measures one-way ANOVA table](repeated-measures-one-way-anova-table.png)
+![Figure: Repeated measures one-way ANOVA](Repeated measures one-way ANOVA.png)
 
-**Repeated measures one-way ANOVA:**
+***Repeated measures one-way ANOVA:**
 
 - Source: Name of the within-subject factor (“Bin”) or Error
 - SS: Sums of squares
@@ -41,7 +41,7 @@ Analysis result tables for repeated measures ANOVA include:
 - W-spher: Sphericity test statistic
 - p-spher: p-value of the sphericity test
 
-![Figure: Pairwise post-hoc tests table](pairwise-post-hoc-tests-table.png)
+![Pairswise post-hoc tests.png](Pairswise post-hoc tests.png)
 
 **Pairwise post-hoc tests:**
 

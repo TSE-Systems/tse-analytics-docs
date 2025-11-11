@@ -11,7 +11,7 @@ Settings for AN(C)OVA calculations can be adjusted in the control panel of the A
 - For the calculation of effect sizes, the **Effect size type** can be selected from the respective dropdown menu. The available effect size types are: unbiased Cohen d, Hedges g, eta-square, odds ratio, area under the curve and common language effect size. 
 - A dropdown menu to choose a method for **P-value adjustment** is available for N-way ANOVA, repeated measures ANOVA, mixed-design ANOVA and ANCOVA. Different methods for p-value adjustment include one-step Bonferroni, one-step Sidak, step-down Bonferroni, Benjamini/Hochberg FDR (false discovery rate) and Benjamini/Yekutieli FDR (false discovery rate). 
 
-![Figure:ANOVA widgets selection](anova-widgets-selection.png)
+![Figure: Control panel of the AN(C)OVA widget](Control panel of the AN(C)OVA widget.png)
 
 > **Note**: For one-way ANOVA, p-value correction of pairwise comparisons is determined by the type of ANOVA (depending on homoscedasticity) and cannot be adjusted manually.
 > 
@@ -26,13 +26,7 @@ ANOVA results as displayed in the AN(C)OVA widget can be added to the report by 
 > Changes regarding the selection of animals are only applied after clicking **Update**.
 {style = 'warning'}
 
-Besides adding AN(C)OVA results to the report, TSE Analytics does not offer a dedicated export function for AN(C)OVA results.
-However, results can be saved outside of TSE Analytics via copy and paste.
-All analysis results can be selected by clicking on the data table and pressing <shortcut>Ctrl+A</shortcut> on the keyboard or by right-clicking on the analysis window and selecting **Select All**.
-Selected content can then be copied to the clipboard using <shortcut>Ctrl+C</shortcut> or by right-clicking on the analysis window again and selecting **Copy**.
-Content copied to the clipboard can then be pasted and saved outside of TSE Analytics.
-
-![Figure: copy-paste report](copy-paste.png)
+The displayed graphs can be saved together in the current active workspace for further editing or export by clicking **Add to Report**. For detailed instructions, refer to the section ***“Editing and Exporting Analysis Results (Via Report)”*** in the *“Getting Started – Data Export”* chapter.
 
 
 
