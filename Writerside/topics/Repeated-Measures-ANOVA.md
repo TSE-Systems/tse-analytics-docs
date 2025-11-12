@@ -41,7 +41,7 @@ Analysis result tables for repeated measures ANOVA include:
 - W-spher: Sphericity test statistic
 - p-spher: p-value of the sphericity test
 
-![Pairswise post-hoc tests.png](Pairswise post-hoc tests.png)
+![Pairwise post-hoc tests.png](Pairswise post-hoc tests.png)
 
 **Pairwise post-hoc tests:**
 
@@ -63,7 +63,7 @@ Analysis result tables for repeated measures ANOVA include:
 - BF10: Bayes Factor
 - effect size type: Effect size as defined in “Effect size type” dropdown menu
 
-> **Warning**: The time needed to calculate pairwise comparison results for repeated measures ANOVA increases with the number of time bins.
+> **Important**: The time needed to calculate pairwise comparison results for repeated measures ANOVA increases with the number of time bins.
 > In case of binning by time intervals, calculation of ANOVA results might take several minutes depending on the computer’s computing power. 
 >
 > Therefore, when performing repeated measures ANOVA using time binning by time intervals, users can choose whether pairwise comparisons should be performed in a pop-up window.

@@ -1,6 +1,6 @@
 # One-way ANOVA
 
-One-way ANOVA can be used to identify significant differences between the means of two or more groups of one factor. 
+One-way ANOVA tests whether groups defined by a single factor differ significantly by partitioning variance into between-group and within-group components.
 
 ![Figure: One-way ANOVA Widget](One-way ANOVA Widget.png)
 
@@ -97,7 +97,7 @@ The test shows **p = 0.283 (> 0.05)**, meaning that the variances between WT and
 
 **2.** Once the assumptions are satisfied, the **One-way ANOVA** results can be examined:
 
-![One-way classic ANOVA Test.png](One-way classic ANOVA Test.png)
+![Figure: One-way classic ANOVA](One-way classic ANOVA.png)
 
 - The ANOVA table compares the variance between groups (Genotype) and within groups (individual differences).
 
@@ -106,9 +106,10 @@ The **effect size (η² = 0.011)** is also very small, suggesting that genotype 
 
 **3.** If ANOVA shows no significant difference, a **post-hoc test (e.g., Tukey)** can be performed to confirm that group differences remain non-significant.
 
-![Post-hoc Test.png](Post-hoc Test.png)
+![Figure: Pairwise Tukey-HSD post-hoc test table](Pairwise Tukey-HSD post-hoc test table.png)
+
 
 - The Tukey post-hoc test confirms that the difference between WT and KO remains non-significant (**p = 0.746**).
-The mean difference (0.005) is negligible, and the small effect size (**Hedges g = 0.18**) further supports that the groups behave similarly in RER.
+The **mean difference (0.005)** is negligible, and the small effect size (**Hedges g = 0.18**) further supports that the groups behave similarly in RER.
 
 In this example, WT and KO exhibit very similar RER values. Therefore, the difference between the groups is not statistically significant, and genotype exerts minimal effect on the outcome.

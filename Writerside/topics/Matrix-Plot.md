@@ -3,7 +3,7 @@
 A matrix plot is a type of data visualization that represents data in a matrix format, allowing you to visualize complex relationships and patterns between different variables. 
 Matrix plots use a grid structure where each cell within the matrix represents the value or relationship between two variables.
 
-![Figure: Matrix Plot command](matrix-plot-command.png)
+![Figure: Matrix plot widgets](Matrix plot widgets.png)
 
 To perform a Matrix Plot in TSE Analytics, go to **Add Widget | Dimensionality | Matrix Plot**. First, select the dataset you want to analyze from the left side of the interface. Then, in the *Variables list* on the right, choose at least two variables to explore their pairwise relationships. Users can specify the analysis dimension in the *Split Mode* section.
 

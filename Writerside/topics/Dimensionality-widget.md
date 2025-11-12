@@ -2,7 +2,7 @@
 
 The _Dimensionality_ widget offers multiple options for the generation of high-dimensional analysis plots considering multiple variables of interest.
 
-![Figure: Dimensionality widgets](dimensionality-widgets.png)
+![Figure: Dimensionality widgets](Dimensionality widgets.png)
 
 Variables, analysis mode and split mode for high-dimensional analysis can be selected from the control panel in the _Dimensionality_ widget:
 
@@ -28,7 +28,7 @@ Different **Split Modes** (Total, By Animal, By Run, By Factor) can be applied t
 
 Clicking **Update** in the control panel is necessary to display analysis results or to apply changes in the analysis settings.
 
-> **Warning**: Only animals selected in the _Animal_ list are considered for the calculation and display of plots in the _Dimensionality_ widget.
+> **Important**: Only animals selected in the _Animal_ list are considered for the calculation and display of plots in the _Dimensionality_ widget.
 > Changes regarding the selection of animals are only applied after clicking **Update**.
 {style = 'warning'}
 

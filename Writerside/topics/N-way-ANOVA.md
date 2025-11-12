@@ -58,13 +58,15 @@ Analysis result tables for N-way ANOVA include:
 
 In this example, RER was selected as the dependent variable and analyzed using a Two-way ANOVA with the following two factors:
 
+![Figure: Selecting dependent variable and factors](Selecting dependent variable and factors.png)
+
 - Genotype: WT / KO
 
 - Treatment: Control / Treated
 
-![Figure: Example of Two-way ANOVA](Example of N-way ANOVA.png)
-
 **1.** The first table summarizes the **Two-way ANOVA**table includes the F-values and corresponding p-values for each effect:
+
+![Figure: Two-way ANOVA Table](Two-way ANOVA Table.png)
 
 - **Genotype main effect**: not significant (**p = 0.725**): WT and KO animals show no meaningful difference in RER.
 
@@ -75,6 +77,8 @@ In this example, RER was selected as the dependent variable and analyzed using a
 All p-values are well above the 0.05 threshold, indicating that **neither factor nor their interaction has a significant impact on RER**. Effect sizes (partial eta-square, np2) are also small, supporting the same conclusion.
 
 **2.** The second table shows pairwise **post-hoc tests**, which further compare the means of the individual groups. This allows checking whether any specific pair of conditions differs from another.
+
+![Post-hoc tests table.png](Post-hoc tests table.png)
 
 - Mean differences between groups are very small
 

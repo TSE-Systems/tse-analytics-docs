@@ -2,7 +2,7 @@
 
 Principal Component Analysis (PCA) is a statistical technique used in data analysis and machine learning for dimensionality reduction while preserving as much variation as possible.
 
-![Figure: PCA command](pca-command.png)
+![Figure: PCA widgets](PCA widgets.png)
 
 To perform a Matrix Plot in TSE Analytics, go to **Add Widget | Dimensionality | PCA**. First, select the dataset you want to analyze from the left side of the interface. Then, in the *Variables list* on the right, choose at least two variables to explore their pairwise relationships. Users can specify the analysis dimension in the *Split Mode* section.Click **Update** to apply the PCA and generate the results
 

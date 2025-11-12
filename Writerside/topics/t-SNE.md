@@ -3,7 +3,7 @@
 t-Distributed Stochastic Neighbor Embedding (t-SNE) is a dimensionality reduction technique specifically designed for visualizing high-dimensional data in a lower-dimensional space (typically 2D or 3D).
 It is particularly effective for embedding high-dimensional data into a space of two or three dimensions, which can then be visualized in a scatter plot.
 
-![tSNE command](tsne-command.png)
+![Figure: t-SNE widgets](t-SNE widgets.png)
 
 To perform t-SNE in TSE Analytics, go to **Add Widget | Dimensionality | tSNE**. First, select the dataset you want to analyze from the left side of the interface. Then, in the *Variables list* on the right, choose at least two variables to explore their pairwise relationships. Users can specify the analysis dimension in the *Split Mode* section.Click **Update** to apply the tSNE and generate the results
 
