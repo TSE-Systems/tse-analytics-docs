@@ -25,9 +25,9 @@ Data points for each time bin are shown as individual dots in the scatter plot, 
 
 ## Regression results table
 
-![Figure: Regression analysis results table](regression-results-table.png)
+![Linear Regression table.png](Linear Regression table.png)
 
-The GLM (Generalized Linear Model) table shows the statistical results of the linear regression, under consideration of the selected split mode and time binning settings:
+The linear regression table shows the statistical results of the linear regression, under consideration of the selected split mode and time binning settings:
 
 Results include (from left to right):
 

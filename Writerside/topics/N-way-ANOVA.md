@@ -4,7 +4,7 @@ N-way ANOVA can be used to determine the effects of two or more (between-subject
 
 ![Figure: N-way ANOVA](N-way ANOVA.png)
 
-To perform N-way ANOVA (Two-way ANOVA, Three-way ANOVA, Four-way ANOVA, …) in TSE Analytics, select the respective data set from the *Add widget* and choose **N-way ANOVA** as the analysis **Mode** in the AN(C)OVA control panel.
+To perform N-way ANOVA (Two-way ANOVA, Three-way ANOVA, Four-way ANOVA, …) in TSE Analytics, select the respective data set from the *Add widget* and choose **N-way ANOVA**.
 Select two or more factors from the **Factors** list and choose a variable from the **Dependent Variable** list.
 If needed, select a **P-values adjustment** method or adjust the **Effect size type** via the dropdown menu.
 Click **Update** to calculate results and apply changes in the analysis settings.

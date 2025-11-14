@@ -4,10 +4,12 @@ Repeated measures ANOVA is used to identify significant differences between the 
 
 ![Figure: Repeated Measure ANOVA](Repeated Measure ANOVA.png)
 
-To perform repeated measures ANOVA using the within-subject factor “time bin” without additional between-subject factors, select the respective data set from the *Add widget* and choose **Repeated measures ANOVA** as the analysis **Mode** in the AN(C)OVA control panel.
+To perform repeated measures ANOVA using the within-subject factor “time bin” without additional between-subject factors, select the respective data set from the *Toolbox* and choose **Repeated measures ANOVA**.
 **Apply (Time) Binning** using the binning mode which defines the repeated measures, i.e. bins, and choose a variable from the **Dependent Variable** list.
 If needed, select a **P-values adjustment** method or adjust the **Effect size type** via the dropdown menu.
 Click **Update** to calculate analysis results and apply changes in the analysis settings.
+
+![Apply Binning widegts.png](Apply Binning widegts.png)
 
 > **Note**: Repeated measures ANOVA is only be performed if **Time Binning** is applied.
 {style='note'}
@@ -70,3 +72,48 @@ Analysis result tables for repeated measures ANOVA include:
 {style = 'warning'}
 
 ![Figure: Pop-up window to decide on pairwise comparisons for repeated measures ANOVA for binning by time intervals](perform-pairwise-tests-dialog.png)
+
+## Example Interpretation
+
+Based on the example dataset analyzed below, in an animal metabolic experiment, the **RER (Respiratory Exchange Ratio)** was continuously recorded using the PhenoMaster system.
+Data were processed using the Time Interval binning mode, where each time bin represents an **8-hour interval**.
+
+![Figure: Repeated Measures ANOVA Example](Repeated Measures ANOVA Example.png)
+
+**1. Sphericity Test**
+
+Before interpreting repeated measures ANOVA, the sphericity assumption must be checked.
+Sphericity indicates whether the variances of the differences between all pairs of repeated measures (time bins) are equal.
+
+![Figure: Sphericity test](Sphericity test.png)
+
+Since the software reports **Sphericity = True，p = 1.0 (> 0.05)**, the data satisfy the sphericity assumption, meaning that the variances of the differences between all pairs of repeated measures (time bins) are approximately equal.
+
+**2. Repeated Measures One-way ANOVA**
+
+The ANOVA table summarizes variance between time bins (temporal effect) versus within subjects (individual variability).
+
+![Figure: Repeated measures one-way ANOVA](Repeated measures one-way ANOVA.png)
+
+The **F statistic (F = 53.24)** is large and the **p-value (< 0.001)** is highly significant, indicating that RER values **differ significantly across time intervals**.
+The **effect size (η²g = 0.726)** is very large, showing that approximately **73% of the total variance** in RER is explained by time-dependent changes.
+This result strongly suggests **a robust temporal pattern** in RER across the 8-hour bins.
+
+**3. Pairwise Post-hoc Tests**
+
+Pairwise post-hoc comparisons identify which specific time bins differ from each other.
+
+![Figure: Pairwise post-hoc tests](Pairwise post-hoc tests.png)
+
+Key results from the table:
+
+- Several comparisons show highly significant differences (e.g., **Bin 0 vs Bin 2: p = 0.00001, Bin 0 vs Bin 5: p = 0.00000**).
+
+- All tests are **paired** (same animals measured repeatedly).
+
+- The **Hedges g** values (e.g., 3.17, 4.13) indicate **large effect sizes**, supporting strong temporal changes in RER.
+
+- The **Bayes Factors (BF10 > 1000)** further confirm strong evidence for differences between certain bins.
+
+From this example, RER values show significant and substantial differences between multiple time intervals, confirming that RER fluctuates dynamically across the day.
+This pattern may correspond to diurnal metabolic shifts (e.g., higher carbohydrate oxidation during active/dark phases and higher fat oxidation during resting/light phases).
