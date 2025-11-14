@@ -74,3 +74,41 @@ Analysis result tables for repeated measures ANOVA include:
 {style = 'warning'}
 
 ![Figure: Pop-up window to decide on pairwise comparisons for mixed measures ANOVA for binning by time intervals](perform-pairwise-tests-dialog.png)
+
+## Example Interpretation
+
+This example uses a Mixed-Design ANOVA to analyze respiratory exchange ratio (RER) measured in animals using the Phenomaster system, comparing two genotypes (WT vs KO) across different time bins.
+
+![Figure: Mixed-design ANOVA example](Mixed-design ANOVA example.png)
+
+1. Sphericity Test
+
+![Figure: Sphericity test](Sphericity test.png)
+
+This table examines whether the within-subject factor (Bin) meets the sphericity assumption required for Mixed-Design ANOVA. Since the p-value is not significant, sphericity is considered satisfied.
+
+2. Mixed-Design ANOVA 
+
+![Figure: Mixed-design ANOVA table](Mixed-design ANOVA table.png)
+
+This table reports the main effects and interaction from the Mixed-Design ANOVA:
+
+- **Genotype**: p = 0.71882 → No overall difference in RER between WT and KO.
+
+- **Bin**: p = 0.83991 → RER does not significantly change across time bins.
+
+- **Genotype × Bin interaction**: p = 0.07757 → Trend toward different temporal profiles between genotypes, but not statistically significant.
+
+Based on this trend, one might consider increasing sample size or further examining specific time bins for potential group differences.
+
+3. Pairwise host-hoc tests
+
+![Figure: Pairwise host-hoc tests](Pairwise host-hoc tests.png)
+
+- Certain time bins (e.g., Bin 0 vs Bin 2) show significant changes over time (p < 0.05), indicating localized temporal RER variation.
+
+- Comparisons between genotypes at each time point are not significant (p > 0.05), suggesting no RER difference between WT and KO in any individual bin.
+
+- Overall, KO and WT exhibit similar RER, which remains relatively stable over time; temporal patterns may slightly differ, but current evidence is not strong.
+
+In summary, in this example, there is no overall difference in RER between the KO and WT groups, and RER remains largely stable over time. Although the temporal profiles of the two groups may show slight differences, the evidence is not strong enough to support a significant effect.

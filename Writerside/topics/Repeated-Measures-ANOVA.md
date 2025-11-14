@@ -117,3 +117,5 @@ Key results from the table:
 
 From this example, RER values show significant and substantial differences between multiple time intervals, confirming that RER fluctuates dynamically across the day.
 This pattern may correspond to diurnal metabolic shifts (e.g., higher carbohydrate oxidation during active/dark phases and higher fat oxidation during resting/light phases).
+
+
