@@ -81,33 +81,34 @@ This example uses a Mixed-Design ANOVA to analyze respiratory exchange ratio (RE
 
 ![Figure: Mixed-design ANOVA example](Mixed-design ANOVA example.png)
 
-1. Sphericity Test
+**1. Sphericity Test**
 
 ![Figure: Sphericity test](Sphericity test.png)
 
 This table examines whether the within-subject factor (Bin) meets the sphericity assumption required for Mixed-Design ANOVA. Since the p-value is not significant, sphericity is considered satisfied.
 
-2. Mixed-Design ANOVA 
+**2. Mixed-Design ANOVA** 
 
 ![Figure: Mixed-design ANOVA table](Mixed-design ANOVA table.png)
 
 This table reports the main effects and interaction from the Mixed-Design ANOVA:
 
-- **Genotype**: p = 0.71882 → No overall difference in RER between WT and KO.
+- **Genotype (between-subjects)**:  **p = 0.71882**
+→ **No significant overall difference in RER between WT and KO**; effect size is negligible.
 
-- **Bin**: p = 0.83991 → RER does not significantly change across time bins.
+- **Time Bin (within-subjects)**: **p < 0.00001 (reported as 0.00000)**
+→ **Highly significant main effect of Time**: RER differs across time bins with a very large effect size.
 
-- **Genotype × Bin interaction**: p = 0.07757 → Trend toward different temporal profiles between genotypes, but not statistically significant.
+- **Genotype × Time Bin interaction**: **p = 0.52713**
+→ No significant interaction; there is no evidence that the temporal profile of RER differs between genotypes.
 
-Based on this trend, one might consider increasing sample size or further examining specific time bins for potential group differences.
+**3. Pairwise host-hoc tests**
 
-3. Pairwise host-hoc tests
+![Mixed-design ANOVA Pairwise post-hoc tests example.png](Mixed-design ANOVA Pairwise post-hoc tests example.png)
 
-![Figure: Pairwise host-hoc tests](Pairwise host-hoc tests.png)
+- **Certain time bins (e.g., Bin 0 vs Bin 2)** show significant changes over time (**p < 0.05**), indicating localized temporal RER variation.
 
-- Certain time bins (e.g., Bin 0 vs Bin 2) show significant changes over time (p < 0.05), indicating localized temporal RER variation.
-
-- Comparisons between genotypes at each time point are not significant (p > 0.05), suggesting no RER difference between WT and KO in any individual bin.
+- **Comparisons between genotypes at each time point** are not significant (**p > 0.05**), suggesting no RER difference between WT and KO in any individual bin.
 
 - Overall, KO and WT exhibit similar RER, which remains relatively stable over time; temporal patterns may slightly differ, but current evidence is not strong.
 

@@ -103,7 +103,7 @@ This result strongly suggests **a robust temporal pattern** in RER across the 8-
 
 Pairwise post-hoc comparisons identify which specific time bins differ from each other.
 
-![Figure: Pairwise post-hoc tests](Pairwise post-hoc tests.png)
+![Pairwise post-hoc tests example.png](Pairwise post-hoc tests example.png)
 
 Key results from the table:
 
