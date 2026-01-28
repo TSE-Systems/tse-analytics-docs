@@ -11,11 +11,11 @@ After setting the file destination and file name in the File Explorer, the data 
 
 This data export option will save the current version of the active data table under consideration of changes that have been made using TSE Analytics. Changes considered for the exported data table include merging of datasets, exclusion of animals and animal selection in the animals list via checkboxes, exclusion of time phases and adjustment of time, editing of animal information or factors, time binning and removal of outliers.
 
-> **Important**: Variable selection and Split Mode selection in the Table control panel do not affect the content of the exported data table, but only the way data is displayed in the Table widget.
-> The exported data table always contains all variables extracted from the PhenoMaster file and data for individual animals (as for Split Mode “By Animal”).
->
-> Similarly, sorting of data entries in the Table widget will change the order of data entries displayed under Table, but will not affect the exported data table.
-{style='warning'}
+!!! warning
+    Variable selection and Split Mode selection in the Table control panel do not affect the content of the exported data table, but only the way data is displayed in the Table widget.
+    The exported data table always contains all variables extracted from the PhenoMaster file and data for individual animals (as for Split Mode “By Animal”).
+
+    Similarly, sorting of data entries in the Table widget will change the order of data entries displayed under Table, but will not affect the exported data table.
 
 ##  Export of Raw Data Plot
 
@@ -91,9 +91,9 @@ After the report is finalized, it can be exported or printed for documentation, 
 
 ![Finalizing the report.png](/images/Finalizing the report.png)
 
-> **Note**: When performing data analysis, if you click *Add to Report* and nothing appears to happen, your data has actually been successfully added to the report. The reason nothing is visible is that the Report Window is not currently open or active. To view the report, open the **Report Window** by navigating to:**Toolbox → Utils → Report**.
-{style='note'}
-> 
+!!! note
+    When performing data analysis, if you click *Add to Report* and nothing appears to happen, your data has actually been successfully added to the report. The reason nothing is visible is that the Report Window is not currently open or active. To view the report, open the **Report Window** by navigating to:**Toolbox → Utils → Report**.
+
 ### 3. Example Workflow
 
 Suppose you have performed One-way ANOVA and Regression analyse on your dataset and want to consolidate the results into a report:
@@ -112,5 +112,5 @@ All entries of an existing report are cleared by clicking the **New Report** but
 
 ![Figure: New report](../images/new-report.png)
 
-> **Important**: This action cannot be undone! Clicking **New Report** will definitively delete all previous content from the report.
-{style = 'warning'}
+!!! warning
+    This action cannot be undone! Clicking **New Report** will definitively delete all previous content from the report.

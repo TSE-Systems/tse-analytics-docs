@@ -2,18 +2,18 @@
 
 Analysis of Covariance (ANCOVA) allows testing for statistical differences between two or more groups while at the same time controlling for the effects of covariate variables on the dependent variable, thereby combining ANOVA and regression analysis. 
 
-![ANCOVA Widgets.png](ANCOVA Widgets.png)
+![ANCOVA Widgets.png](../../images/ANCOVA Widgets.png)
 
 To perform ANCOVA in TSE Analytics, select the respective data set from the *Add widget* and choose **ANCOVA** as the analysis **Mode** in the AN(C)OVA control panel.
 Select a factor from the **Factors** list, choose a dependent variable from the **Dependent Variable** list and select one or multiple covariate variables from the **Covariate** list (must bot be the dependent variable).
 If needed, a **P-values adjustment** method and **Effect size type** can be selected from the respective dropdown menu.
 Analysis results are calculated according to the selected settings by clicking **Update**.
 
-![Figure: ANCOVA control panel](ANCOVA control panel.png)
+![Figure: ANCOVA control panel](../../images/ANCOVA control panel.png)
 
 Analysis result tables for ANCOVA include:
 
-![Figure: ANCOVA analysis table](ANCOVA analysis table.png)
+![Figure: ANCOVA analysis table](../../images/ANCOVA analysis table.png)
 
 **ANCOVA:**
 
@@ -24,7 +24,7 @@ Analysis result tables for ANCOVA include:
 - p-unc: Uncorrected p-values
 - np2: Partial eta-squared
 
-![Figure: Pairwise post-hoc tests](Pairwise post-hoc tests.png)
+![Figure: Pairwise post-hoc tests](../../images/Pairwise post-hoc tests.png)
 
 **Pairwise post-hoc tests:**
 

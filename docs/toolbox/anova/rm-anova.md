@@ -2,21 +2,21 @@
 
 Repeated measures ANOVA is used to identify significant differences between the means of groups with the same subjects, for example for repeated measurements in the same animals at different time points. 
 
-![Figure: Repeated Measure ANOVA](Repeated Measure ANOVA.png)
+![Figure: Repeated Measure ANOVA](../../images/Repeated Measure ANOVA.png)
 
 To perform repeated measures ANOVA using the within-subject factor “time bin” without additional between-subject factors, select the respective data set from the *Toolbox* and choose **Repeated measures ANOVA**.
 **Apply (Time) Binning** using the binning mode which defines the repeated measures, i.e. bins, and choose a variable from the **Dependent Variable** list.
 If needed, select a **P-values adjustment** method or adjust the **Effect size type** via the dropdown menu.
 Click **Update** to calculate analysis results and apply changes in the analysis settings.
 
-![Apply Binning widegts.png](Apply Binning widegts.png)
+![Apply Binning widegts.png](../../images/Apply Binning widegts.png)
 
-> **Note**: Repeated measures ANOVA is only be performed if **Time Binning** is applied.
-{style='note'}
+!!! note
+    Repeated measures ANOVA is only performed if **Time Binning** is applied.
 
 Analysis result tables for repeated measures ANOVA include:
 
-![Figure: Sphericity test table](Sphericity test table.png)
+![Figure: Sphericity test table](../../images/Sphericity test table.png)
 
 **Sphericity test:**
 
@@ -26,7 +26,7 @@ Analysis result tables for repeated measures ANOVA include:
 - DOF: Degrees of freedom
 - p-value: p-value
 
-![Figure: Repeated measures one-way ANOVA](Repeated measures one-way ANOVA.png)
+![Figure: Repeated measures one-way ANOVA](../../images/Repeated measures one-way ANOVA.png)
 
 ***Repeated measures one-way ANOVA:**
 
@@ -43,7 +43,7 @@ Analysis result tables for repeated measures ANOVA include:
 - W-spher: Sphericity test statistic
 - p-spher: p-value of the sphericity test
 
-![Pairwise post-hoc tests.png](Pairswise post-hoc tests.png)
+![Pairwise post-hoc tests.png](../../images/Pairswise post-hoc tests.png)
 
 **Pairwise post-hoc tests:**
 
@@ -65,27 +65,27 @@ Analysis result tables for repeated measures ANOVA include:
 - BF10: Bayes Factor
 - effect size type: Effect size as defined in “Effect size type” dropdown menu
 
-> **Important**: The time needed to calculate pairwise comparison results for repeated measures ANOVA increases with the number of time bins.
-> In case of binning by time intervals, calculation of ANOVA results might take several minutes depending on the computer’s computing power. 
->
-> Therefore, when performing repeated measures ANOVA using time binning by time intervals, users can choose whether pairwise comparisons should be performed in a pop-up window.
-{style = 'warning'}
+!!! warning
+    The time needed to calculate pairwise comparison results for repeated measures ANOVA increases with the number of time bins.
+    In case of binning by time intervals, calculation of ANOVA results might take several minutes depending on the computer’s computing power. 
 
-![Figure: Pop-up window to decide on pairwise comparisons for repeated measures ANOVA for binning by time intervals](perform-pairwise-tests-dialog.png)
+    Therefore, when performing repeated measures ANOVA using time binning by time intervals, users can choose whether pairwise comparisons should be performed in a pop-up window.
+
+![Figure: Pop-up window to decide on pairwise comparisons for repeated measures ANOVA for binning by time intervals](../../images/perform-pairwise-tests-dialog.png)
 
 ## Example Interpretation
 
 Based on the example dataset analyzed below, in an animal metabolic experiment, the **RER (Respiratory Exchange Ratio)** was continuously recorded using the PhenoMaster system.
 Data were processed using the Time Interval binning mode, where each time bin represents an **8-hour interval**.
 
-![Figure: Repeated Measures ANOVA Example](Repeated Measures ANOVA Example.png)
+![Figure: Repeated Measures ANOVA Example](../../images/Repeated Measures ANOVA Example.png)
 
 **1. Sphericity Test**
 
 Before interpreting repeated measures ANOVA, the sphericity assumption must be checked.
 Sphericity indicates whether the variances of the differences between all pairs of repeated measures (time bins) are equal.
 
-![Figure: Sphericity test](Sphericity test.png)
+![Figure: Sphericity test](../../images/Sphericity test.png)
 
 Since the software reports **Sphericity = True，p = 1.0 (> 0.05)**, the data satisfy the sphericity assumption, meaning that the variances of the differences between all pairs of repeated measures (time bins) are approximately equal.
 
@@ -93,7 +93,7 @@ Since the software reports **Sphericity = True，p = 1.0 (> 0.05)**, the data sa
 
 The ANOVA table summarizes variance between time bins (temporal effect) versus within subjects (individual variability).
 
-![Figure: Repeated measures one-way ANOVA](Repeated measures one-way ANOVA.png)
+![Figure: Repeated measures one-way ANOVA](../../images/Repeated measures one-way ANOVA.png)
 
 The **F statistic (F = 53.24)** is large and the **p-value (< 0.001)** is highly significant, indicating that RER values **differ significantly across time intervals**.
 The **effect size (η²g = 0.726)** is very large, showing that approximately **73% of the total variance** in RER is explained by time-dependent changes.
@@ -103,7 +103,7 @@ This result strongly suggests **a robust temporal pattern** in RER across the 8-
 
 Pairwise post-hoc comparisons identify which specific time bins differ from each other.
 
-![Pairwise post-hoc tests example.png](Pairwise post-hoc tests example.png)
+![Pairwise post-hoc tests example.png](../../images/Pairwise post-hoc tests example.png)
 
 Key results from the table:
 

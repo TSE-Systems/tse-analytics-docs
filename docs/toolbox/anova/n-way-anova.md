@@ -2,7 +2,7 @@
 
 N-way ANOVA can be used to determine the effects of two or more (between-subject) factors and their interactions on a (dependent) variable. 
 
-![Figure: N-way ANOVA](N-way ANOVA.png)
+![Figure: N-way ANOVA](../../images/N-way ANOVA.png)
 
 To perform N-way ANOVA (Two-way ANOVA, Three-way ANOVA, Four-way ANOVA, …) in TSE Analytics, select the respective data set from the *Add widget* and choose **N-way ANOVA**.
 Select two or more factors from the **Factors** list and choose a variable from the **Dependent Variable** list.
@@ -11,7 +11,7 @@ Click **Update** to calculate results and apply changes in the analysis settings
 
 Analysis result tables for N-way ANOVA include:
 
-![Figure: Two-way ANOVA analysis results table](Two-way ANOVA analysis results table.png)
+![Figure: Two-way ANOVA analysis results table](../../images/Two-way ANOVA analysis results table.png)
 
 **N-way ANOVA** (Two-way ANOVA, Three-way ANOVA, …):
 
@@ -23,7 +23,7 @@ Analysis result tables for N-way ANOVA include:
 - p-unc: uncorrected p-values
 - np2: Partial eta-square effect sizes
 
-![Figure: Pairwise post-hoc tests table](Pairwise post-hoc tests table.png)
+![Figure: Pairwise post-hoc tests table](../../images/Pairwise post-hoc tests table.png)
 
 **Pairwise post-hoc tests** (only for two-way ANOVA):
 
@@ -45,20 +45,20 @@ Analysis result tables for N-way ANOVA include:
 - BF10: Bayes Factor
 - effect size type: Effect size as defined in “Effect size type” dropdown menu
 
-> **Note**: N-way ANOVA is only performed if at least one animal is assigned to each possible combination of groups.
->
-> Pairwise comparisons for N-way ANOVA are only performed for two factors (Two-way ANOVA).
-> The pairwise comparisons table is not displayed for N-way ANOVA with more than two factors (Three-way ANOVA, Four-way ANOVA, …)
->
-> Pairwise comparisons for two-way ANOVA are only performed within the factor which is listed first in the Factors list.
-> The order of factors can be reversed by clicking on ‘Name’ in the header of the factors list.
-{style='note'}
+!!! note
+    N-way ANOVA is only performed if at least one animal is assigned to each possible combination of groups.
+
+    Pairwise comparisons for N-way ANOVA are only performed for two factors (Two-way ANOVA).
+    The pairwise comparisons table is not displayed for N-way ANOVA with more than two factors (Three-way ANOVA, Four-way ANOVA, …)
+
+    Pairwise comparisons for two-way ANOVA are only performed within the factor which is listed first in the Factors list.
+    The order of factors can be reversed by clicking on ‘Name’ in the header of the factors list.
 
 ## Example Interpretation
 
 In this example, RER was selected as the dependent variable and analyzed using a Two-way ANOVA with the following two factors:
 
-![Figure: Selecting dependent variable and factors](Selecting dependent variable and factors.png)
+![Figure: Selecting dependent variable and factors](../../images/Selecting dependent variable and factors.png)
 
 - Genotype: WT / KO
 
@@ -66,19 +66,21 @@ In this example, RER was selected as the dependent variable and analyzed using a
 
 **1.** The first table summarizes the **Two-way ANOVA**table includes the F-values and corresponding p-values for each effect:
 
-![Figure: Two-way ANOVA Table](Two-way ANOVA Table.png)
+![Figure: Two-way ANOVA Table](../../images/Two-way ANOVA Table.png)
 
 - **Genotype main effect**: not significant (**p = 0.725**): WT and KO animals show no meaningful difference in RER.
 
 - **Treatment main effect**: not significant (**p = 0.808**): Control and Treated groups have similar RER values.
 
-- **Genotype × Treatment interaction**: not significant (**p = 0.228**):The treatment effect does not differ between WT and KO animals.
+- **Genotype × Treatment interaction**: not significant (**p = 0.228**): The treatment effect does not differ between WT and KO animals.
 
-All p-values are well above the 0.05 threshold, indicating that **neither factor nor their interaction has a significant impact on RER**. Effect sizes (partial eta-square, np2) are also small, supporting the same conclusion.
+All p-values are well above the 0.05 threshold, indicating that **neither factor nor their interaction has a significant impact on RER**.
+Effect sizes (partial eta-square, np2) are also small, supporting the same conclusion.
 
-**2.** The second table shows pairwise **post-hoc tests**, which further compare the means of the individual groups. This allows checking whether any specific pair of conditions differs from another.
+**2.** The second table shows pairwise **post-hoc tests**, which further compare the means of the individual groups.
+This allows checking whether any specific pair of conditions differs from another.
 
-![Post-hoc tests table.png](Post-hoc tests table.png)
+![Post-hoc tests table.png](../../images/Post-hoc tests table.png)
 
 - Mean differences between groups are very small
 
@@ -88,7 +90,7 @@ All p-values are well above the 0.05 threshold, indicating that **neither factor
 
 - **Bayes Factors (BF10)** do not support evidence for group differences
 
-So,the post-hoc comparisons confirm the ANOVA results:
-RER values are similar across all four groups , with no significant differences detected.
+So, the post-hoc comparisons confirm the ANOVA results:
+RER values are similar across all four groups, with no significant differences detected.
 
 Together, in this example, both the Two-way ANOVA and post-hoc tests indicate that RER does not differ significantly across genotypes or treatment conditions, and there is no significant interaction between these two factors.

@@ -13,9 +13,9 @@ A *Workspace* can be saved via **File | Save Workspace** or by clicking the **Sa
 
 ![Figure: Saving Workspace.png](../images/Saving Workspace.png)
 
-> **Important**: A workspace must be saved manually as described above before closing the software since workspaces are not saved automatically.
-> All changes made to a workspace will be lost if the workspace has not been saved before closing or exiting the software. 
-{style = 'warning'}
+!!! warning
+    A workspace must be saved manually as described above before closing the software since workspaces are not saved automatically.
+    All changes made to a workspace will be lost if the workspace has not been saved before closing or exiting the software.
 
 
 **Open Workspace**
@@ -30,11 +30,11 @@ To open an existing workspace, you can:
 
 If you have used a workspace recently, you can quickly reopen it by selecting **File → Open Recent**. This option displays a list of your most recently accessed workspaces for easy access.
 
-> **Important**: Graphs, statistical analysis results, split modes, variable selection and outlier detection settings are NOT saved within a workspace and will be deleted or reset when closing TSE Analytics even if a workspace has been saved.
-{style = 'warning'}
+!!! warning
+    Graphs, statistical analysis results, split modes, variable selection and outlier detection settings are NOT saved within a workspace and will be deleted or reset when closing TSE Analytics even if a workspace has been saved.
 
 Please ensure to either export graphs and analysis result manually or to add the respective graphs and tables to the report followed by either saving/ printing the report or saving the workspace.
 
-> **Note**: The software layout (selection and arrangement of widgets) is not workspace specific.
-> The layout of the last session will be restored when opening TSE Analytics again, independent of the loaded datasets or workspaces.
-{style = 'note'}
+!!! note
+    The software layout (selection and arrangement of widgets) is not workspace specific.
+    The layout of the last session will be restored when opening TSE Analytics again, independent of the loaded datasets or workspaces.

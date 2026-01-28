@@ -10,5 +10,3 @@ TSE Analytics reserves all legal rights concerning the protection of this data a
 Users of this manual are required to adhere to these terms and ensure that the data is only used within the scope of demonstrating TSE Analytics software operations.
 
 For further information or inquiries regarding the use of the data in this manual, please contact TSE Analytics support.
-
-[//]: # (TODO: Contact information link)

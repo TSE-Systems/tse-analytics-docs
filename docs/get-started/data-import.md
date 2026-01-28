@@ -43,9 +43,9 @@ During the import process, you can further filter or select the data types to be
 
 ![Figure: Select Data Type](../images/Select Data Tpyes.png)
 
->**Note**:
-If the data import takes an unusually long time or fails to complete, this may be due to the large size of the dataset. To ensure a smooth import process, it is recommended to select only the data types that are required for your analysis.
-{style='note'}
+!!! note
+    If the data import takes an unusually long time or fails to complete, this may be due to the large size of the dataset.
+    To ensure a smooth import process, it is recommended to select only the data types that are required for your analysis.
 
 ![Figure: Importing](../images/Importing.png)
 
@@ -90,5 +90,5 @@ The active dataset is then highlighted in colour, and all other widgets will be 
 
 ![Selected Dataset.png](../images/Selected Dataset.png)
 
-> **Note**: Only one dataset can be active (highlighted in colour) at one time in the workspace.
-{style='note'}
+!!! tip
+    Only one dataset can be active (highlighted in colour) at one time in the workspace.

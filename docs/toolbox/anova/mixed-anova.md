@@ -5,23 +5,23 @@ Mixed-design ANOVA can be used to determine the effects of within-subject factor
 In TSE Analytics, (two-way) mixed-design ANOVA is performed using the within-subject factor “time bin” (depending on the selected time binning settings) and one between-subject factor as determined in the factors list.
 To perform mixed-design ANOVA, select the respective data set from the *Add widget* and choose **Mixed-design ANOVA** as the analysis **Mode** in the AN(C)OVA control panel. 
 
-![Figure: Mix-design ANOVA Widget](Mix-design ANOVA Widget.png)
+![Figure: Mix-design ANOVA Widget](../../images/Mix-design ANOVA Widget.png)
 
 **Apply (Time) Binning** using the binning mode which defines the repeated measures, i.e. bins, of interest.
 Select a between-subject factor from the **Factors** list and choose a variable from the **Dependent Variable** list.
 If needed, a **P-values adjustment** method and **Effect size type** can be selected from the respective dropdown menu.
 Analysis results are calculated according to the selected settings by clicking **Update**.
 
-![Figure: Applying Binning](Applying Binning.png)
+![Figure: Applying Binning](../../images/Applying Binning.png)
 
-> **Note**: Mixed-design ANOVA can only be performed if **Time Binning** is applied.
-{style = 'note'}
+!!! note
+    Mixed-design ANOVA can only be performed if **Time Binning** is applied.
 
 Analysis result tables for repeated measures ANOVA include:
 
 **Sphericity test:**
 
-![Figure: Sphericity test](Sphericity test.png)
+![Figure: Sphericity test](../../images/Sphericity test.png)
 
 - Sphericity: True, if data has the sphericity property.
 - W: Test statistic
@@ -31,7 +31,7 @@ Analysis result tables for repeated measures ANOVA include:
 
 **Mixed-design ANOVA:**
 
-![Figure: Mixed-design ANOVA](Mixed-design ANOVA.png)
+![Figure: Mixed-design ANOVA](../../images/Mixed-design ANOVA.png)
 
 - Source: Names of the factors or interaction
 - SS: Sum of squares
@@ -45,7 +45,7 @@ Analysis result tables for repeated measures ANOVA include:
 
 **Pairwise post-hoc tests:**
 
-![Pairwise post-hoc tests.png](image_5.png)
+![Pairwise post-hoc tests.png](../../images/image_5.png)
 
 - Contrast: Factors or interaction
 - A: Name of first measurement
@@ -65,13 +65,13 @@ Analysis result tables for repeated measures ANOVA include:
 - BF10: Bayes Factor
 - effect size type: Effect size as defined in “Effect size type” dropdown menu
 
-> **Note**: Pairwise comparisons can only be calculated within time bins (comparing between-subject factors within individual time bins, but not comparing time bins within factor groups).
-{style='note'}
+!!! note
+    Pairwise comparisons can only be calculated within time bins (comparing between-subject factors within individual time bins, but not comparing time bins within factor groups).
 
-> **Important**: The time needed to calculate pairwise comparison results for mixed-design ANOVA increases with the number of time bins.
-> In case of binning by time intervals, calculation of ANOVA results might take several minutes depending on the computer’s computing power.
-> Therefore, when performing mixed-design ANOVA using time binning by time intervals, users can choose whether pairwise comparisons should be performed in a pop-up window.
-{style = 'warning'}
+!!! warning
+    The time needed to calculate pairwise comparison results for mixed-design ANOVA increases with the number of time bins.
+    In case of binning by time intervals, calculation of ANOVA results might take several minutes depending on the computer’s computing power.
+    Therefore, when performing mixed-design ANOVA using time binning by time intervals, users can choose whether pairwise comparisons should be performed in a pop-up window.
 
 ![Figure: Pop-up window to decide on pairwise comparisons for mixed measures ANOVA for binning by time intervals](perform-pairwise-tests-dialog.png)
 
@@ -79,17 +79,17 @@ Analysis result tables for repeated measures ANOVA include:
 
 This example uses a Mixed-Design ANOVA to analyze respiratory exchange ratio (RER) measured in animals using the Phenomaster system, comparing two genotypes (WT vs KO) across different time bins.
 
-![Figure: Mixed-design ANOVA example](Mixed-design ANOVA example.png)
+![Figure: Mixed-design ANOVA example](../../images/Mixed-design ANOVA example.png)
 
 **1. Sphericity Test**
 
-![Figure: Sphericity test](Sphericity test.png)
+![Figure: Sphericity test](../../images/Sphericity test.png)
 
 This table examines whether the within-subject factor (Bin) meets the sphericity assumption required for Mixed-Design ANOVA. Since the p-value is not significant, sphericity is considered satisfied.
 
 **2. Mixed-Design ANOVA** 
 
-![Figure: Mixed-design ANOVA table](Mixed-design ANOVA table.png)
+![Figure: Mixed-design ANOVA table](../../images/Mixed-design ANOVA table.png)
 
 This table reports the main effects and interaction from the Mixed-Design ANOVA:
 
@@ -104,7 +104,7 @@ This table reports the main effects and interaction from the Mixed-Design ANOVA:
 
 **3. Pairwise host-hoc tests**
 
-![Mixed-design ANOVA Pairwise post-hoc tests example.png](Mixed-design ANOVA Pairwise post-hoc tests example.png)
+![Mixed-design ANOVA Pairwise post-hoc tests example.png](../../images/Mixed-design ANOVA Pairwise post-hoc tests example.png)
 
 - **Certain time bins (e.g., Bin 0 vs Bin 2)** show significant changes over time (**p < 0.05**), indicating localized temporal RER variation.
 

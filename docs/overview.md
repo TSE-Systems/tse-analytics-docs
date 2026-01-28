@@ -35,5 +35,5 @@ Almost all widgets work with the preprocessed data that passed through the inter
 2. Second step is the outliers removal in the *Outliers* pipe operator. This unit can be activated/deactivated in the **Outliers** widget (see details below).
 3. Last step in the preprocessing data pipeline is *time binning* operation.
 
->**Note:** If you observe some unexpected results during your analysis, please check animal selection in **Animals** widget and time binning options in **Binning** widget!
-{style="warning"}
+!!! warning
+    If you observe some unexpected results during your analysis, please check animal selection in **Animals** widget and time binning options in **Binning** widget!

@@ -2,11 +2,11 @@
 
 Principal Component Analysis (PCA) is a statistical technique used in data analysis and machine learning for dimensionality reduction while preserving as much variation as possible.
 
-![Figure: PCA widgets](PCA widgets.png)
+![Figure: PCA widgets](../../images/PCA widgets.png)
 
 To perform a Matrix Plot in TSE Analytics, go to **Add Widget | Dimensionality | PCA**. First, select the dataset you want to analyze from the left side of the interface. Then, in the *Variables list* on the right, choose at least two variables to explore their pairwise relationships. Users can specify the analysis dimension in the *Split Mode* section.Click **Update** to apply the PCA and generate the results
 
-![Figure: PCA widget](pca-widget.png)
+![Figure: PCA widget](../../images/pca-widget.png)
 
 **PCA Analysis**
 
@@ -22,7 +22,8 @@ The **x-axis (PC1)** represents the first principal, which captures the largest 
 By reducing the data dimensions, you can visualize clusters or trends in your data that were not obvious in the original higher-dimensional space. For example, animals that are further apart on the plot differ more in the underlying variables, while animals closer together are more similar.
 
 
-![Figure : PCA warning](pca-warning.png)
+![Figure : PCA warning](../../images/pca-warning.png)
 
-> **Note:** Using fewer variables may limit the ability to capture meaningful patterns in the data.Therefore, please ensure that at least **three or more variables** need to be chosen for the PCA analysis when using software.
-{style='note'}
+!!! warning
+    Using fewer variables may limit the ability to capture meaningful patterns in the data.
+    Therefore, please ensure that at least **three or more variables** need to be chosen for the PCA analysis when using software.

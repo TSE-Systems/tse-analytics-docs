@@ -13,8 +13,8 @@ The main menu comprises file import, save and export functions under **File**, v
 
 ![Figure: File Menu.png](../images/File Menu.png)
 
-> **Important**: *Exit* command will save any changes regarding the software layout but will not automatically save the workspace or any other changes.
-{style='warning'}
+!!! warning
+    *Exit* command will save any changes regarding the software layout but will not automatically save the workspace or any other changes.
 
 **View**
 
@@ -31,7 +31,8 @@ The main menu comprises file import, save and export functions under **File**, v
 - Help: Access support manual resource or contact customer support.
 - About: View information about the software version.
 
-> **Note:** If the toolbar disappears, and you can't find the following widgets: Open Workspace, Save Workspace, Import Dataset, and Add Widget, it is likely that the toolbar has been hidden. To restore the toolbar, right-click on the main menu and select the option to display the toolbar again.
-> {style = 'note'}
+!!! note
+    If the toolbar disappears, and you can't find the following widgets: Open Workspace, Save Workspace, Import Dataset, and Add Widget, it is likely that the toolbar has been hidden.
+    To restore the toolbar, right-click on the main menu and select the option to display the toolbar again.
 
 ![Figure: ToolBar Menu.png](../images/ToolBar Menu.png)

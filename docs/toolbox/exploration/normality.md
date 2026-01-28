@@ -4,17 +4,17 @@ The Normality feature allows researchers to assess whether data follow a normal 
 
 In TSE Analytics, **Normality** can be explored under the **Exploration** widget. Visualization tools, including **Normality plot**, help illustrate the data distribution and evaluate deviations from normality across groups, providing guidance for the selection of appropriate statistical methods.
 
-![Normality widget.png](Normality widget.png)
+![Normality widget.png](../../images/Normality widget.png)
 
 Normal probability plots are scatter plot in which, for each value of the dataset, the actual quantiles of the sample data (ordered quantiles) on the y-axis are plotted against the theoretical quantiles of the respective normal distribution on the x-axis (blue dot). An alignment of the plot with the 45° line (y=x) indicates a normal distribution of the sample data.
 
 In addition, normality plots contain a ‘best-fit’ line resulting from linear regression analysis of all data points included in the plot, together with the confidence band and the coefficient of determination R2.
 
-![Figure: Normal probability (normality) plot](qq-plot.png)
+![Figure: Normal probability (normality) plot](../../images/qq-plot.png)
 
 The appearance of the 45° line, regression line and confidence band of the normality plot can be customized by using the Curves tab implemented in the Figure options window accessed via the **‘Customize’** tool (‘Graph’ symbol) in the plot menu. Here, the style, width and color of lines can be adjusted, and markers can be added or customized.
 
-![Figure: Customized the plot](Customized the plot.png)
+![Figure: Customized the plot](../../images/Customized the plot.png)
 
 The lines to be customized can be selected from the dropdown menu at the top of the Curves tab:
 - _child1: 45° line
@@ -24,7 +24,7 @@ The lines to be customized can be selected from the dropdown menu at the top of 
 
 ## Example Interpretation
 
-![Figure: Normality Example](Normality Example.png)
+![Figure: Normality Example](../../images/Normality Example.png)
 
 The Normality function tests whether a dataset follows a normal distribution, a key assumption for many statistical analyses such as t-tests, ANOVA, and linear models.
 

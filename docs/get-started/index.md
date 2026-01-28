@@ -10,8 +10,8 @@ in the main menu.
 
 The layout is saved when you quit the application.
 
-> **Note**: Default layout can be restored by clicking **View | Reset Layout** menu command.
-{style='note'}
+!!! note
+    Default layout can be restored by clicking **View | Reset Layout** menu command.
 
 ![Figure: Main Window.png](../images/Main Window.png)
 
@@ -49,8 +49,8 @@ between different datasets:
 
 ![Figure: datasets](../images/datasets.png)
 
-> **Note**: Only one dataset can be active at a time in the workspace!
-{style='note'}
+!!! warning
+    Only one dataset can be active at a time in the workspace!
 
 When dataset is selected, all other widgets will be updated accordingly: for example, **Info**, **Animals**,
 **Variables** and **Factors** widgets will show information relevant to the active (currently selected) dataset.
@@ -70,5 +70,5 @@ The data are grouped into defined time intervals (“bins”), simplifying tempo
 
 Each of these preprocessing stages is described in detail in the following sections.
 
-> **Note**: If you observe some strange results during your analysis, please check that proper animals are selected in **Animals** widget!
-{style='note'}
+!!! tip
+    If you observe some strange results during your analysis, please check that proper animals are selected in **Animals** widget!

@@ -3,6 +3,4 @@ The *Info, Help, and Log* panel, located in the lower-left corner of the TSE ana
 
 - **Log**: Error messages and warnings regarding the software code executed are displayed here. In case of any malfunction of the software, please inform TSE Systems about error messages shown here.
 
-[//]:# (TODO:Who/which will be the interface when customer has the systme problme? Insert link or email address when decide)
-
-![Figure:Log widget](log-widget.png)
+![Figure:Log widget](../images/log-widget.png)

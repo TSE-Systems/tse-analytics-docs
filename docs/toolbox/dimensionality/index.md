@@ -2,18 +2,16 @@
 
 The _Dimensionality_ widget offers multiple options for the generation of high-dimensional analysis plots considering multiple variables of interest.
 
-![Figure: Dimensionality widgets](Dimensionality widgets.png)
+![Figure: Dimensionality widgets](../../images/Dimensionality widgets.png)
 
 Variables, analysis mode and split mode for high-dimensional analysis can be selected from the control panel in the _Dimensionality_ widget:
 
-![Figure: Dimensionality settings](dimensionality-settings.png)
+![Figure: Dimensionality settings](../../images/dimensionality-settings.png)
 
 In the **Variables** list of the control panel, at least two variables must be selected for matrix plots and at least three variables for PCA or tSNE. 
 
 The **Analysis** modes available are generation of matrix plots, principal component analysis (PCA) plots, and t-distributed stochastic neighbor embedding (t-SNE).
 These dimensionality plots are scatter plots showing single animal or mean data (according to split mode) per time bin (each dot represents one time bin) depending on time binning settings.
-
-[//]: # (TODO: More Explanation axis of PCA and tSNE plots)
 
 Different **Split Modes** (Total, By Animal, By Run, By Factor) can be applied to all analysis.
 
@@ -22,19 +20,17 @@ Different **Split Modes** (Total, By Animal, By Run, By Factor) can be applied t
 - Split mode ‘**By Run**’ uses the mean data values of each run per time bin.
 - Split mode ‘**By Factor**’ uses the mean data value of each group of the selected factor per time bin.
 
-[//]: # (TODO: Explanation of the split mode is right? need Anton help check...)
-
-![Figure: Split mode and Update](split-mode-update.png)
+![Figure: Split mode and Update](../../images/split-mode-update.png)
 
 Clicking **Update** in the control panel is necessary to display analysis results or to apply changes in the analysis settings.
 
-> **Important**: Only animals selected in the _Animal_ list are considered for the calculation and display of plots in the _Dimensionality_ widget.
-> Changes regarding the selection of animals are only applied after clicking **Update**.
-{style = 'warning'}
+!!! warning
+    Only animals selected in the _Animal_ list are considered for the calculation and display of plots in the _Dimensionality_ widget.
+    Changes regarding the selection of animals are only applied after clicking **Update**.
 
 The plot appearance can be edited by using the tools available in the **plot menu** at the bottom of the control panel.
 
-![Figure: Plot menu](plot-menu.png)
+![Figure: Plot menu](../../images/plot-menu.png)
 
 From left to right:
 - **Home** button (‘House’): Reset the orientation of the plot in its frame.
@@ -47,9 +43,9 @@ From left to right:
     - Adjust style, size and coloring of data points.
 - **Save** (‘Memory disc’): Save image on the hard drive.
 
-> **Note**: Any changes in graph appearance made through the plot menu are applied immediately, without clicking Update.
-{style='note'}
+!!! note
+    Any changes in graph appearance made through the plot menu are applied immediately, without clicking Update.
 
-![Figure: Dimensionality widget with control panel](dimensionality-widget-control-panel.png)
+![Figure: Dimensionality widget with control panel](../../images/dimensionality-widget-control-panel.png)
 
 Dimensionality plots can be exported via the **Save** button (‘Memory disk’ symbol) in the plot menu at the bottom of the control panel or added to the report by clicking **Add to Report**.
