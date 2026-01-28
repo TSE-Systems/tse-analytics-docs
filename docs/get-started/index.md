@@ -1,4 +1,8 @@
-# Getting Started
+---
+icon: lucide/rocket
+---
+
+# Get Started
 
 Main window of TSE Analytics is a host of multiple dockable widgets. Users may resize, move and organize the layout
 of the main application window up to their liking. Users can hide/show some widgets by using **View** section
@@ -9,7 +13,7 @@ The layout is saved when you quit the application.
 > **Note**: Default layout can be restored by clicking **View | Reset Layout** menu command.
 {style='note'}
 
-![Figure: Main Window.png](Main Window.png)
+![Figure: Main Window.png](../images/Main Window.png)
 
 ## Data structure
 
@@ -43,7 +47,7 @@ To import dataset, please click **File | Import Dataset** command. As soon as da
 you will see a new entry in the *Datasets* widget. By selecting a specific entry in this widget, one can switch freely
 between different datasets:
 
-![Figure: datasets](datasets.png)
+![Figure: datasets](../images/datasets.png)
 
 > **Note**: Only one dataset can be active at a time in the workspace!
 {style='note'}

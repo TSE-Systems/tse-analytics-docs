@@ -11,7 +11,7 @@ These include animal information, factors, plot settings, settings for time binn
 The report for each dataset is saved within a workspace and is restored when opening the workspace. 
 A *Workspace* can be saved via **File | Save Workspace** or by clicking the **Save Workspace** button. 
 
-![Figure: Saving Workspace.png](Saving Workspace.png)
+![Figure: Saving Workspace.png](../images/Saving Workspace.png)
 
 > **Important**: A workspace must be saved manually as described above before closing the software since workspaces are not saved automatically.
 > All changes made to a workspace will be lost if the workspace has not been saved before closing or exiting the software. 
@@ -20,7 +20,7 @@ A *Workspace* can be saved via **File | Save Workspace** or by clicking the **Sa
 
 **Open Workspace**
 
-![Figure: Open Workspace.png](Open Workspace.png)
+![Figure: Open Workspace.png](../images/Open Workspace.png)
 
 To open an existing workspace, you can:
 
