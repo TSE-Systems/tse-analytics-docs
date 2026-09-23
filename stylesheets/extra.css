@@ -1,0 +1,10 @@
+:root  > * {
+  --md-primary-fg-color:        #EE0F0F;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+}
+/* Screenshots: a hairline frame so light shots stand out on the page and dark shots on the slate scheme. */
+.md-content img[src*="/images/"] {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+}
