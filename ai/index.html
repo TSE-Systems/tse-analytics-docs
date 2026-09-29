@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="zensical-0.0.64">
+      <meta name="generator" content="zensical-0.0.65">
     
     
       
@@ -57,8 +57,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
-        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"DM Sans";--md-code-font:"JetBrains Mono"}</style>
       
     
     
@@ -80,7 +80,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -137,7 +137,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
@@ -147,7 +147,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
@@ -3457,7 +3457,7 @@
 <p>TSE Analytics can put an AI assistant to work on the open workspace in two ways: the built-in <strong>TSE Assistant</strong>, a
 chat panel inside the application, and the <strong>MCP server</strong>, through which an assistant you already use — Claude Code,
 Claude Desktop or another MCP client — connects to the application. Both see the same tools: they read the
-datasets, run the analyses of the toolbox and save results into reports, and — when you allow it — change the
+datasets, run the analyses of the toolbox and save results into reports, and — unless you turn it off — change the
 workspace and run their own Python code.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -3477,15 +3477,18 @@ answers with its figures and tables in the chat, each tool call shown as a card 
 <ul>
 <li><strong>Model</strong> — a Claude model (with your Anthropic API key from <a href="../settings.html">Settings</a>) or a model served by a
   local <strong>LM Studio</strong>.</li>
-<li><strong>Clear</strong> starts a new conversation; <strong>Add Report</strong> saves the conversation as a report of a dataset.</li>
+<li><strong>Clear</strong> starts a new conversation; <strong>Add Report</strong> saves the conversation as a report of a dataset; <strong>Save as
+  Pipeline</strong> asks the assistant to save a pipeline that reproduces the results of the conversation, so you can run
+  them again later (<a href="../pipelines/index.html#built-by-an-ai-assistant">Pipelines</a>).</li>
 <li><strong>Python session</strong> — when running code is allowed, the assistant writes and runs Python on the open datatables in
-  a separate Python session whose variables persist from run to run; <strong>Restart</strong> ends it.</li>
+  a separate Python session whose variables persist from run to run; <strong>Restart</strong> ends it. Its figures draw the
+  animals and the factor levels in their colours from the <a href="../dataset/factors.html#colours">Factors</a> tab.</li>
 <li><strong>Web access</strong> — with <strong>Let the TSE Assistant search the web and read web pages</strong> on in
-  <a href="../settings.html#tse-assistant">Settings</a>, a Claude model can read the pages you link and search the web: paste
-  the address of a paper and ask the assistant to apply its methods. Each search or page it reads appears as a card
-  with the pages it found; the parts of an answer that rest on a search end with numbered links to their sources.
-  Some sites refuse automated access (ResearchGate, for instance); the assistant then looks for an open-access copy,
-  such as the article on PubMed Central, and says which one it read.</li>
+  <a href="../settings.html#tse-assistant">Settings</a> (the default), a Claude model can read the pages you link and search the
+  web: paste the address of a paper and ask the assistant to apply its methods. Each search or page it reads appears
+  as a card with the pages it found; the parts of an answer that rest on a search end with numbered links to their
+  sources. Some sites refuse automated access (ResearchGate, for instance); the assistant then looks for an
+  open-access copy, such as the article on PubMed Central, and says which one it read.</li>
 <li>Enter sends, Shift+Enter starts a new line; <strong>Stop</strong> interrupts an answer.</li>
 </ul>
 <h2 id="what-an-assistant-may-do">What an assistant may do</h2>

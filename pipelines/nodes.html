@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="zensical-0.0.64">
+      <meta name="generator" content="zensical-0.0.65">
     
     
       
@@ -57,8 +57,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
-        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"DM Sans";--md-code-font:"JetBrains Mono"}</style>
       
     
     
@@ -80,7 +80,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -137,7 +137,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
@@ -147,7 +147,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
@@ -2995,6 +2995,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Python
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -3572,6 +3583,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#python" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Python
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -3748,6 +3770,11 @@
 <td>Control</td>
 <td>Compares a statistic of the analysis before it with a threshold and routes to <strong>Yes</strong> or <strong>No</strong>.</td>
 </tr>
+<tr>
+<td><strong>Python</strong></td>
+<td>Code</td>
+<td>Runs Python code on the datatable — a figure, a table or a number the toolbox does not offer, such as the code an AI assistant wrote in a chat.</td>
+</tr>
 </tbody>
 </table>
 <h3 id="report">Report</h3>
@@ -3766,8 +3793,9 @@ datatable before the pipeline runs again.</p>
 <li><strong>Method</strong> — <em>Box-Cox</em>, <em>Yeo-Johnson</em>, <em>Log</em> or <em>Log10</em>. Box-Cox and the logarithms need positive values;
   missing values stay missing.</li>
 <li><strong>Fit λ</strong> (Box-Cox and Yeo-Johnson) — <em>To the pooled values</em>, or <em>Within groups (variable ~ factor)</em> with the
-  <strong>Groups</strong> factor: the λ that makes the residuals of the group model most normal, as R's <code>MASS::boxcox</code> does on
-  the group model — what an analysis of the groups assumes. The report shows λ and how it was fitted.</li>
+  <strong>Groups</strong> factor, a between-subject factor other than Animal and Total: the λ that makes the residuals of the
+  group model most normal, as R's <code>MASS::boxcox</code> does on the group model — what an analysis of the groups assumes.
+  The report shows λ and how it was fitted.</li>
 </ul>
 <h3 id="per-animal-summary">Per-animal Summary</h3>
 <p>Most statistics of whole animals count each animal once. This node turns a time series into one row per animal:</p>
@@ -3807,6 +3835,7 @@ statistics the analysis publishes:</p>
   <code>interaction_kept</code> (1 when the slopes differ between the groups), <code>step</code> (the step of the
   <a href="example-39-steps.html">39 steps</a> the outcome matches) and <code>p_residual_normality</code>.</li>
 <li><strong>Non-parametric Tests</strong>: <code>p</code>.</li>
+<li><strong>Python</strong>: the keys listed in its <strong>Published statistics</strong>.</li>
 </ul>
 </li>
 <li><strong>Condition</strong> (&lt;, ≤, &gt;, ≥, =, ≠) and <strong>Threshold</strong> (0.05 by default): when the condition holds the datatable
@@ -3814,6 +3843,52 @@ statistics the analysis publishes:</p>
 </ul>
 <p>A statistic that does not apply to a run — the second covariate's p-value with one covariate, say — fails the node
 with the list of what the analysis did publish.</p>
+<h3 id="python">Python</h3>
+<p>The <strong>Python</strong> node runs Python code on the datatable reaching it, in the guarded Python process an AI assistant's
+code runs in (see <a href="../ai/permissions-and-sandbox.html#running-python-code">Running Python code</a>) — for a figure, a
+table or a number the toolbox does not offer. It is how a pipeline keeps the code an assistant wrote in a chat
+(<a href="index.html#built-by-an-ai-assistant">Built by an AI assistant</a>).</p>
+<p><a class="glightbox" data-gallery="light" data-type="image" href="../images/pipeline-python-node.png#only-light"><img alt="Figure: A Python node selected, with its code in the properties" src="../images/pipeline-python-node.png#only-light" /></a>
+<a class="glightbox" data-gallery="dark" data-type="image" href="../images/pipeline-python-node-dark.png#only-dark"><img alt="Figure: A Python node selected, with its code in the properties" src="../images/pipeline-python-node-dark.png#only-dark" /></a></p>
+<p>Every Python node starts with fresh variables, so its code must stand on its own. The code sees:</p>
+<ul>
+<li><code>df</code> — the datatable reaching the node, as a pandas table, with removed outliers left empty, as the app shows them;</li>
+<li><code>dfs</code> — that datatable and the <strong>More datatables</strong> by name; <code>meta</code> — their units, factors and sampling interval,
+  the colour of each factor level (<code>meta["Main"]["factors"]["Animal"]["colors"]</code> for the animals, the colours to
+  plot with) and the animals' properties (<code>meta["Main"]["animals"]["1001"]["Text1"]</code>, say), read afresh at every
+  run, so a figure follows a colour you change later;</li>
+<li><code>pd</code>, <code>np</code>, <code>plt</code>, <code>sns</code> and <code>mpl</code> — pandas, NumPy, Matplotlib and seaborn;</li>
+<li><code>keep_table(table, name)</code> — keeps a table, which the results pane offers for download or as a new datatable;</li>
+<li><code>publish(key, value)</code> — publishes a number a <strong>Decision</strong> node after this one can route on.</li>
+</ul>
+<p>What the code prints, its result, the tables it keeps and the figures it draws (as images, at most eight) make up
+the node's report. The node has two outputs:</p>
+<ul>
+<li><strong>Result</strong> — the datatable, passed on unchanged, with the report: connect a <strong>Report</strong> or a <strong>Decision</strong> node.</li>
+<li><strong>Table</strong> — the table the code assigns to <code>result</code> (<code>result = means</code>), as a new datatable for the nodes after
+  it. When the code sets no table there, those nodes are skipped: <em>No table: the code set no DataFrame as result</em>.</li>
+</ul>
+<p>The settings:</p>
+<ul>
+<li><strong>Code</strong> — shown with colours. <strong>Edit…</strong> opens it in a wide editor: Tab indents, Shift+Tab leaves the editor,
+  Ctrl+Enter applies; <strong>Apply</strong> keeps the change, <strong>Cancel</strong> drops it.</li>
+<li><strong>More datatables</strong> — other datatables of the dataset, which the code reads as <code>dfs["&lt;name&gt;"]</code>.</li>
+<li><strong>Table variables</strong> — the variables of the table the code sets as <code>result</code>, separated by commas. Nothing has run
+  when you connect the nodes after <strong>Table</strong>, so these are the variables their settings offer.</li>
+<li><strong>Published statistics</strong> — the keys the code passes to <code>publish</code>, separated by commas: the statistics a
+  <strong>Decision</strong> node after this one offers.</li>
+</ul>
+<p><a class="glightbox" data-gallery="light" data-type="image" href="../images/pipeline-python-code.png#only-light"><img alt="Figure: Editing the code of a Python node" src="../images/pipeline-python-code.png#only-light" /></a>
+<a class="glightbox" data-gallery="dark" data-type="image" href="../images/pipeline-python-code-dark.png#only-dark"><img alt="Figure: Editing the code of a Python node" src="../images/pipeline-python-code-dark.png#only-dark" /></a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A Python node runs only while <strong>Settings ▸ AI permissions ▸ Run Python code</strong> is not <em>Off</em>; otherwise it fails
+with a message saying so. A run you start in the editor never asks; a run an assistant starts shows you the code
+first when the setting is <em>Ask before each run</em>.</p>
+</div>
+<p>A run starts one Python process for all its Python nodes and ends it with the run. A failing node shows the Python
+error and what the code printed before it, and the nodes after it are skipped. Code that draws random numbers —
+jittered points, bootstrapped error bars — gives slightly different figures on every run.</p>
 <h2 id="tool-nodes">Tool nodes</h2>
 <p>Every tool of the <a href="../toolbox/index.html">Toolbox</a> is a node in its category, with the same settings. A tool node
 takes a datatable and produces a <em>result</em> — the report of the tool — that a <strong>Report</strong> node stores; it passes the

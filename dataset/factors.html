@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="zensical-0.0.64">
+      <meta name="generator" content="zensical-0.0.65">
     
     
       
@@ -57,8 +57,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
-        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"DM Sans";--md-code-font:"JetBrains Mono"}</style>
       
     
     
@@ -80,7 +80,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -137,7 +137,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
@@ -147,7 +147,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
@@ -840,6 +840,17 @@
     <span class="md-ellipsis">
       <span class="md-typeset">
         The Factors dialog
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#colours" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Colours
       </span>
     </span>
   </a>
@@ -3467,6 +3478,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#colours" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Colours
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
@@ -3570,11 +3592,18 @@ the number of animals in it.</p>
 <h2 id="built-in-factors">Built-in factors</h2>
 <p>Every dataset has three factors you cannot delete:</p>
 <ul>
-<li><strong>Animal</strong> — one level per animal; grouping by it shows the animals separately.</li>
+<li><strong>Animal</strong> — one level per animal; grouping by it shows the animals separately. Its levels hold the animals'
+  colours: every plot of an animal draws it in its colour, whatever the plot is grouped by, and so do the figures
+  of the <a href="../ai/index.html">TSE Assistant</a>. Its levels follow the animals — renaming or excluding an animal changes
+  them — so the Factors dialog lets you change only their colours.</li>
 <li><strong>Total</strong> — a single level, <em>All animals</em>; grouping by it pools everything.</li>
 <li><strong>LightCycle</strong> — <em>Light</em> and <em>Dark</em>, from the time of day. Its light and dark cycle start times are set in the
   Factors dialog (see <a href="time-grouping.html">Time grouping</a>).</li>
 </ul>
+<p><strong>Animal</strong> and <strong>Total</strong> only group: the plots offer them under <strong>Group by</strong>, but the analyses that compare the
+levels of a factor — the ANOVAs, ANCOVA, the Linear Mixed Model and the non-parametric tests — do not offer them as
+their <strong>Factor</strong>. Each level of Animal is a single animal and Total has one level, so there is nothing to compare:
+add a factor of your own, such as the genotype or the treatment group.</p>
 <p>A merged dataset also gets <strong>Trial</strong> (see <a href="../workspace-tree/merge-datasets.html">Merging datasets</a>).</p>
 <h2 id="roles">Roles</h2>
 <p>A factor is <strong>between-subject</strong> when each animal belongs to one level for the whole recording (genotype, treatment
@@ -3626,6 +3655,13 @@ configuration on the right. Click <strong>OK</strong> to apply every change at o
 within-subject.</p>
 <p><strong>Levels.</strong> <strong>Add level</strong> and <strong>Delete level</strong> for animal-based factors; click a level's colour swatch to change the
 colour every plot uses for it. The count in brackets is the number of animals in the level.</p>
+<h2 id="colours">Colours</h2>
+<p>Each level has a colour, and every plot draws the level in it: the toolbox plots, the viewers' plots, the fast
+line plot and the TSE Assistant's figures. Change a colour with the swatch next to a level in the <strong>Factors</strong> tab,
+or in the dialog: the open plots redraw at once, and the next analysis, pipeline run or assistant figure uses the
+new colour. A report keeps the colours it was made with. A new factor gives its levels the chart colours — eight
+vivid colours — and a factor with more than eight levels the animals' long list, so no two levels share a
+colour.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Give every factor at least two levels with animals in them; an analysis that groups by a factor with one level

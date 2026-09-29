@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="./assets/images/favicon.png">
-      <meta name="generator" content="zensical-0.0.64">
+      <meta name="generator" content="zensical-0.0.65">
     
     
       
@@ -57,8 +57,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
-        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"DM Sans";--md-code-font:"JetBrains Mono"}</style>
       
     
     
@@ -80,7 +80,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -137,7 +137,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
@@ -147,7 +147,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
@@ -3526,21 +3526,22 @@ Analytics, not in a workspace, and apply to every workspace you open there. Chan
 <li><strong>Default model</strong> — the model a new conversation starts with: a Claude model, or a model of a local LM Studio
   server.</li>
 <li><strong>LM Studio host</strong> — the address of that server.</li>
-<li><strong>Let the TSE Assistant search the web and read web pages</strong> — off by default. On, a Claude model may search the
-  web and read the pages you name, for example a paper whose methods you ask it to apply. The searches and the
-  pages it reads go through Anthropic's servers and become part of the conversation; web searches cost $10 per
-  1,000 plus the tokens they add. LM Studio models never search the web.</li>
+<li><strong>Let the TSE Assistant search the web and read web pages</strong> — on by default: a Claude model may search the web
+  and read the pages you name, for example a paper whose methods you ask it to apply. The searches and the pages
+  it reads go through Anthropic's servers and become part of the conversation; web searches cost $10 per 1,000
+  plus the tokens they add. Turn it off to keep the assistant off the web. LM Studio models never search the web.</li>
 </ul>
 <h2 id="ai-permissions">AI permissions</h2>
 <p>These apply to the TSE Assistant and to every assistant connected through the MCP server, whether or not the
 server is running. See <a href="ai/permissions-and-sandbox.html">AI permissions and the Python sandbox</a>.</p>
 <ul>
-<li><strong>Allow AI assistants to change the workspace</strong> — off, assistants only read and analyse. On, they may also
-  import data, open and save workspaces, edit factors and outliers, and create datatables and pipelines.
-  Destructive steps still ask you first.</li>
-<li><strong>Run Python code</strong> — <em>Off</em>, <em>Ask before each run</em> (you read the code before it runs) or <em>Run without asking</em>.
-  The code runs in a separate, guarded Python process with the open datatables.</li>
-<li><strong>Python timeout (s)</strong> and <strong>memory (MB)</strong> — the limits of one run, shown while running code is not off.</li>
+<li><strong>Allow AI assistants to change the workspace</strong> — on by default: assistants may also import data, open and
+  save workspaces, edit factors and outliers, and create datatables and pipelines. Destructive steps still ask
+  you first. Off, assistants only read and analyse.</li>
+<li><strong>Run Python code</strong> — <em>Off</em>, <em>Ask before each run</em> (you read the code before it runs) or <em>Run without asking</em>,
+  the default. The code runs in a separate, guarded Python process with the open datatables.</li>
+<li><strong>Time limit per run (s)</strong> and <strong>Memory limit per Python session (MB)</strong> — how long one run may take and how much
+  memory a Python session may use; shown while <strong>Run Python code</strong> is not <em>Off</em>.</li>
 </ul>
 <h2 id="mcp-server">MCP server</h2>
 <ul>

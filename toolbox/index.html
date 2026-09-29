@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="zensical-0.0.64">
+      <meta name="generator" content="zensical-0.0.65">
     
     
       
@@ -57,8 +57,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
-        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"DM Sans";--md-code-font:"JetBrains Mono"}</style>
       
     
     
@@ -80,7 +80,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -137,7 +137,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
@@ -147,7 +147,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
@@ -3485,7 +3485,9 @@ tool opens as a panel: the settings on the right, the result on the left.</p>
 <ol>
 <li><strong>Choose the settings</strong> in the sidebar on the right. Every tool names the variable or variables it analyses and,
    for most, a <strong>Group by</strong>: <strong>Animal</strong> (one series or one test group per animal), a factor of the dataset (one
-   per level), or <strong>Total</strong> (everything pooled). Fields that do not apply to the current choice are hidden.</li>
+   per level), or <strong>Total</strong> (everything pooled). The analyses of the ANOVA category take factors instead — the
+   groups or conditions they compare, never Animal or Total (<a href="#common-settings">Common settings</a>). Fields that do
+   not apply to the current choice are hidden.</li>
 <li><strong>Update</strong> runs the analysis in the background; the report replaces the empty panel when it is done. <strong>Cancel</strong>
    stops a long run. The settings are remembered per tool, so the next panel of the same tool starts where you
    left off.</li>
@@ -3553,6 +3555,12 @@ animals you want to leave out (<a href="../workspace-tree/derive-datatable.html"
 <em>Visits</em> table, and every other tool needs a datatable with numeric variables.</p>
 <h2 id="common-settings">Common settings</h2>
 <ul>
+<li><strong>Factor</strong>, <strong>Factors</strong>, <strong>Between-subject factor</strong>, <strong>Within-subject factor(s)</strong> (the ANOVA category): the
+  factors whose levels the analysis compares — a between-subject factor such as the genotype or the treatment, a
+  within-subject factor such as the light cycle, as the label says. <strong>Animal</strong> and <strong>Total</strong> are not offered: each
+  level of Animal is a single animal and Total has one level, so there is nothing to compare. A dataset without a
+  factor of its own leaves the list empty and says so under it — add one with <strong>Edit Factors</strong> in the Factors tab
+  (see <a href="../dataset/factors.html">Factors</a>).</li>
 <li><strong>Effect size</strong> (the ANOVA family): no effect size, unbiased Cohen d, Hedges g, eta-square, odds ratio, area
   under the curve, or common language effect size, reported with every pairwise comparison in a column named
   after it (<em>cohen</em>, <em>hedges</em>, <em>eta_square</em>, <em>odds_ratio</em>, <em>AUC</em>, <em>CLES</em>). <em>No effect size</em> adds no column.</li>

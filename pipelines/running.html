@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="zensical-0.0.64">
+      <meta name="generator" content="zensical-0.0.65">
     
     
       
@@ -57,8 +57,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
-        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"DM Sans";--md-code-font:"JetBrains Mono"}</style>
       
     
     
@@ -80,7 +80,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -137,7 +137,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
@@ -147,7 +147,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
@@ -3500,21 +3500,26 @@ saving — and reports on every node.</p>
 <strong>Results</strong> menu with the downloadable tables. A message summarises the run: <em>Pipeline finished: N nodes.</em>, or how
 many failed.</p>
 <ul>
-<li><strong>Done</strong> — the node ran. An analysis that publishes statistics (ANCOVA, One-way ANOVA, Non-parametric Tests)
-  shows them above its report — <em>Statistics: p_factor = 0.04264, …</em> — the numbers a
-  <a href="nodes.html#decision">Decision</a> node routes on.</li>
+<li><strong>Done</strong> — the node ran. An analysis that publishes statistics (ANCOVA, One-way ANOVA, Non-parametric Tests,
+  or a <a href="nodes.html#python">Python</a> node that called <code>publish</code>) shows them above its report — <em>Statistics:
+  p_factor = 0.04264, …</em> — the numbers a <a href="nodes.html#decision">Decision</a> node routes on.</li>
 <li><strong>Skipped</strong> — the node did not run; its message (select the node, or hover it) says why: a branch a control node
   did not take (<em>Not taken: EE looks normal (Shapiro-Wilk p = 0.732, alpha = 0.05)</em> — every node further down
   that branch shows the same reason), an input that is not connected, or a node before it that failed.</li>
-<li><strong>Failed</strong> — with the error; the rest of the run goes on.</li>
+<li><strong>Failed</strong> — with the error (a Python node shows the Python error and what its code printed before it); the rest
+  of the run goes on.</li>
 </ul>
 <p><strong>Report</strong> nodes write into the dataset's reports as the run proceeds — appending, or starting the report afresh
 when set to <em>Replace it (once per run)</em> — and <strong>Datatable Output</strong> nodes add datatables to the dataset; the tree
-updates when the run is done. <strong>Cancel</strong> stops a run after the current node.</p>
+updates when the run is done. <strong>Cancel</strong> stops a run after the current node; a Python node's code is stopped at once.</p>
 <h2 id="export-and-import">Export and import</h2>
 <p><strong>Export</strong> writes the pipeline as a JSON file, with its description; <strong>Pipeline ▸ Import Pipeline…</strong> (or <strong>Import</strong>
 in the editor) reads it into the selected dataset, under its stored name or one you choose when the name is taken.
 The graph refers to datatables and variables by name, so it runs on any dataset with the same names.</p>
+<p>A pipeline with <a href="nodes.html#python">Python</a> nodes carries their code. It runs only while <strong>Settings ▸ AI permissions
+▸ Run Python code</strong> is not <em>Off</em>: a run you start in the editor does not ask, and a run an assistant starts shows
+you the code first when the setting is <em>Ask before each run</em>. Import pipelines with Python code only from people you
+trust.</p>
 
 
 
